@@ -13,7 +13,7 @@ MLNII - CHUAN NHUNG HOÀNG
 Thuật ngữ trong học phần này (572)
 
 Xanh-ximông là đại biểu của trường phải A
-nào? (NHUNG HOÀNG) oa
+nào? oa
 A.Chủ nghĩa xã hoi khong tưởng Pháp Hoe THAT)
 B. Chủ nghĩa xã hội không tưởng Đức 4 |
 C. Triết hoc cổ điển Đức
@@ -62,7 +62,6 @@ xã hội
 
 Tri thức nào sau đây nảy sinh một cách A
 trực tiếp từ thực tiễn lao động sản xuất?
-(NHUNG HOÀNG)
 
 A. Tri thức kinh nghiệm
 
@@ -80,7 +79,7 @@ Theo V.I.Lênin. Quan điểm về đời sống, Cc
 
 về thực tiễn phải là...của ly luận nhận
 
-thức:(NHUNG HOÀNG)
+thức:
 
 A. Điểm thứ nhất
 
@@ -121,7 +120,7 @@ D. Khái niệm và phán đoán
 Đứng im, cân bằng chỉ xảy ra trong một Cc
 
 số quan hệ nhất định chứ không phải (Kiều hỏi khác: Tính chát nào của đứng im khi nói đứng
-trong mọi quan hệ là:(NHUNG HOÀNG) im, cân bằng chi xảy ra trong một số quan hệ nhất định
+trong mọi quan hệ là: im, cân bằng chi xảy ra trong một số quan hệ nhất định
 A. Thực tế chữ không phải trong mọi quan hệ?)
 B. Tuyệt đối
 
@@ -171,7 +170,7 @@ D. Quy luật phát triển
 Đâu là một phát minh vĩ đại của C.Mác A
 đã đem lại một cuộc cách mạng trong
 
-triết học về xã hội(NHUNG HOÀNG)
+triết học về xã hội
 
 A. Chủ nghĩa duy vật lịch sử
 
@@ -208,7 +207,7 @@ D. Thuyết nhận biết luận
 Nhân tố quyết định xu hướng phát triển C
 của các hình thái kinh tế - xã hội
 
-la(NHUNG HOÀNG)
+la
 
 A. Ý thức của gia cấp nắm quyền lực
 
@@ -242,7 +241,6 @@ Theo cách phân chia các hình thức vận A
 động của Ph.Ăngghen, hình thức vận
 
 động nào là thấp nhất, đơn giản nhất?
-(NHUNG HOÀNG)
 
 A. Hình thức vận động cơ học
 
@@ -318,7 +316,7 @@ D. Hệ thống tri thức
 Chọn câu trả lời sai: Trong một hình thái (@i
 kinh tế xã hội, quan hệ sản xuất có vai
 
-trò sau đây.(NHUNG HOÀNG)
+trò sau đây.
 
 A. Là quan hệ cơ bản, quyết định tất cả
 
@@ -369,7 +367,7 @@ với sự vật k biến đồi nhất định
 
 Điều khẳng định nào sau đây đúng về A
 mói quan hệ giữa lý luận và kinh
-nghiệm?(NHUNG HOÀNG)
+nghiệm?
 
 A. Lý luận được hình thành từ kinh
 nghiệm trên cơ sở kinh nghiệm
@@ -400,7 +398,6 @@ là trước hết con người cần phải ăn,
 uống, ở và mặ động, trước khi có thể
 đầu tranh để giành quyền thống trị, trước
 khi có thể hoạt động chính tr học...".
-(NHUNG HOÀNG)
 
 A. C.Mac
 
@@ -415,7 +412,7 @@ D. Immanuel Kant
 ## Page 7
 
 Quan điểm của chủ nghĩa Mác-Lênin về A
-lãnh tụ la(NHUNG HOÀNG)
+lãnh tụ la
 
 A. Tắt cả các đáp án đều đúng
 
@@ -451,7 +448,7 @@ câu like. Theo Anh/chị là hiện tượng gì
 đã đề cập trong nội dung môn triết học
 
 mà Anh/Chị đã học và nghiên cứu
-qua(NHUNG HOÀNG)
+qua
 
 A. Hiện tượng câu Like, câu View trên
 
@@ -699,7 +696,7 @@ C. Pháp luật
 D. Kế hoạch
 
 Triết học phd biến ở Tây Âu thời Trung B
-cỗ là Triết học gì?(NHUNG HOÀNG)
+cỗ là Triết học gì?
 
 A. Triết học tự nhiên
 
@@ -846,8 +843,6 @@ D. Độc lập, không phụ thuộc vào ý thức
 Sự phân chia giai cấp trong xã hội bắt D
 
 đầu từ hình thái kinh tế - xã hội nào?
-
-(NHUNG HOÀNG)
 
 A. Cộng sản nguyên thủy
 
@@ -1073,7 +1068,6 @@ D. Đứng đầu xã hội
 ## Page 16
 
 Thế nào là phương pháp siêu hình? B
-(NHUNG HOÀNG)
 
 A. Xem xét các sự vật trong mồi liên hệ
 
@@ -1292,7 +1286,7 @@ D. Quy luật
 Theo quan niệm duy vật biện chứng về A
 lịch sử thì đỉnh cao cla sw phát triển đầu... (Kiều hỏi khác: Theo quan niệm của chủ nghĩa duy vật
 tranh giai cấp là đấu tranhtronglĩnhvực.. lich sử thì đỉnh cao của sự phát triển đáu tranh giai cáp là
-nào?(NHUNG HOÀNG) đầu tranh trong lĩnh vực nào?)
+nào? đầu tranh trong lĩnh vực nào?)
 A. Chính trị
 
 B. Võ trang
@@ -1308,7 +1302,7 @@ D. Giải phóng
 Quan điểm tiền bộ và cách mạng nhất Cc
 của chủ nghĩa Mác-Lênin về van đề con
 
-người là:(NHUNG HOÀNG)
+người là:
 
 A. Giải thích được nguồn góc tự nhiên và
 
@@ -1553,7 +1547,7 @@ D. Bên cái riêng.
 
 lực lượng sản xuất va quan hệ sản xuất
 
-là gi?(NHUNG HOÀNG)
+là gi?
 
 A. Lực lượng sản xuất và quan hệ sản
 
@@ -1601,7 +1595,7 @@ người
 
 Chân lý bao gồm các tính chất sau. (4 BCDE
 
-đáp an)(NHUNG HOÀNG)
+đáp an)
 
 A. Tính phong phú, đa dạng
 
@@ -1789,7 +1783,7 @@ Hình thái ý thức xã hội nào phản ánh Cc
 
 bản chất va tính quy luật của thế giới
 
-khách quan?(NHUNG HOÀNG)
+khách quan?
 
 A. Ý thức chính trị
 
@@ -1802,7 +1796,7 @@ D. Ý thức đạo đức
 Trong 3 đặc trưng của giai cấp thì đặc Cc
 
 trưng nào giữ vai trò chi phối các đặc (Kiều hỏi khác: Trong 3 đặc trưng của giai cấp, đặc trưng
-trưng khác ?(NHUNG HOÀNG) nào giữ vai trò chi phối các đặc trưng khác?A. Tập đoàn
+trưng khác ? nào giữ vai trò chi phối các đặc trưng khác?A. Tập đoàn
 A. Khác nhau về vai trò trong tổ chức lao này có thé chiếm đoạt lao động của tập đoàn khác
 động xã hội B. Khác nhau về quan hệ sở hữu tư liệu sản xuất xã
 B. Khác nhau về địa vị trong hệ thống tổ hội
@@ -2003,8 +1997,6 @@ quan dẫn đến tập đoàn này có thể chiếm
 
 đoạt lao động của tập đoàn khác?
 
-(NHUNG HOÀNG)
-
 A. Quyền lực
 
 B. Sở hữu
@@ -2181,7 +2173,7 @@ của con người khi nó trực tiếp hay gián
 
 tiếp tác động đến giác quan của con
 
-người?(NHUNG HOÀNG)
+người?
 
 A. Những dạng cụ thể
 
@@ -2418,7 +2410,7 @@ thuẫn trong lĩnh vực kinh tế
 Theo quan điểm của chủ nghĩa duy vật A
 
 biện chứng, trong thực tế chúng ta phải (Kiều hỏi khác: Theo quan điểm của chủ nghĩa duy vật
-dựa vào điều gì?(NHUNG HOÀNG) biện chứng về mỗi quan hệ giữa tat nhiên và ngẫu nhiên,
+dựa vào điều gì? biện chứng về mỗi quan hệ giữa tat nhiên và ngẫu nhiên,
 A. Dựa vào tắt nhiên, đề phòng ngẫu trong hoạt động thực tiễn, can dựa vào điều gi?
 nhiên A. Dựa vào ngẫu nhiên, dự phòng tát nhiên.
 B. Dựa vào ngẫu nhiên, đề phòng tat B. Dựa vào ngẫu nhiên, đề phòng tát nhiên
@@ -2638,7 +2630,7 @@ Quá trình "lịch sử tự nhiên" của sự phát
 
 triển các hình thái kinh tế xã hội là quá
 
-trình phát triển theo(NHUNG HOÀNG)
+trình phát triển theo
 
 A. Ý niệm tuyệt đối
 
@@ -2952,8 +2944,6 @@ dùng trong hoạch định của xã hội
 Mối quan hệ giữa cơ sở hạ tang và kiến C
 trúc thượng tang là mồi quan hệ:
 
-(NHUNG HOÀNG)
-
 A. Luôn luôn thống nhất với nhau
 
 B. Luôn luôn đồi lập nhau
@@ -2967,7 +2957,7 @@ D. Thống nhất là căn bản, còn đấu tranh
 giữa chúng chỉ là tạm thời
 
 V.I. Lênin cho rằng: Tính....không thể B
-tách rời tính phd bién.(NHUNG HOÀNG)
+tách rời tính phd bién.
 
 A. Nhân quả
 
@@ -3058,7 +3048,7 @@ B. Cái ngẫu nhiên, hình thức, hiện tượng
 C. Các phương án trả lời đều sai
 Trong tác phẩm kinh điển nào sau đây, B
 tác phẩm nào thể hiện tập trung việc V.I. (Kiều hỏi khác:
-Lênin đã kế thừa và phát triển quan niém  Trong tác phẩm kinh điền nào sau đây, tác phẩm nào thé
+Lênin đã kế thừa và phát triển quan niém Trong tác phẩm kinh điền nào sau đây, tác phẩm nào thé
 của chủ nghĩa Mác về vật chất, về mi hiện tập trung việc V.I. Lênin đã kế thừa và phát trién tư
 quan hệ giữa vật chất và ý thức, tồn tại tưởng biện chứng trong triết học của G.W.Ph. Hêghen?
 xã hội và ý thức xã hội: A. Làm gi?
@@ -3353,7 +3343,7 @@ d) Triết học duy tâm chủ quan.
 
 Phép biện chứng của triết học Hêghen D
 
-là: (NHUNG HOÀNG) (Kiều hỏi khác: Phép biện chứng của Hêghen là phép
+là: (Kiều hỏi khác: Phép biện chứng của Hêghen là phép
 biện chứng gì?)
 
 A. Phép biện chứng duy tâm chủ quan.
@@ -3386,7 +3376,7 @@ thụ động trong lịch sử.
 
 Triết học trong xã hội có giai cấp được A
 
-hiều như thế nào?(NHUNG HOÀNG)
+hiều như thế nào?
 
 A. Cũng có tính giai cấp
 
@@ -3422,7 +3412,7 @@ C. Các phương án trả lời đều sai
 
 ## Page 46
 
-Đặcđiểmlớnnhấtcủathờikỳquáđộlên  B
+Đặcđiểmlớnnhấtcủathờikỳquáđộlên B
 chủ nghĩa xã hội ở nước ta là
 
 A. Có nhiều thành phần kinh tế đan xen
@@ -3674,7 +3664,7 @@ hiện của vận động cơ học, đó là quan
 
 điểm về vận động và vật chất của
 
-ai(NHUNG HOÀNG)
+ai
 
 A. Các nhà triết học thời kỳ cổ đại
 
@@ -3943,7 +3933,7 @@ B. 3 giai đoạn
 
 C. 4 giai đoạn
 
-Cơ ché kinh té cia CNTB doc quydn nha  A
+Cơ ché kinh té cia CNTB doc quydn nha A
 nước gồm:
 
 A. Cơ chế thị trường, độc quyền tư nhân
@@ -4006,7 +3996,7 @@ B. Việt Nam
 C. Cu Ba
 
 Hai khái niệm triết học cùng với thế giới B
-quan...(NHUNG HOÀNG)
+quan...
 
 A. Là trùng nhau vì đều là hệ thống quan
 điểm chung về thế giới
@@ -4161,8 +4151,6 @@ cấp trong thời kỳ quá độ lên chủ nghĩa
 
 xã hội ở Việt Nam hiện nay là gì?
 
-(NHUNG HOÀNG)
-
 A. Thực hiện thắng lợi mục tiêu độc lập
 
 dân tộc
@@ -4196,7 +4184,7 @@ b. Cực đoan
 
 c. Thực dụng
 
-Phát triển là quá trinh(NHUNG HOÀNG) b
+Phát triển là quá trinh b
 a. Tiền lên theo đường vòng khép kín
 
 b. Tiền lên theo đường quanh co khúc
@@ -4899,7 +4887,7 @@ tương đối của nó
 D. Sai. Vì thực tế lich sử cho thay không
 phải như vậy
 
-"Phải giải thíchýthứcxãhội bang nhitng  D
+"Phải giải thíchýthứcxãhội bang nhitng D
 mâu thuẫn, những sự xung đột hiện có
 giữa các lực lượng sản xuất những quan
 hệ sản xuất của xã hội". Luận điểm này
@@ -5150,7 +5138,6 @@ hội
 
 Theo quan điểm của chủ nghĩa Mác - A
 Lênin, "Bộ tộc" được định nghĩa là gì?
-(NHUNG HOÀNG)
 
 A. Bộ tộc là hình thức cộng đồng người
 hình thành khi xã hội có sự phân chia
@@ -5356,7 +5343,7 @@ Khi một sự vật, một hiện tượng mới C
 
 được nảy sinh thi yếu tố nào sẽ xuất
 
-hiện đầu tiên? (NHUNG HOÀNG)
+hiện đầu tiên?
 
 A. Cái chung
 
@@ -5401,8 +5388,6 @@ C. Có nhiều thế giới vật chất
 D. Có nhiều thế giới tỉnh thần
 
 Cai ...là cái toàn bộ, phong phú hơn cái... B
-
-(NHUNG HOÀNG)
 
 A. Chung/Riêng.
 
@@ -5651,7 +5636,7 @@ B. Người lao động
 C. Lao động trí thức
 
 D. Năng lực lao động
-Sựthốngnhấtgiữalựclượngsảnxuấtở  b
+Sựthốngnhấtgiữalựclượngsảnxuấtở b
 một trình độ nhất định và quan hệ sản
 
 xuất tương ứng tạo thành :
@@ -5734,7 +5719,7 @@ D. Nền tảng kỹ thuật, công nghệ của xã
 
 hội
 
-Cơ sở của sự ton tạivàpháttriểncủaxã  D
+Cơ sở của sự ton tạivàpháttriểncủaxã D
 hội là sản xuất:
 
 A. Hàng hóa, dịch vụ
@@ -5890,7 +5875,7 @@ D. Các tổ chức văn hóa - xã hội
 
 Theo quan điểm của chủ nghĩa duy vật Cc
 biện chứng khẳng định nào sau day là
-đúng?(NHUNG HOÀNG)
+đúng?
 
 A. Cái ngẫu nhiên không có nguyên
 
@@ -6215,7 +6200,7 @@ C. Phố biến
 D. Chung nhất
 
 Hiện thực là phạm trù triết học dùng dé B
-chỉ những gì:(NHUNG HOÀNG)
+chỉ những gì:
 
 A. Sẽ tồn tại khi có đủ điều kiện
 
@@ -6226,7 +6211,7 @@ C. Sẽ xuất hiện khi hội đủ mọi điều kiện
 Toàn bộ những chính sách, quan điểm, D
 tư tường, đường lồi chỉ đạo của nhà
 
-nước được gọi là gi?(NHUNG HOÀNG)
+nước được gọi là gi?
 
 A. Cơ sở hạ tằng
 
@@ -6278,7 +6263,7 @@ trong đời sống xã hội và trong sự nghiệp
 
 đối mới ở Việt Nam hiện nay? (073-356-
 
-8678)
+8678.
 
 A. Thúc đầy
 
@@ -6599,7 +6584,6 @@ C. Nội dung
 D. Hình thức
 
 Vấn đề cơ bản của Triết học là gì? B
-(NHUNG HOÀNG)
 
 A. Mối quan hệ giữa tự nhiên và bản thể
 
@@ -6889,7 +6873,7 @@ C . Phẩm chất đạo đức và nhân cách
 D.Tâm lý và năng lực nhận thức
 
 Chủ nghĩa duy vật là trường phái triết B
-học cho rằng: (NHUNG HOÀNG)
+học cho rằng:
 
 A. Bản chất thế giới là vật thể
 
@@ -6904,7 +6888,7 @@ E. Bản chất thế giới là vật chất và ý thức
 Theo chủ nghĩa duy vật biện chứng, mối A
 quan hệ giữa lực lượng sản xuất và
 
-quan hệ sản xuất? (NHUNG HOÀNG)
+quan hệ sản xuất?
 
 A. Biện chứng
 
@@ -7450,8 +7434,6 @@ D. Năm đặc trưng
 Thông thường, trong kiến trúc thượng D
 tang các nhà nước tư bản hiện nay:
 
-(NHUNG HOÀNG)
-
 A. Đều thực hiện chế độ nhất nguyên
 
 chính trị
@@ -7477,7 +7459,6 @@ duy vật thì những thay đối về chất của
 sự vật lại tạo ra những thay đổi gì của sự
 
 vật trên các phương diện khác nhau?
-(NHUNG HOÀNG)
 
 A. Biến đổi mới về lượng
 
@@ -7582,7 +7563,6 @@ D. Tạo điều kiện tiền đề cho cái mới phát
 triển
 
 Điều khẳng định nào sau đây là đúng? D
-(NHUNG HOÀNG)
 
 A. Thuyết không thế biết không thừa
 
@@ -7643,7 +7623,7 @@ thức và thực tiền khi thực hiện quan
 
 điểm toàn diện thì con người phải kết
 
-hợp với quan điểm:(NHUNG HOÀNG)
+hợp với quan điểm:
 
 A. Lịch sử - cụ thé
 
@@ -7660,8 +7640,6 @@ hóa từ những thay đối về lượng thành
 
 sự thay đồi về chất và ngược lại"?
 
-(NHUNG HOÀNG)
-
 A. Quan điểm chiết trung và ngụy biện
 
 B. Tắt cả đều đúng
@@ -7673,7 +7651,7 @@ D. Quan điểm siêu hình
 Trình độ phát triển của phương thức sản D
 xuất ra của cải vật chất là nhân tó giữ vai
 
-trò quyết định:(NHUNG HOÀNG)
+trò quyết định:
 
 A. Đời sống tinh than của xã hội
 
@@ -7688,8 +7666,6 @@ xã hội
 "Mặt người da thú" giúp anh/chị liên hệ B
 tối cặp phạm trù nào trong triết học?
 
-(NHUNG HOÀNG)
-
 A. Cái chung, cái riêng
 
 B. Bản chất, hiện tượng
@@ -7699,7 +7675,6 @@ C. Tắt nhiên, ngau nhiên
 D. Nguyên nhân, kết quả
 
 Cơ sở của sự tồn tại, phát triển là gì? B
-(NHUNG HOÀNG)
 
 A. Lao động của thễ giới
 
@@ -7753,7 +7728,7 @@ D. Phép biện chứng của G.
 W.Ph.Hêghen
 
 Ai là tác giả của Thuyết tương đối tổng A
-quát?(NHUNG HOÀNG)
+quát?
 
 A. Albert Einstein (A.Anhxtanh)
 
@@ -7779,7 +7754,6 @@ C. Mọi vận động trong tự nhiên, xã hội
 D. Mọi vận động trong xã hội
 
 Triết học ra đời vào thời gian nào? B
-(NHUNG HOÀNG)
 
 A. Thế kỷ II. TCN
 
@@ -7794,7 +7768,7 @@ D. Thế kỷ VII - VI TCN
 ## Page 103
 
 Trước khi triết học Mác ra đời, triết học B
-được "suy tôn" là gì?(NHUNG HOÀNG)
+được "suy tôn" là gì?
 
 A. Khoa học nghiên cứu
 
@@ -7833,7 +7807,7 @@ D. Không phải tắt nhiên và cũng không
 phải ngẫu nhiên
 
 Triết học trở thành nữ tì của thần học A
-trong giai đoạn nào?(NHUNG HOÀNG)
+trong giai đoạn nào?
 
 A. Ở Tây Âu thời trung có
 
@@ -7917,7 +7891,7 @@ D. Hệ tư tưởng tôn giáo.
 Luận điểm cho rằng "vật hay vật thể là A
 những phức hợp cảm giác" thuộc trường
 
-phái triết học nào?(NHUNG HOÀNG)
+phái triết học nào?
 
 A. Chủ nghĩa duy tâm chủ quan.
 
@@ -7996,7 +7970,7 @@ thi không thé dự báo chính xác được
 Hình thức sản xuất nào sau đây có vai A
 trò quyết định sự tồn tại và phát triển của
 
-xã hội? (NHUNG HOÀNG)
+xã hội?
 
 A. Sản xuất vật chất
 
@@ -8066,7 +8040,7 @@ Trường phái triết học nào sau đây cho D
 rằng tinh thần khách quan có trước, tồn
 
 tại độc lập với giới tự nhiên và con
-người?(NHUNG HOÀNG)
+người?
 
 A. Duy vật thô sơ
 
@@ -8094,7 +8068,7 @@ trù nào sau đây ra đời là kết qua của
 
 những mâu thuẫn giai cấp không thể
 
-điều hòa được?(NHUNG HOÀNG)
+điều hòa được?
 
 A. Tôn giáo
 
@@ -8159,7 +8133,7 @@ Lênin, cấu trúc của một hình thái kinh tế
 
 - xã hội gồm các yếu tố cơ bản hợp
 
-thành nào?(NHUNG HOÀNG)
+thành nào?
 
 A. Lĩnh vực vật chất và lĩnh vực tinh than
 
@@ -8178,7 +8152,7 @@ cầu kinh tế và kiến trức thượng tang
 Theo chủ nghĩa duy vat bién chirng, gita A
 LLSX và QHSX có mồi quan hệ như thé
 
-nào với nhau?(NHUNG HOÀNG)
+nào với nhau?
 
 A. Biện chứng
 
@@ -8188,7 +8162,7 @@ C. Độc lập
 
 D. Tách rời
 
-.làphương thức tồn tại vàpháttriểncủa  D
+.làphương thức tồn tại vàpháttriểncủa D
 sự vật, là hệ thống các mi liên hệ tương
 
 đối bên vững giữa các yếu tố của sự vật
@@ -8209,7 +8183,6 @@ lich sử, thì suy đến cùng, trình độ phát
 triển của nền sản xuất ra của cải vật chất
 
 của xã hội được quyết định bởi trình độ:
-(NHUNG HOÀNG)
 
 A. Phát triển của phương thức sử dụng
 
@@ -8263,8 +8236,6 @@ mỗi quan hệ xã hội khác: chính tri, pháp
 
 luật, đạo đức, nghệ thuật, tôn giáo?
 
-(NHUNG HOÀNG)
-
 A. Cơ sở vật chất
 
 B. Lực lượng sản xuất
@@ -8311,7 +8282,7 @@ D. Béccoren
 
 Sự khác nhau căn bản của chủ nghĩa vật Cc
 với chủ nghĩa duy tâm về sự thống nhất (Giải thích: Thừa nhận tính vật chất của thé giới.)
-của thế giới là gi?(NHUNG HOÀNG)
+của thế giới là gi?
 
 A. Không thừa nhận tính tồn tại của thế
 
@@ -8330,8 +8301,6 @@ trong giai đoạn để quốc chủ nghĩa, ông
 đã bd sung lý luận nào cho phù hợp với
 
 bồi cảnh xã hội mới? Chọn 2 đáp án.
-
-(NHUNG HOÀNG)
 
 A. Khả năng của cách mạng vô sản chỉ
 
@@ -8375,7 +8344,7 @@ D. Nghiên cứu khoa học
 ## Page 112
 
 Khái niệm quan hệ sản xuất được hiểu B
-như thế nào?(NHUNG HOÀNG)
+như thế nào?
 
 A. Mối quan hệ giữa con người với giới
 
@@ -8411,7 +8380,7 @@ phạm trù dùng để chỉ tính ... của thé giới
 
 xung quanh.... Từ thích hợp trong dấu
 
-" .* là gi?(NHUNG HOÀNG)
+" .\* là gi?
 
 A. Có thực/ Con người
 
@@ -8469,7 +8438,7 @@ Quy luật nào là quy luật cơ bản nhất, chỉ D
 phối, quyết định toàn bộ quá trình vận
 
 dộng và phát triển của lịch sử xã hội loài
-người? (NHUNG HOÀNG)
+người?
 
 A. Đầu tranh giai cấp
 
@@ -8501,7 +8470,7 @@ D. Vận động là vận động tự thân nhưng
 cần sự giúp đỡ của con người
 
 Nền tảng quan hệ giữa cá nhân và xã A
-hội là gì?(NHUNG HOÀNG)
+hội là gì?
 
 A. Lợi ích
 
@@ -8520,7 +8489,7 @@ D. Tình cảm
 
 tượng lao động trong tiền hành sản
 
-xuất? (NHUNG HOÀNG)
+xuất?
 
 A. Công cụ lao động
 
@@ -8561,7 +8530,6 @@ D. Phai Lokayata
 
 Sự thay đổi về lượng đạt đến giới hạn A
 nào thì sẽ dẫn đến sự thay đối về chất?
-(NHUNG HOÀNG)
 
 A. Điểm nút
 
@@ -8643,8 +8611,6 @@ nhiên của con người
 
 Từ phương diện chính trị và xã hội, nhà A
 nước thực hiện may chức năng?
-
-(NHUNG HOÀNG)
 
 A.2
 
@@ -8908,7 +8874,6 @@ lich sử thi cơ sở ha tăng va kiên trức
 thượng tăng là hai mặt cơ bản của đời
 sống xã hội. Cơ sở hạ tằng đóng vai trò
 gì đối với kiến trúc thượng tang?
-(NHUNG HOÀNG)
 
 A. Chi phối
 
@@ -9008,7 +8973,7 @@ D. Lý thuyết về tương đối của Albert
 Einstein
 
 Thế giới quan duy vật biện chứng bao A
-gồm: (NHUNG HOÀNG)
+gồm:
 
 A. Tri thức khoa học, niềm tin khoa học
 
@@ -9092,7 +9057,7 @@ D. Quan hệ sở hữu tư liệu sản xuất
 khép kín, là sự lặp lại đơn thuần cái cũ”.
 
 Luận điểm này thuộc lập trường triết học
-nào?(NHUNG HOÀNG)
+nào?
 
 A. Quan điểm duy vật biện chứng
 
@@ -9136,4 +9101,3 @@ D. Các quan hệ chính trị vốn là cơ sở
 hình thành các hình thái ý thức xã hội
 
 ---
-
