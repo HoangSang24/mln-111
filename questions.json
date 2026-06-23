@@ -44,7 +44,7 @@
       "A": "Tri thức kinh nghiệm",
       "B": "Tri thức lý luận",
       "C": "Tri thức lý luận khoa học",
-      "D": "Tri thức lý luận thực tiễn ---"
+      "D": "Tri thức lý luận thực tiễn"
     },
     "question": "Tri thức nào sau đây nảy sinh một cách trực tiếp từ thực tiễn lao động sản xuất?",
     "correctAnswers": [
@@ -96,9 +96,9 @@
       "A": "Thực tế chữ không phải trong mọi quan hệ?)",
       "B": "Tuyệt đối",
       "C": "Tương đối",
-      "D": "Thường xuyên ---"
+      "D": "Thường xuyên"
     },
-    "question": "Đứng im, cân bằng chỉ xảy ra trong một số quan hệ nhất định chứ không phải (Kiều hỏi khác: Tính chát nào của đứng im khi nói đứng trong mọi quan hệ là: im, cân bằng chi xảy ra trong một số quan hệ nhất định",
+    "question": "Đứng im, cân bằng chỉ xảy ra trong một số quan hệ nhất định chứ không phải trong mọi quan hệ là: (Kiều hỏi khác: Tính chát nào của đứng im khi nói đứng im, cân bằng chỉ xảy ra trong một số quan hệ nhất định chứ không phải trong mọi quan hệ?",
     "correctAnswers": [
       "C"
     ]
@@ -106,12 +106,12 @@
   {
     "page": 3,
     "options": {
-      "A": "Quy luật từ những sự thay đổi về lượng dẫn đến sự thay đồi về chất và ngược lại",
-      "B": "Quy luật thống nhất và đầu tranh giữa các mặt đối lập",
+      "A": "Quy luật từ những sự thay đổi về lượng dẫn đến sự thay đổi về chất và ngược lại",
+      "B": "Quy luật thống nhất và đấu tranh giữa các mặt đối lập",
       "C": "Quy luật phủ định của phủ định",
       "D": "Quy luật phát triển"
     },
-    "question": "A là một sinh viên có học lực kém, nên gia đình và Thầy/Cô đã khuyên A nên có gắng nhiều thầy được vần đề, A đã ra sức học tập dé tích lũy kién thức, trải qua một khoảng thời gian bạn thành một học sinh giỏi mà còn đạt được học bổng do Đại học FPT cung cấp. Căn cứ vào kiến thức ở môn Triết học, Anh/Chị hãy cho biết trường hợp bạn A thuộc 1 trong 3 quy luật nào sau đây",
+    "question": "A là một sinh viên có học lực kém, nên gia đình và Thầy/Cô đã khuyên A nên có gắng nhiều thấy được vần đề, A đã ra sức học tập để tích lũy kién thức, trải qua một khoảng thời gian bạn thành một học sinh giỏi mà còn đạt được học bổng do Đại học FPT cung cấp. Căn cứ vào kiến thức ở môn Triết học, Anh/Chị hãy cho biết trường hợp bạn A thuộc 1 trong 3 quy luật nào sau đây",
     "correctAnswers": [
       "A"
     ]
@@ -132,14 +132,27 @@
   {
     "page": 3,
     "options": {
-      "A": "Thuyết nhận biết ->Không thể biết là bất khả tri luận)",
-      "B": "Thuyết khả tri",
-      "C": "Thuyết khả tri luận",
-      "D": "Thuyết nhận biết luận ---"
+      "A": "Quyền lực chính trị",
+      "B": "Quyền lực nhà nước",
+      "C": "Quyền lực quản lý kinh tế",
+      "D": "Quyền lực sở hữu tư liệu sản xuất"
     },
     "question": "Sự khác biệt cơ bản nhất giữa các giai cấp là địa vị của họ trong",
     "correctAnswers": [
       "D"
+    ]
+  },
+  {
+    "page": 3,
+    "options": {
+      "A": "Thuyết nhận biết",
+      "B": "Thuyết khả tri",
+      "C": "Thuyết khả tri luận",
+      "D": "Thuyết nhận biết luận"
+    },
+    "question": "Thuyết có thể biết còn gọi là gì? (Hoặc còn gọi là khả tri -> Không thể biết là bất khả tri luận)",
+    "correctAnswers": [
+      "C"
     ]
   },
   {
@@ -163,7 +176,7 @@
       "C": "Tạo điều kiện thực hiện công bằng xã hội",
       "D": "Yêu cầu phải thay thế lực lượng sản xuất mới"
     },
-    "question": "Khi quan hệ sản xuất được xem là phù hợp với tính chất và trình độ phát triển (Kiều hỏi khác: Khi nào quan hệ sản xuất được xem là của lực lượng sản xuất? phù hợp với tính chất và trình độ phát triên của lực lượng",
+    "question": "Khi quan hệ sản xuất được xem là phù hợp với tính chất và trình độ phát triển của lực lượng sản xuất? (Kiều hỏi khác: Khi nào quan hệ sản xuất được xem là phù hợp với tính chất và trình độ phát triên của lực lượng sản xuất thì điều gì sẽ sảy ra?",
     "correctAnswers": [
       "A"
     ]
@@ -187,7 +200,7 @@
       "A": "Chủ nghĩa duy vật siêu hình",
       "B": "Chủ nghĩa duy tâm khách quan",
       "C": "Chủ nghĩa duy vật biện chứng",
-      "D": "Chủ nghĩa duy tâm chủ quan ---"
+      "D": "Chủ nghĩa duy tâm chủ quan"
     },
     "question": "Luận điểm sau thuộc lập trường triết học nào: Quy luật trong các khoa học là sự sáng tạo chủ quan của con người và được áp dụng vào tự nhiên và xã hội.",
     "correctAnswers": [
@@ -202,7 +215,7 @@
       "C": "Nếu mâu thuẫn có thể giải quyết được thì không cần đến sự ra đời của nhà nước, sự ra đời của nó chỉ chứng tỏ rằng mâu thuẫn đã phát triễn đến chỗ không thể giải quyết được nên cần đến sự ra đời của nhà nước.",
       "D": "Tất yếu của lịch sử nhân loại"
     },
-    "question": "Theo quan điểm duy vật lịch sử, sự ra đời của nha nước là dé giải quyết các mâu thuẫn trong xã hội vi:",
+    "question": "Theo quan điểm duy vật lịch sử, sự ra đời của nha nước là dé giải quyết các mâu thuẫn trong xã hội vì:",
     "correctAnswers": [
       "C"
     ]
@@ -213,7 +226,7 @@
       "A": "1 mặt, 2 van đề",
       "B": "1 vấn đề, 1 mặt",
       "C": "1 vấn đề, 2 mặt",
-      "D": "2 mặt, 2 van đề ---"
+      "D": "2 mặt, 2 van đề "
     },
     "question": "Chủ nghĩa duy vật lịch sử cho rằng, ý thức lý luận đạt trình độ cao và mang tính hệ thống tạo thành các:",
     "correctAnswers": [
@@ -264,7 +277,7 @@
       "A": "C.Mac",
       "B": "Ph.Angghen",
       "C": "Platon",
-      "D": "Immanuel Kant ---"
+      "D": "Immanuel Kant"
     },
     "question": "Ailàngười khẳng định \"cáisự hiển nhiên. là trước hết con người cần phải ăn, uống, ở và mặ động, trước khi có thể đầu tranh để giành quyền thống trị, trước khi có thể hoạt động chính tr học...\".",
     "correctAnswers": [
@@ -303,9 +316,9 @@
       "A": "Phủ nhận, gạt bỏ cái ngẫu nhiên một yêu cầu trong quá trình nhận thức và thực tiễn?)",
       "B": "Cơ bản là phải căn cứ vào cái ngẫu nhiên nhưng đồng thời phải tính tới cái tất nhiên",
       "C": "Căn cứ vào cái tất nhiên và ngẫu nhiên",
-      "D": "Cơ bản là phải căn cứ vào cái tất nhiên nhưng đồng thời phải tính tới cái ngẫu nhiên ---"
+      "D": "Cơ bản là phải căn cứ vào cái tất nhiên nhưng đồng thời phải tính tới cái ngẫu nhiên"
     },
-    "question": "Trong quá trình nhận thức và hoạt động thực tiễn, chúng ta cần (Kiều hỏi khác: Trong các đáp án dưới đây, đáp án nào là",
+    "question": "Trong quá trình nhận thức và hoạt động thực tiễn, chúng ta cần (Kiều hỏi khác: Trong các đáp án dưới đây, đáp án nào là một yêu cầu trong quá trình nhận thức và thực tiễn?)",
     "correctAnswers": [
       "D"
     ]
@@ -368,7 +381,7 @@
       "A": "Những người lao động sản xuất ra của cải vật chất",
       "B": "Những bộ phận dân cư chồng lại giai cấp thống trị áp bức bóc lột, đối kháng với nhân dân",
       "C": "Những tầng lớp xã hội khác nhau thúc đẩy sự tiền bộ của xã hội",
-      "D": "Những tầng lớp dân cư lao động ---"
+      "D": "Những tầng lớp dân cư lao động"
     },
     "question": "Hạt nhân cơ bản trong quần chúng nhân dân là ai?",
     "correctAnswers": [
@@ -391,14 +404,27 @@
   {
     "page": 9,
     "options": {
-      "A": "Ý kiến của những người có kinh A. Sự thật mà ai cũng biết. nghiệm B. Lẽ phải ai cũng thừa nhận.",
-      "B": "Sự phù hợp giữa trithức với hiệnthực..C. Tri thức phù hợp với logic suy luận. khách quan và được thực tiễn kiểm D. Tri thức có nội dung chân thực và đã được thực nghiệm tiễn kiểm nghiệm.)",
+      "A": "Ý kiến của những người có kinh ",
+      "B": "Sự phù hợp giữa tri thức với hiện thực khách quan và được thực tiễn kiểm nghiệm",
       "C": "Những quan điểm thuộc về đa số",
       "D": "Là những thứ đúng đắn trong khoa học"
     },
-    "question": "Chân lý là gì? (KHUNG HOÀNG) (Kiều hỏi khác: Chân lý là",
+    "question": "Chân lý là gì?",
     "correctAnswers": [
       "B"
+    ]
+  },
+  {
+    "page": 9,
+    "options": {
+      "A": "Sự thật mà ai cũng biết",
+      "B": "Lẽ phải ai cũng thừa nhận",
+      "C": "Tri thức phù hợp với logic suy luận",
+      "D": "Tri thức có nội dung chân thực và đã được thực tiễn kiểm nghiệm"
+    },
+    "question": "Chân lý là:",
+    "correctAnswers": [
+      "D"
     ]
   },
   {
@@ -433,7 +459,7 @@
       "A": "Nhận thức luận",
       "B": "Bản thể luận",
       "C": "Nhất nguyên luận",
-      "D": "Nhị nguyên luận ---"
+      "D": "Nhị nguyên luận"
     },
     "question": "Điền cụm từ thích hợp vào chỗ (..): \"Không thé đem lại cho hai khái niệm.... này một định nghĩa cách chỉ rõ rằng trong hai khái niệm đó, cãi nào được coi là có trước\".",
     "correctAnswers": [
@@ -494,14 +520,27 @@
   {
     "page": 10,
     "options": {
-      "A": "Quan điểm siêu hình B. tồn tại độc lập với nhau.",
-      "B": "Quan điểm biện chứng C. xuất hiện đồng thời.",
-      "C": "Quan điểm duy tâm D. không có mỗi liên hệ qua lại.)",
-      "D": "Quan điểm duy vật ---"
+      "A": "Quan điểm siêu hình",
+      "B": "Quan điểm biện chứng",
+      "C": "Quan điểm duy tâm",
+      "D": "Quan điểm duy vật"
     },
-    "question": "Quan điểm nào sau đâychorằngcácsự. vật, hiện tượng, các quá trình khác nhau (Kiều hỏi khác: Theo quan điểm duy vật biện chứng, vừa tồn tại định, tác động qua lai, chuyển. nguyên nhân và kết quả có thể... hóa lẫn nhau? A. chuyễn hóa lẫn nhau.",
+    "question": "Quan điểm nào sau đây cho rằng các sự vật, hiện tượng, các quá trình khác nhau vừa tồn tại định, tác động qua lai, chuyển hóa lẫn nhau? (Kiều hỏi khác: Theo quan điểm duy vật biện chứng. nguyên nhân và kết quả có thể...",
     "correctAnswers": [
       "B"
+    ]
+  },
+  {
+    "page": 10,
+    "options": {
+      "A": "Chuyển hóa lẫn nhau",
+      "B": "Tồn tại độc lập với nhau",
+      "C": "xuất hiện đồng thời",
+      "D": "Không có mỗi liên hệ qua lại"
+    },
+    "question": "Theo quan điểm duy vật biện chứng. nguyên nhân và kết quả có thể...",
+    "correctAnswers": [
+      "A"
     ]
   },
   {
@@ -575,7 +614,7 @@
       "A": "Con người với kỹ năng, kỹ xảo và tri thức được tích luỹ lại",
       "B": "Tư liệu sản xuất hiện đại",
       "C": "Khoa học công nghệ tiên tiền",
-      "D": "Các phương án trả lời đều đúng ---"
+      "D": "Các phương án trả lời đều đúng"
     },
     "question": "Yếu tố chủ thể của lực lượng sản xuất là",
     "correctAnswers": [
@@ -655,7 +694,7 @@
       "A": "Phụ thuộc nhận thức con người",
       "B": "Trong thế giới con người",
       "C": "Trong thế giới tự nhiên",
-      "D": "Độc lập, không phụ thuộc vào ý thức ---"
+      "D": "Độc lập, không phụ thuộc vào ý thức"
     },
     "question": "Theo Lênin, khách quan là cái đang tồn tại",
     "correctAnswers": [
@@ -704,12 +743,25 @@
   {
     "page": 13,
     "options": {
-      "A": "Thúc đẩy hoặc kìm hãm sự tiền bộ lãnh tụ đối với phong trào của quản chúng nhân dân? của xã hội",
-      "B": "Là người sáng lập ra các tổ chức A. Thúc đây hoặc kìm hãm sự tiền bộ của xã hội chính trị, xã hội và là linh hồn của các tổ B. Là người sáng lập ra các tb chức chính trị, xã hội và là chức đó linh hỗn của các tố chức đó",
-      "C": "Lãnh tụ của mỗi thời đại chỉ có thể C. Lãnh tụ của mỗi thời đại chi có thé hoàn thành những hoàn thành những nhiệm vụ đặt ra của nhiệm vụ đặt ra của thời đại đó thời đại đó D. Phát minh ra công cụ lãnh đạo quần chúng)",
+      "A": "Thúc đẩy hoặc kìm hãm sự tiến bộ của xã hội",
+      "B": "Là người sáng lập ra các tổ chức chính trị, xã hội và là linh hồn của các tổ chức đó",
+      "C": "Lãnh tụ của mỗi thời đại chỉ có thể hoàn thành những nhiệm vụ đặt ra của thời đại đó",
       "D": "Tất cả các đáp án đều đúng"
     },
-    "question": "Vai trò của lãnh tụ đối với phong trào của quần chúng nhân dân? (Kiều hỏi khác: Vai trò nào sau đây không phải vai trò",
+    "question": "Vai trò của lãnh tụ đối với phong trào của quần chúng nhân dân?",
+    "correctAnswers": [
+      "D"
+    ]
+  },
+  {
+    "page": 13,
+    "options": {
+      "A": "Thúc đẩy hoặc kìm hãm sự tiến bộ của xã hội",
+      "B": "Là người sáng lập ra các tổ chức chính trị, xã hội và là linh hồn của các tổ chức đó",
+      "C": "Lãnh tụ của mỗi thời đại chỉ có thể hoàn thành những nhiệm vụ đặt ra của thời đại đó",
+      "D": "Phát minh ra công cụ lãnh đạo quần chúng"
+    },
+    "question": "Vai trò nào sau đây không phải vai trò lãnh tụ đối với phong trào của quần chúng nhân dân?",
     "correctAnswers": [
       "D"
     ]
@@ -720,7 +772,7 @@
       "A": "Diễn ra hoàn toàn không chịu sự chỉ phối của quy luật nào",
       "B": "Hoàn toàn diễn ra theo quy luật",
       "C": "Biểu hiện của quy luật",
-      "D": "Không biểu hiện của bắt cứ quy luật nào ---"
+      "D": "Không biểu hiện của bắt cứ quy luật nào"
     },
     "question": "Cái ngẫu nhiên là cái",
     "correctAnswers": [
@@ -759,7 +811,7 @@
       "A": "Heraolit",
       "B": "Khổng Tử",
       "C": "V.ILénin",
-      "D": "Chủ tịch Hồ Chí Minh ---"
+      "D": "Chủ tịch Hồ Chí Minh"
     },
     "question": "Ai là người đã đưa ra định nghĩa về giai cấp sau đây: \"Người ta gọi là giai cấp là những tập đoàn người to lớn, khác nhau về địa vị của họ trong một hệ thống sản xuất xã hội nhất định trong lịch sử, khác nhau về quan hệ của họ (thường thì những quan hệ này được pháp luật quy định và thừa nhận) đối với tư liệu sản xuất và phân công lao động, về vai trò của họ trong những tổ chức lao động xã hội, và như vậy là khác nhau về cách thức hưởng thụ và về phần của cải ít hoặc nhiều mà họ được hưởng. Giai cấp là những tập đoàn người, mà tập đoàn này có thể chiếm đoạt lao động của tập đoàn khác, do chỗ các tập đoàn đó có địa vị khác nhau trong một chế độ kinh té xã hội nhất dinh.\".",
     "correctAnswers": [
@@ -784,10 +836,10 @@
     "options": {
       "A": "Bản tính có hữu của người Việt Nam",
       "B": "Bị phong kiến, đề quốc nhiều thế kỷ áp bức thống trị",
-      "C": "Phương thức sản xuất tiéu nông, lạc hậu tồn tại lâu dài trong lịch sử",
+      "C": "Phương thức sản xuất tiéu nông, lạc hậu tồn tại lâu dài trong lịch sử (Nếu chọn 1 thì chọn C)",
       "D": "Điều kiện tổ chức dân cư khép kín của các làng xã"
     },
-    "question": "Tâm lý, tính cách tiều nông của người Việt Nam truyền thống căn bản là do (Nếu chọn 1 thì chọn C) những yếu tố nào quyết định? (Chọn 3)",
+    "question": "Tâm lý, tính cách tiều nông của người Việt Nam truyền thống căn bản là do những yếu tố nào quyết định? (Chọn 3)",
     "correctAnswers": [
       "B",
       "C",
@@ -801,7 +853,7 @@
       "B": "Quyết định sự vận động của xã hội",
       "C": "Quyết định tính chất và nội dung của xã hội"
     },
-    "question": "Sản xuất vật chất có vai trò gì đồi với xã hội?()",
+    "question": "Sản xuất vật chất có vai trò gì đồi với xã hội?",
     "correctAnswers": [
       "A"
     ]
@@ -838,7 +890,7 @@
       "A": "Tiên tiền nhất",
       "B": "Lãnh đạo xã hội",
       "C": "Thống trị xã hội",
-      "D": "Đứng đầu xã hội ---"
+      "D": "Đứng đầu xã hội"
     },
     "question": "Theo quan niệm của chủ nghĩa duy vật biện chứng về lich sử thi trong xã hội có giai cấp, hệ tư tưởng thống trị xã hội bao giờ cũng là hệ tư tưởng của giai cấp.",
     "correctAnswers": [
@@ -902,7 +954,7 @@
       "A": "Lý luận",
       "B": "Thực tiễn",
       "C": "Triết học",
-      "D": "Tinh than ---"
+      "D": "Tinh than"
     },
     "question": "Cơ sở, động lực, mục đích của nhận thức là",
     "correctAnswers": [
@@ -930,7 +982,7 @@
       "C": "Tồn tại xã hội và ý thức xã hội tồn tại độc lập, không liên quan gì đến nhau",
       "D": "Tồn tại xã hội quyết định tồn tại xã hội, ý thức xã hội quyết định ý thức xã hội"
     },
-    "question": "Theo quan điểm của triết học Mác - Lênin, mdi quan hệ giữa tồn tại xã hội và ý thức xã hội thể hiện như thế nào?",
+    "question": "Theo quan điểm của triết học Mác - Lênin, mối quan hệ giữa tồn tại xã hội và ý thức xã hội thể hiện như thế nào?",
     "correctAnswers": [
       "B"
     ]
@@ -956,7 +1008,7 @@
       "C": "Quyết tâm thực hiện mục tiêu",
       "D": "Không tính tới điều kiện và khả năng thực tế"
     },
-    "question": "Một sinh viên định nghĩa bệnh chủ quan duy ý chí bằng các biểu hiện đặc trưng (Cách hỏi khác: Đâu không phải là biểu hiện của chủ sau đây. Hãy chỉ ra một biểu hiện không quan duy ý chí?) thuộc chủ quan duy ý chí.",
+    "question": "Một sinh viên định nghĩa bệnh chủ quan duy ý chí bằng các biểu hiện đặc trưng sau đây. Hãy chỉ ra một biểu hiện không thuộc chủ quan duy ý chí (Cách hỏi khác: Đâu không phải là biểu hiện của chủ quan duy ý chí?)",
     "correctAnswers": [
       "C"
     ]
@@ -967,7 +1019,7 @@
       "A": "Từ thực tiễn, do nhu cầu của thực tiễn",
       "B": "Tử sự tư duy của con người về bản thân mình",
       "C": "Từ sự vận động của ý muốn chủ quan của con người",
-      "D": "Từ thực tiễn, do sự phát triển của khoa học kỹ thuật ---"
+      "D": "Từ thực tiễn, do sự phát triển của khoa học kỹ thuật"
     },
     "question": "Triết học ra đời từ đâu?",
     "correctAnswers": [
@@ -1018,9 +1070,9 @@
       "A": "Chính trị",
       "B": "Võ trang",
       "C": "Kinh tế",
-      "D": "Giải phóng ---"
+      "D": "Giải phóng"
     },
-    "question": "Theo quan niệm duy vật biện chứng về lịch sử thì đỉnh cao cla sw phát triển đầu... (Kiều hỏi khác: Theo quan niệm của chủ nghĩa duy vật tranh giai cấp là đấu tranhtronglĩnhvực.. lich sử thì đỉnh cao của sự phát triển đáu tranh giai cáp là nào? đầu tranh trong lĩnh vực nào?)",
+    "question": "Theo quan niệm duy vật biện chứng về lịch sử thì đỉnh cao của sự phát triển đấu tranh giai cấp là đấu tranh trong lĩnh vực nào? (Kiểu hỏi khác: Theo quan niệm của chủ nghĩa duy vật lịch sử thì đỉnh cao của sự phát triển đấu tranh giai cấp là đấu tranh trong lĩnh vực nào?)",
     "correctAnswers": [
       "A"
     ]
@@ -1082,7 +1134,7 @@
       "A": "Không có mồi quan hệ gì với nhau",
       "B": "Chi có mồi quan hệ giữa chất với lượng",
       "C": "Chỉ có mỗi quan hệ giữa lượng với chất",
-      "D": "Có mối quan hệ biện chứng với nhau ---"
+      "D": "Có mối quan hệ biện chứng với nhau"
     },
     "question": "Chất và lượng có mồi quan hệ với nhau như thế nào?",
     "correctAnswers": [
@@ -1134,7 +1186,7 @@
       "A": "Chủ quan của thế giới vật chất",
       "B": "Song song với thế giới vật chất",
       "C": "Khách quan của thế giới vật chất",
-      "D": "Có tính trật tự, nguyên tắc của thế giới vật chất ---"
+      "D": "Có tính trật tự, nguyên tắc của thế giới vật chất"
     },
     "question": "Điền vào dấu (...): \"Quan điểm nhấtquán.. từ xưa đến nay của các nhà triết học duy vật là thừa nhận sự ton tai .... lấy bản thân giới tự nhiên dé giải thích tự nhiên\".",
     "correctAnswers": [
@@ -1144,11 +1196,11 @@
   {
     "page": 21,
     "options": {
-      "A": "Triết học, Kinh tế chính trị học và Chủ cầu thành nào?) nghĩa xã hội khoa học",
+      "A": "Triết học, Kinh tế chính trị học và Chủ nghĩa xã hội khoa học",
       "B": "Triết học, Kinh tế chính trị học và Chính trị học",
       "C": "Triết học, Kinh tế học và Chủ nghĩa xã hội khoa học"
     },
-    "question": "Chủ nghĩa Mác-Lênin gồm ba bộ phận cấu thành đó là() (Cách hỏi khác: Chủ nghĩa Máo-Lênin có những bộ phần",
+    "question": "Chủ nghĩa Mác-Lênin gồm ba bộ phận cấu thành đó là: (Cách hỏi khác: Chủ nghĩa Mác-Lênin có những bộ phận cấu thành nào?)",
     "correctAnswers": [
       "A"
     ]
@@ -1197,12 +1249,25 @@
   {
     "page": 21,
     "options": {
-      "A": "Tri giác tiếp tác động đến giác quan của con người?",
-      "B": "Khái niệm. A. Cảm giác",
-      "C": "Suy luận. B. Tri giác",
-      "D": "Khái niệm) ---"
+      "A": "Tri giác",
+      "B": "Khái niệm",
+      "C": "Suy luận",
+      "D": "Phán đoán"
     },
-    "question": "Hình thức nhận thức nào cần có sự tác động trực tiếp của vật vào cơ quan giác (Câu trả lời khác: Cảm giác quan của con người? Kiều hỏi khác: Hình thức nhận thức nào là khi sự vật trực",
+    "question": "Hình thức nhận thức nào cần có sự tác động trực tiếp của vật vào cơ quan giác quan của con người?",
+    "correctAnswers": [
+      "A"
+    ]
+  },
+  {
+    "page": 21,
+    "options": {
+      "A": "Cảm giác",
+      "B": "Tri giác",
+      "C": "Biểu tượng",
+      "D": "Khái niệm"
+    },
+    "question": "Hình thức nhận thức nào là khi sự vật trực tiếp tác động đến giác quan của con người?",
     "correctAnswers": [
       "A"
     ]
@@ -1210,14 +1275,14 @@
   {
     "page": 22,
     "options": {
-      "A": "Ngoài cái riêng. vật thì quan hệ biện chứng giữa “cái riêng” và “cái chung”",
-      "B": "Cùng cái riêng. thì cái chung tồn tại như thế nào so với cái riêng?)",
-      "C": "Trong cái riêng.",
-      "D": "Bên cái riêng."
+      "A": "Ngoài cái riêng",
+      "B": "Cùng cái riêng",
+      "C": "Trong cái riêng",
+      "D": "Bên cái riêng"
     },
-    "question": "Quan hệ biện chứng giữa \"cái riêng\" và \"cái chung\" thi cái chung tồn tại: (Kiều hỏi khác: Theo quan điểm của phép biện chứng duy",
+    "question": "Quan hệ biện chứng giữa \"cái riêng\" và \"cái chung\" thì cái chung tồn tại:(Kiểu hỏi khác: Theo quan điểm của phép biện chứng duy vật thì quan hệ biện chứng giữa \"cái riêng\" và \"cái chung\" thì cái chung tồn tại như thế nào so với cái riêng?)",
     "correctAnswers": [
-      "C"
+      "A"
     ]
   },
   {
@@ -1236,14 +1301,40 @@
   {
     "page": 22,
     "options": {
-      "A": "Tính phong phú, đa dạng",
-      "B": "Tính khách quan",
-      "C": "Tính tương đối",
-      "D": "Tính cụ thể E. Tính tuyệt đói ---"
+      "A": "Đề cao lĩnh vực tinh thần của con người",
+      "B": "Đề cao lĩnh vực vật chất và tinh thần của con người",
+      "C": "Đề cao đời sống tâm linh của con người"
     },
-    "question": "Triét hoc duy tam khách quan va duy tam chủ quan đều có điểm chung Ia(NHUNG (Kiều hỏi khác: HOÀNG) Giá trị của triết học duy tâm là",
+    "question": "Triết học duy tâm khách quan và duy tâm chủ quan đều có điểm chung là:",
     "correctAnswers": [
       "A"
+    ]
+  },
+  {
+    "page": 22,
+    "options": {
+      "A": "Đề cao lĩnh vực tinh thần của con người",
+      "B": "Đánh giá đúng lĩnh vực tinh thần của con người",
+      "C": "Đề cao tư duy của con người"
+    },
+    "question": "Giá trị của triết học duy tâm là",
+    "correctAnswers": [
+      "A"
+    ]
+  },
+  {
+    "page": 22,
+    "options": {
+      "A": "Đề cao lĩnh vực tinh thần của con người",
+      "B": "Đánh giá đúng lĩnh vực tinh thần của con người",
+      "C": "Đề cao tư duy của con người"
+    },
+    "question": "Chân lý bao gồm các tính chất sau. (4 đáp án)",
+    "correctAnswers": [
+      "B",
+      "C",
+      "D",
+      "E"
     ]
   },
   {
@@ -1303,7 +1394,7 @@
     "options": {
       "A": "Tùy trường hợp cụ thể",
       "B": "Không kế thừa",
-      "C": "Có kế thừa ---"
+      "C": "Có kế thừa"
     },
     "question": "Trong xã hội có giai cấp, tính chất kế thừa của ý thức xã hội có gắn với tính chất giai cấp của",
     "correctAnswers": [
@@ -1355,7 +1446,7 @@
       "A": "Tư liệu sinh hoạt",
       "B": "Tư liệu sản xuất",
       "C": "Của cải",
-      "D": "Tư liệu lao động ---"
+      "D": "Tư liệu lao động"
     },
     "question": "Theo C.Mác, con người muốn sống thì trước hết cần có thức ăn, đồ mặc v.v. Như vậy, hành vi lịch sử đầu tiên là sản xuất ra:",
     "correctAnswers": [
@@ -1370,7 +1461,7 @@
       "C": "Tồn tại trong mồi quan hệ phụ thuộc vào nhau, không cái nào quyết định cái nào",
       "D": "Tùy từng điều mà xem xét cái nào quyết định cái nào"
     },
-    "question": "Chọn phương án đúng theo quan điểm duy tâm về lịch sử. (Kiều hỏi khác: Quan điểm nào mang tính duy tâm khi Trong mồi quan hệ giữa tồn tại xã hội và bàn về mỗi quan hệ giữa tồn tại xã hội và ý thức xã hội?) ý thức xã hội.",
+    "question": "Chọn phương án đúng theo quan điểm duy tâm về lịch sử. Trong mối quan hệ giữa tồn tại xã hội và ý thức xã hội. (Kiểu hỏi khác: Quan điểm nào mang tính duy tâm khi bàn về mỗi quan hệ giữa tồn tại xã hội và ý thức xã hội?)",
     "correctAnswers": [
       "B"
     ]
@@ -1391,14 +1482,27 @@
   {
     "page": 25,
     "options": {
-      "A": "Khác nhau về vai trò trong tổ chức lao này có thé chiếm đoạt lao động của tập đoàn khác động xã hội B. Khác nhau về quan hệ sở hữu tư liệu sản xuất xã",
-      "B": "Khác nhau về địa vị trong hệ thống tổ hội chức xã hội C. Khác nhau về vai trò trong tổ chức lao động xã hội",
-      "C": "Khác nhau về quan hệ sở hữu tư liệu D. Khác nhau về địa vị trong hệ thống tổ chức xã hội) sản xuất xã hội",
+      "A": "Khác nhau về vai trò trong tổ chức lao động xã hội",
+      "B": "Khác nhau về địa vị trong hệ thống tổ chức xã hội",
+      "C": "Khác nhau về quan hệ sở hữu tư liệu sản xuất xã hội",
       "D": "Tập đoàn này có thể chiếm hữu đoạt lao động của tập đoàn khác"
     },
-    "question": "Trong 3 đặc trưng của giai cấp thì đặc trưng nào giữ vai trò chi phối các đặc (Kiều hỏi khác: Trong 3 đặc trưng của giai cấp, đặc trưng trưng khác ? nào giữ vai trò chi phối các đặc trưng khác?A. Tập đoàn",
+    "question": "Trong 3 đặc trưng của giai cấp thì đặc trưng nào giữ vai trò chi phối các đặc trưng khác",
     "correctAnswers": [
       "C"
+    ]
+  },
+  {
+    "page": 25,
+    "options": {
+      "A": "Tập đoàn này có thể chiếm đoạt lao động của tập đoàn khác",
+      "B": "Khác nhau về quan hệ sở hữu tư liệu sản xuất xã hội",
+      "C": "Khác nhau về vai trò trong tổ chức lao động xã hội",
+      "D": "Khác nhau về địa vị trong hệ thống tổ chức xã hội"
+    },
+    "question": "Trong 3 đặc trưng của giai cấp, đặc trưng nào giữ vai trò chi phối các đặc trưng khác?",
+    "correctAnswers": [
+      "B"
     ]
   },
   {
@@ -1407,7 +1511,7 @@
       "A": "Giai cấp tư sản tiền bộ",
       "B": "Giai cấp công nhân",
       "C": "Tang lớp trí thức",
-      "D": "Giai cấp lao động ---"
+      "D": "Giai cấp lao động"
     },
     "question": "Triết học Mác là thế giới quan khoa học của giai cấp nào?",
     "correctAnswers": [
@@ -1459,7 +1563,7 @@
       "A": "Quy luật mâu thuẫn",
       "B": "Quy luật lượng - chất",
       "C": "Quy luật phủ định của phủ định",
-      "D": "Nguyên lý về mồi liên hệ phổ biến ---"
+      "D": "Nguyên lý về mồi liên hệ phổ biến"
     },
     "question": "Một sinh viên chuẩn bị bài seminar trong 1 tuần theo cách thức: ngày đầu phác thảo đề cương sơ lược sau đó hằng ngày dành 15 phút sửa chữa và bd sung bài chuẩn bị đó cả kết cấu, nội dung. Đúng vào buổi seminar, sinh viên đó đã có một bản chuẩn bị hoàn chỉnh. Công việc trên diễn ra theo nguyên lí, quy luật nào?",
     "correctAnswers": [
@@ -1524,7 +1628,7 @@
       "A": "Hệ thống vật chất trong giới tự nhiên",
       "B": "Các quá trình kinh tế và chính trị - xã hội",
       "C": "Các sự vật, hiện tượng trong thế giới tự nhiên, xã hội và tư duy",
-      "D": "Các hình thái kinh tế - xã hội ---"
+      "D": "Các hình thái kinh tế - xã hội"
     },
     "question": "Theo V.I. Lênin \"Chủ nghĩa Mác đã mở đường cho việc nghiên cứu rộng rãi và toàn diện quá trình phát sinh, phát triển và suy tàn của...\"",
     "correctAnswers": [
@@ -1577,7 +1681,7 @@
       "B": "Nguyên lý về sự phát triển",
       "C": "Nguyên lý về tính thống nhất vật chất của thế giới"
     },
-    "question": "Trong lý luận nhận thức, cần nhìn nhận sự vật trong trạng thái vận động và phát (Kiều hỏi khác: Trong hoạt động nhận thức, ....) triển. Điều đó dựa trên cơ sở lý luận của nguyên lý nào?",
+    "question": "Trong lý luận nhận thức, cần nhìn nhận sự vật trong trạng thái vận động và phát triển. Điều đó dựa trên cơ sở lý luận của nguyên lý nào? (Kiều hỏi khác: Trong hoạt động nhận thức, ....)",
     "correctAnswers": [
       "B"
     ]
@@ -1588,7 +1692,7 @@
       "A": "Lực lượng sản xuất",
       "B": "Quan hệ sản xuất",
       "C": "Tồn tại xã hội",
-      "D": "Kiến trúc thượng tang ---"
+      "D": "Kiến trúc thượng tang"
     },
     "question": "Tiêu chí nào là quan trọng nhất để phân biệt các hình thái kinh tế xã hội",
     "correctAnswers": [
@@ -1640,7 +1744,7 @@
       "A": "Có tính chất duy vật tự phát",
       "B": "Có tính chất duy tâm khách quan",
       "C": "Còn pha trộn giữa các yếu tố duy vật và duy tâm",
-      "D": "Còn pha trộn giữa các yếu tố duy tâm thần bí và siêu hình ---"
+      "D": "Còn pha trộn giữa các yếu tố duy tâm thần bí và siêu hình"
     },
     "question": "Triết học của các nhà tư tưởng thời kỳ Phục Hưng có đặc điểm gì?",
     "correctAnswers": [
@@ -1676,14 +1780,27 @@
   {
     "page": 30,
     "options": {
+      "A": "Đấu tranh giai cấp",
+      "B": "Ra đời giai cấp",
+      "C": "Cách mạng",
+      "D": "Ra đời nhà nước"
+    },
+    "question": "Chủ nghĩa duy vật lịch sử cho rằng, cuộc đấu tranh giữa những người lao động làm thuê, những người nô lệ bị áp bức về chính trị - xã hội và bị bóc lột về kinh tế chống lại bọn áp bức và bóc lột nó là thực chất (Kiểu hỏi khác: Theo quan điểm của chủ nghĩa duy vật lịch sử, cuộc đấu tranh giữa những người lao động làm thuê, những người nô lệ bị áp búc vẽ chính trị - xã hội và bị bóc lột vẽ kinh tế chống lại bọn áp bức và bóc lột thực chất là gi?)",
+    "correctAnswers": [
+      "A"
+    ]
+  },
+  {
+    "page": 30,
+    "options": {
       "A": "Văn hoá tinh than",
       "B": "Sinh hoat tinh than",
       "C": "Sinh hoạt vật chất",
       "D": "Kinh tế"
     },
-    "question": "Chủ nghĩa duy vật lịch sử cho rằng, cuộc đầu tranh giữa những người lao động (Kiểu hỏi khác: Theo quan điểm của chủ nghĩa duy vật làm thuê, những người nô lệ bị áp bức lịch sử, cuộc đầu tranh giữa những người lao động làm về chính trị - xã hội và bị bóc lột về kinh thuê, những người nô lệ bị áp búc vẽ chính trị - xã hội và tế chồng lại bọn áp bức và bóc lột nó là bị bóc lột vẽ kinh tế chồng lại bọn áp bức và bóc lột thực thực chất chất là gi?)",
+    "question": "Chủ nghĩa duy vật lịch sử cho rằng, tồn tại xã hội là khái niệm dùng để chỉ phương diện sinh hoạt vật chất và những điều kiện gì của xã hội?",
     "correctAnswers": [
-      "A"
+      "C"
     ]
   },
   {
@@ -1692,9 +1809,9 @@
       "A": "Sinh hoạt vật chất và những điêu kiện sinh hoạt vật chất của xã hội",
       "B": "Toàn bộ các giá trị tinh thần của xã hội",
       "C": "Toàn bộ các điều kiện sinh hoạt của xã hội",
-      "D": "Toàn bộ hệ tư tưởng về sự tồn tại cùa xã hội ---"
+      "D": "Toàn bộ hệ tư tưởng về sự tồn tại cùa xã hội"
     },
-    "question": "Tn tại xã hội là gì?",
+    "question": "Tồn tại xã hội là gì?",
     "correctAnswers": [
       "A"
     ]
@@ -1769,7 +1886,7 @@
       "A": "Phương thức sản xuất",
       "B": "Nghệ thuật sản xuất",
       "C": "Kỹ thuật sản xuất",
-      "D": "Công nghệ sản xuất ---"
+      "D": "Công nghệ sản xuất"
     },
     "question": "Cách thức mà con người dùng dé tiền hành quá trình sản xuất của xã hội ở những giai đoạn lịch sử nhất định gọi là:",
     "correctAnswers": [
@@ -1805,11 +1922,11 @@
   {
     "page": 32,
     "options": {
-      "A": "Bồn hình thái kinh tế xã hội (Kiều hỏi khác: Theo quan điểm của chủ nghĩa duy vật",
-      "B": "Ba hình thái kinh tế xã hội lịch sử, loài người đã và đang trải qua bao nhiêu hình thái",
-      "C": "Năm hình thái kinh tế xã hội kinh té - xã hội?)"
+      "A": "Bồn hình thái kinh tế xã hội",
+      "B": "Ba hình thái kinh tế xã hội",
+      "C": "Năm hình thái kinh tế xã hội [Giải thích: Công xã nguyên thủy, Chiếm hữu nô lệ, Phong kiến, Tư bản chủ nghĩa, Cộng sản chủ nghĩa (giai đoạn đầu là chủ nghĩa xã hội)]"
     },
-    "question": "Theo quan điểm của chủ nghĩa duy vật biện chứng lich sử, xã hội loài người da [Giải thích: Công xã nguyên thủy, Chiếm hữu nô lệ, trải qua bao nhiêu hình thái kinh tế xã Phong kiến,Tư bản chủ nghĩa, Cộng sản chủ nghĩa hội? (giai đoạn đầu là chủ nghĩa xã hội)]",
+    "question": "Theo quan điểm của chủ nghĩa duy vật biện chứng lịch sử, xã hội loài người đã trải qua bao nhiêu hình thái kinh tế xã hội? (Kiểu hỏi khác: Theo quan điểm của chủ nghĩa duy vật lịch sử, loài người đã và đang trải qua bao nhiêu hình thái kinh tế - xã hội?)",
     "correctAnswers": [
       "C"
     ]
@@ -1820,7 +1937,7 @@
       "A": "Sự phát triển của lực lượng sản xuất trực tiếp làm thay đổi quan hệ sản xuất, và thông qua đó làm thay đồi kiến trúc thượng tang",
       "B": "Cơ sở hạ tằng thay đồi thì sớm muộn gì kién trúc thượng tầng cũng thay đổi theo",
       "C": "Trong xã hội có giai cấp, giai cấp nào thống trị về kinh tế thì sẽ thống trị về chính trị, tư tưởng",
-      "D": "Các mâu thuẫn trong chính trị, tư tưởng xét đến cùng quyết định các mâu thuẫn trong lĩnh vực kinh tế ---"
+      "D": "Các mâu thuẫn trong chính trị, tư tưởng xét đến cùng quyết định các mâu thuẫn trong lĩnh vực kinh tế"
     },
     "question": "Hãy xác định luận điểm nào sai khi đề cập đến \"mồi quan hệ biện chứng giữa cơ sở hạ tng và kiến trúc thượng tang\"?",
     "correctAnswers": [
@@ -1830,14 +1947,27 @@
   {
     "page": 33,
     "options": {
-      "A": "Dựa vào tắt nhiên, đề phòng ngẫu trong hoạt động thực tiễn, can dựa vào điều gi? nhiên A. Dựa vào ngẫu nhiên, dự phòng tát nhiên.",
-      "B": "Dựa vào ngẫu nhiên, đề phòng tat B. Dựa vào ngẫu nhiên, đề phòng tát nhiên nhiên C. Dựa vào cả tất nhiên và ngầu nhiên",
-      "C": "Dựa vào cả tất nhiên và ngẫu nhiên D. Không dựa vào các yếu tố nào mang tính tắt nhiên,",
-      "D": "Không dựa vào các yếu tố nào mang ngẫu nhiên) tính tất nhiên, ngẫu nhiên"
+      "A": "Dựa vào tất nhiên, đề phòng ngẫu nhiên",
+      "B": "Dựa vào ngẫu nhiên, đề phòng tất nhiên",
+      "C": "Dựa vào cả tất nhiên và ngẫu nhiên",
+      "D": "Không dựa vào các yếu tố nào mang tính tất nhiên, ngẫu nhiên"
     },
-    "question": "Theo quan điểm của chủ nghĩa duy vật biện chứng, trong thực tế chúng ta phải (Kiều hỏi khác: Theo quan điểm của chủ nghĩa duy vật dựa vào điều gì? biện chứng về mỗi quan hệ giữa tat nhiên và ngẫu nhiên,",
+    "question": "Theo quan điểm của chủ nghĩa duy vật biện chứng, trong thực tế chúng ta phải dựa vào điều gì?",
     "correctAnswers": [
       "A"
+    ]
+  },
+  {
+    "page": 33,
+    "options": {
+      "A": "Dựa vào ngẫu nhiên, dự phòng tất nhiên",
+      "B": "Dựa vào ngẫu nhiên, đề phòng tất nhiên",
+      "C": "Dựa vào cả tất nhiên và ngẫu nhiên",
+      "D": "Không dựa vào các yếu tố nào mang tính tất nhiên, ngẫu nhiên"
+    },
+    "question": "Theo quan điểm của chủ nghĩa duy vật biện chứng về mỗi quan hệ giữa tất nhiên và ngẫu nhiên, trong hoạt động thực tiễn, cần dựa vào điều gì?",
+    "correctAnswers": [
+      "C"
     ]
   },
   {
@@ -1848,7 +1978,7 @@
       "C": "Không có vai trò gì",
       "D": "Là động lực thúc day"
     },
-    "question": "Đấu tranh giai cấp co vai tro gi đối vớisự. phát triển của xã hội?",
+    "question": "Đấu tranh giai cấp có vai trò gì đối với sự phát triển của xã hội?",
     "correctAnswers": [
       "D"
     ]
@@ -1885,7 +2015,7 @@
       "A": "Điều kiện tự nhiên",
       "B": "Điều kiện dân cư",
       "C": "Phương thức sản xuất ra của cải vật chất",
-      "D": "Không có yếu tố nào là cơ bản nhất mà tùy thuộc các điều kiện lịch sử cụ thể khác nhau ---"
+      "D": "Không có yếu tố nào là cơ bản nhất mà tùy thuộc các điều kiện lịch sử cụ thể khác nhau"
     },
     "question": "Theo quan điểm của chủ nghĩa duy vật lich sử, yếu tố cơ bản nhất tạo thành điều kiện sinh hoạt vật chất của xã hội là các yếu tố thuộc về",
     "correctAnswers": [
@@ -1908,12 +2038,12 @@
   {
     "page": 34,
     "options": {
-      "A": "Quần chúng nhân dân lao động chủ quan, lực lượng sáng tạo ra lịch sử là lực lượng",
+      "A": "Quần chúng nhân dân lao động",
       "B": "Giai cấp thống trị xã hội nào?)",
       "C": "Các vi nhân, những cá nhân kiệt xuất",
       "D": "Giai cấp bị trị xã hội"
     },
-    "question": "Theo quan điểm duy tâm, lực lượng sáng tạo ra lịch sử là : (Cách hỏi khác: Theo quan điểm của chủ nghĩa duy tâm",
+    "question": "Theo quan điểm duy tâm, lực lượng sáng tạo ra lịch sử là : (Cách hỏi khác: Theo quan điểm của chủ nghĩa duy tâm chủ quan, lực lượng sáng tạo ra lịch sử là lực lượng?)",
     "correctAnswers": [
       "C"
     ]
@@ -1950,7 +2080,7 @@
       "A": "Sản xuất ra của cải vật chất, đời sống tinh than và nghệ thuật",
       "B": "Sản xuất ra văn hóa, con người và đời sống tinh than",
       "C": "Sản xuất ra của cải vat chất, tinh than và văn hóa",
-      "D": "Sản xuất ra của cải vật chất, tinh than và con người ---"
+      "D": "Sản xuất ra của cải vật chất, tinh than và con người"
     },
     "question": "Theo quan điểm duy vật lịch sử thì xã hội có các loại hình sản xuất cơ bản nào?",
     "correctAnswers": [
@@ -2014,7 +2144,7 @@
       "A": "Quần chúng nhân dân",
       "B": "Các cá nhân kiệt xuất, các vĩ nhân",
       "C": "Giai cấp thống trị",
-      "D": "Tang lớp tri thức trong xã hội ---"
+      "D": "Tang lớp tri thức trong xã hội"
     },
     "question": "Chọn câu trả lời đúng theo quan điểm duy vật lich sử: Chủ thể sáng tạo chân chính ra lịch sử là:",
     "correctAnswers": [
@@ -2062,12 +2192,12 @@
   {
     "page": 36,
     "options": {
-      "A": "Nguồn góc và động lực tiền bộ của xã hội",
+      "A": "Nguồn góc và động lực tiến bộ của xã hội",
       "B": "Động lực phát triển của mọi xã hội",
       "C": "Một trong những phương thức, động lực phát triển xã hội",
-      "D": "Phương thức, động lực cơ bản nhất của sự phát triển xã hội trong điều kiện xã hội có sự phân hóa thành đồi kháng giai cấp ---"
+      "D": "Phương thức, động lực cơ bản nhất của sự phát triển xã hội trong điều kiện xã hội có sự phân hóa thành đồi kháng giai cấp"
     },
-    "question": "Chọn câu trả lời đúng, day đủ nhất theo quan niệm duy vật lịch sử: Cách mạng (Kiều hỏi khác: Theo quan điểm của chủ nghĩa duy vật xã hội giữ vai trò là lịch sử, cách mạng xã hội giữa vai trò gi?)",
+    "question": "Chọn câu trả lời đúng, day đủ nhất theo quan niệm duy vật lịch sử: Cách mạng xã hội giữ vai trò là (Kiểu hỏi khác: Theo quan điểm của chủ nghĩa duy vật lịch sử, cách mạng xã hội giữa vai trò gi?)",
     "correctAnswers": [
       "D"
     ]
@@ -2129,7 +2259,7 @@
       "A": "Chủ nghĩa duy tâm",
       "B": "Chủ nghĩa duy vật siêu hình",
       "C": "Chủ nghĩa duy vật lịch sử",
-      "D": "Chủ nghĩa duy vật ---"
+      "D": "Chủ nghĩa duy vật"
     },
     "question": "Quan niệm cho rằng \"suy nghĩ của những người sống trong túp lều tranh luôn luôn khác với suy nghĩ của những kẻ sống trong cung điện\" là quan điểm của",
     "correctAnswers": [
@@ -2144,7 +2274,7 @@
       "C": "Sự nỗ lực của cá nhân",
       "D": "Giáo dục nhà trường Một sinh viên chuẩn bị bài thuyết trình Quy luật lượng chất trong một tháng theo cách thức: Tuần đầu phác thảo đề cương và hàng ngày dành 30 phút sửa chữa bd sung hoàn thiện.Vào buổi thuyết trình sinh viên đã có một bản thảo hoàn chỉnh. Công việc trên đã diễn ra theo quy luật, nguyên lý nào?"
     },
-    "question": "Bảnchấtcủaconngườiđược quyết định bởi",
+    "question": "Bản chất của con người được quyết định bởi",
     "correctAnswers": [
       "A"
     ]
@@ -2168,7 +2298,7 @@
       "A": "Quy luật thống nhất và đầu tranh của các mặt đồi lập",
       "B": "Quy luật về chuyễn hóa sự thay đổi về lượng dẫn đến sự thay đồi về chất và ngược lại",
       "C": "Quy luật phủ định của phủ định",
-      "D": "Quy luật về sự phù hợp của QHSX và trình độ LLSX ---"
+      "D": "Quy luật về sự phù hợp của QHSX và trình độ LLSX"
     },
     "question": "Theo quan điểm của phép biện chứng duy vat thi quy luat nao vach ra khuynh hướng co bản phd biến của sự vận động và phát triển",
     "correctAnswers": [
@@ -2196,7 +2326,7 @@
       "C": "Mối quan hệ giữa người với người trong quá trình phân phái",
       "D": "Mối quan hệ giữa người với người trong quá trình hoạch định"
     },
-    "question": "Kháiniệm quan hé san xuất được hiểUlà",
+    "question": "Khái niệm quan hé san xuất được hiểu là",
     "correctAnswers": [
       "A"
     ]
@@ -2233,7 +2363,7 @@
       "A": "Nhân quả",
       "B": "Tắt nhiên",
       "C": "Đơn nhất",
-      "D": "Hiện thực ---"
+      "D": "Hiện thực"
     },
     "question": "V.I. Lênin cho rằng: Tính....không thể tách rời tính phd bién.",
     "correctAnswers": [
@@ -2259,7 +2389,7 @@
       "A": "Chủ nghĩa Mác là học thuyết do",
       "B": "Chủ nghĩa Mác là học thuyết về sự nghiệp giải phóng giai cấp vô sản và nhân dân lao động.",
       "C": "Chủ nghĩa Mác là thế giới quan và phương pháp luận chung của mọi nhận thức và thực tiễn.",
-      "D": "Chủ nghĩa mác là học thuyết được xây dựng trên cơ sở kế thừa những tỉnh hoa của lịch sử tư tưởng nhân loại và thực tiễn cách mạng ---"
+      "D": "Chủ nghĩa mác là học thuyết được xây dựng trên cơ sở kế thừa những tỉnh hoa của lịch sử tư tưởng nhân loại và thực tiễn cách mạng"
     },
     "question": "Ý thức tôn giáo là niềm tin của một bộ phận nhân dân, thường là yếu tố bền vững nhất trong đời sống tinh thần của mỗi con người, của xã hội là nguyên nhân gì (?) của sự tồn tại tôn giáo?",
     "correctAnswers": [
@@ -2281,14 +2411,27 @@
   {
     "page": 41,
     "options": {
-      "B": "Chủ nghĩa duy vật và chủ nghĩa kinh Mác. nghiệm phê phán. D. Bút ký triết học.)",
-      "A": "Làm gì. C. Ba nguồn góc và ba bộ phận cấu thành chủ nghĩa",
-      "C": "Ba nguồn góc và ba bộ phận cấu thành chủ nghĩa Mác.",
+      "B": "Làm gì?",
+      "A": "Chủ nghĩa duy vật và chủ nghĩa kinh nghiệm phê phán",
+      "C": "Ba nguồn gốc và ba bộ phận cấu thành chủ nghĩa Mác.",
       "D": "Bút ký triết học."
     },
-    "question": "Trong tác phẩm kinh điển nào sau đây, tác phẩm nào thể hiện tập trung việc V.I. (Kiều hỏi khác: Lênin đã kế thừa và phát triển quan niém Trong tác phẩm kinh điền nào sau đây, tác phẩm nào thé của chủ nghĩa Mác về vật chất, về mi hiện tập trung việc V.I. Lênin đã kế thừa và phát trién tư quan hệ giữa vật chất và ý thức, tồn tại tưởng biện chứng trong triết học của G.W.Ph. Hêghen? xã hội và ý thức xã hội: A. Làm gi?",
+    "question": "Trong tác phẩm kinh điển nào sau đây, tác phẩm nào thể hiện tập trung việc V.I. Lênin đã kế thừa và phát triển quan niệm của chủ nghĩa Mác về vật chất, về mối quan hệ giữa vật chất và ý thức, tồn tại xã hội và ý thức xã hội:",
     "correctAnswers": [
       "B"
+    ]
+  },
+  {
+    "page": 41,
+    "options": {
+      "B": "Làm gì?",
+      "A": "Chủ nghĩa duy vật và chủ nghĩa kinh nghiệm phê phán",
+      "C": "Ba nguồn gốc và ba bộ phận cấu thành chủ nghĩa Mác.",
+      "D": "Bút ký triết học."
+    },
+    "question": "Trong tác phẩm kinh điển nào sau đây, tác phẩm nào thể hiện tập trung việc V.I. Lênin đã kế thừa và phát triển tư tưởng biện chứng trong triết học của G.W.Ph. Hêghen?",
+    "correctAnswers": [
+      "D"
     ]
   },
   {
@@ -2322,7 +2465,7 @@
     "options": {
       "A": "Lực lượng sản xuất và quan hệ sản xuất.",
       "B": "Lực lượng sản xuất, quan hệ sản xuất, cơ sở hạ tang.",
-      "C": "Lực lượng sản xuất, quan hệ sản xuất, cơ sở hạ tang, kiến trúc thượng tang ---"
+      "C": "Lực lượng sản xuất, quan hệ sản xuất, cơ sở hạ tang, kiến trúc thượng tang"
     },
     "question": "Phương thức sản xuất bao gồm:",
     "correctAnswers": [
@@ -2396,7 +2539,7 @@
       "A": "Tri thức do các thế hệ trước dé lại",
       "B": "Tri thức được nhiều người công nhận",
       "C": "Thực tiễn",
-      "D": "Lời nói của các vĩ nhân ---"
+      "D": "Lời nói của các vĩ nhân"
     },
     "question": "Theo quan điểm của triết học Mác-Lênin, tiêu chuẩn của chân lý là gì?",
     "correctAnswers": [
@@ -2513,7 +2656,7 @@
       "A": "Phạm trù triết học.",
       "B": "Thực tại khách quan.",
       "C": "Cảm giác.",
-      "D": "Phản ánh. ---"
+      "D": "Phản ánh."
     },
     "question": "Khái niệm trung tâm mà V.I. Lênin sử dụng để định nghĩa về vật chất là?",
     "correctAnswers": [
@@ -2563,7 +2706,7 @@
     "options": {
       "A": "Khả năng",
       "B": "Hiện thực",
-      "C": "Các phương án trả lời đều sai ---"
+      "C": "Các phương án trả lời đều sai"
     },
     "question": "Trong thực tế chúng ta phải dựa vào khả năng hay hiện thực",
     "correctAnswers": [
@@ -2614,7 +2757,7 @@
       "A": "Sự đột biến",
       "B": "Chuyển dần về chất",
       "C": "Hoàn thiện chất",
-      "D": "Quá trình biến đổi về chất diễn ra tại điểm nút ---"
+      "D": "Quá trình biến đổi về chất diễn ra tại điểm nút"
     },
     "question": "Khái niệm \"bước nhảy\"?",
     "correctAnswers": [
@@ -2687,7 +2830,7 @@
     "options": {
       "A": "Chung nhất, khái quát nhất về thế giới",
       "B": "Cụ thể nhất, chỉ tiết nhất về thế giới",
-      "C": "Toàn diện nhất, sâu sắc nhất về thế giới ---"
+      "C": "Toàn diện nhất, sâu sắc nhất về thế giới"
     },
     "question": "Đặc điểm của quy luật triết học mang tính",
     "correctAnswers": [
@@ -2739,7 +2882,7 @@
       "A": "Vấn đề nội dung hình thức",
       "B": "Phạm trù khả năng - hiện thực",
       "C": "Tính nhận quà",
-      "D": "Tính biện chứng ---"
+      "D": "Tính biện chứng"
     },
     "question": "Loại tái sản xuất nào làm tăng sản phẩm chủ yếu do tăng năng suất lao động và hiệu quả sử dụng các nguồn luc?",
     "correctAnswers": [
@@ -2799,13 +2942,26 @@
   {
     "page": 49,
     "options": {
-      "A": "Vận động là phương thức tồn tại của sau đây đóng vai trò là phương thức tôn tại của vật chát? vật chất A. Đứng im",
-      "B": "Không gian, thời gian là những B. Vận động phương thức tồn tại của vật chất C. Không gian",
-      "C": "Vận động phương thức, không gian, D. Thời gian) thời gian là những hình thức tồn tại của vật chất ---"
+      "A": "Vận động là phương thức tồn tại của vật chất",
+      "B": "Không gian, thời gian là những phương thức tồn tại của vật chất",
+      "C": "Vận động phương thức, không gian, thời gian là những hình thức tồn tại của vật chất"
     },
-    "question": "Chọn quan điểm đúng nhất trong các quan điểm sau đây. (Kiều hỏi khác: Theo Triết học Mác - Lênin, yếu tố nào",
+    "question": "Chọn quan điểm đúng nhất trong các quan điểm sau đây",
     "correctAnswers": [
       "A"
+    ]
+  },
+   {
+    "page": 49,
+    "options": {
+      "A": "Đứng im",
+      "B": "Vận động",
+      "C": "Không gian",
+      "D": "Thời gian"
+    },
+    "question": "Theo Triết học Mác - Lênin, yếu tố nào sau đây đóng vai trò là phương thức tồn tại của vật chất?",
+    "correctAnswers": [
+      "B"
     ]
   },
   {
@@ -2854,7 +3010,7 @@
       "C": "Các vật chứa đựng, bảo quản",
       "D": "Kết cầu hạ tầng sản xuất"
     },
-    "question": "Theo quan điểm của KTCT, trong tư liệu lao động bộ phận nào quyết định đến (Cách hỏi khác: Tư liệu lao động gồm có:) năng suất lao động?",
+    "question": "Theo quan điểm của KTCT, trong tư liệu lao động bộ phận nào quyết định đến năng suất lao động? (Cách hỏi khác: Tư liệu lao động gồm có:)",
     "correctAnswers": [
       "A"
     ]
@@ -2877,7 +3033,7 @@
       "A": "Phương pháp quy nạp",
       "B": "Phương pháp diễn dịch",
       "C": "Phương pháp kinh nghiệm",
-      "D": "Phương pháp kinh viện ---"
+      "D": "Phương pháp kinh viện"
     },
     "question": "Phương pháp rút ra kết quả riêng từ những kết luận chung, không tính đến sự tồn tại thực tế của sự vật, được gọi là?",
     "correctAnswers": [
@@ -2939,7 +3095,7 @@
     "options": {
       "A": "Củng có vai trò tổ chức độc quyền",
       "B": "Chiếm đoạt giá trị thăng dư của người khác",
-      "C": "Gây thiệt hại cho các đồi thủ cạnh tranh ---"
+      "C": "Gây thiệt hại cho các đồi thủ cạnh tranh"
     },
     "question": "Các tổ chức độc quyền sử dụng giá cả độc quyền để",
     "correctAnswers": [
@@ -2988,7 +3144,7 @@
     "options": {
       "A": "Cơ chế thị trường, độc quyền tư nhân và sự can thiệp của nhà nước",
       "B": "Cơ chế thị trường, các nhà tài phiệt và sự điều tiết của nhà nước",
-      "C": "Cơ chế thị trường và độc quyền tư nhân ---"
+      "C": "Cơ chế thị trường và độc quyền tư nhân"
     },
     "question": "Cơ ché kinh té cia CNTB doc quydn nha nước gồm:",
     "correctAnswers": [
@@ -3039,7 +3195,7 @@
       "A": "Là trùng nhau vì đều là hệ thống quan điểm chung về thế giới",
       "B": "Triết học không phải là toàn bộ thế giới quan mà chỉ là hạt nhân lý luận chung nhất của thế giới quan",
       "C": "Không phải mọi triết học đều là hạt nhân lý luận của thế giới quan mà chỉ có triết học Mác - Lênin mới là hạt nhân lý luận của thế giới quan",
-      "D": "Là hoàn toàn khác nhau ---"
+      "D": "Là hoàn toàn khác nhau"
     },
     "question": "Hai khái niệm triết học cùng với thế giới quan...",
     "correctAnswers": [
@@ -3114,7 +3270,7 @@
     "options": {
       "A": "Cái riêng",
       "B": "Cái đơn nhất",
-      "C": "Cái cụ thể ---"
+      "C": "Cái cụ thể"
     },
     "question": "Cái chung chỉ tồn tại trong",
     "correctAnswers": [
@@ -3176,10 +3332,10 @@
   {
     "page": 55,
     "options": {
-      "A": "Phương pháp",
-      "B": "Giải pháp",
-      "C": "Phương châm",
-      "D": "Thực hiện thắng lợi mục tiêu độc lập dân tộc và chủ nghĩa xã hội, xây dựng một xã hội dân giàu, nước mạnh, dân chủ, công bằng, văn minh --- Nếu quá đề cao triét hoc duy tam sé dan a dén"
+      "A": "Thực hiện thắng lợi mục tiêu độc lập dân tộc",
+      "B": "Xây dựng một xã hội phát triển toàn diện",
+      "C": "Đảm bảo sự phát triển toàn diện cho mọi người dân",
+      "D": "Thực hiện thắng lợi mục tiêu độc lập dân tộc và chủ nghĩa xã hội, xây dựng một xã hội dân giàu, nước mạnh, dân chủ, công bằng, văn minh Nếu quá đề cao triét hoc duy tam sé dan a dén"
     },
     "question": "Nội dung cơ bản của cuộc đầu tranh giai cấp trong thời kỳ quá độ lên chủ nghĩa xã hội ở Việt Nam hiện nay là gì?",
     "correctAnswers": [
@@ -3216,7 +3372,7 @@
     "options": {
       "A": "Vật chất là những chất tạo nên vũ trụ",
       "B": "Vật chất là tồn tại khách quan",
-      "C": "Vật chất là thực tại khách quan ---"
+      "C": "Vật chất là thực tại khách quan"
     },
     "question": "Theo quan điểm của Triết học Mác- Lênin, có thé định nghĩa về vật chất như sau:",
     "correctAnswers": [
@@ -3268,7 +3424,7 @@
       "A": "Lượng của sự vật luôn được diễn tả bằng những con số chính xác",
       "B": "Có những lượng không biểu thị yếu tố nào của sự vật",
       "C": "Mỗi sự vật chỉ có một lượng",
-      "D": "Có những lượng biểu thị yếu tố quy định kết cầu bên trong sự vật ---"
+      "D": "Có những lượng biểu thị yếu tố quy định kết cầu bên trong sự vật"
     },
     "question": "Vật chất là tắt cả những gì",
     "correctAnswers": [
@@ -3333,7 +3489,7 @@
       "A": "Đồi tượng lao động",
       "B": "Lực lượng sản xuất",
       "C": "Tư liệu sản xuất",
-      "D": "Công cụ lao động ---"
+      "D": "Công cụ lao động"
     },
     "question": "\"Cái cốixay quay bằngiayđưalạaixãhội có lãnh chúa phong kiến, cái cối xay chạy bằng máy hơi nước đưa xã hội có nhà tư bản công nghiệp\". Thí dụ có hình ảnh trên nhằm nêu bật vai trò quyết định, xét đến cùng, trị sự phát triển là yếu té nào?",
     "correctAnswers": [
@@ -3372,7 +3528,7 @@
       "A": "Vai trò chỉ phối của phương thức sản xuất đối với ý thức xã hội",
       "B": "Vai trò của cơ sở hạ tàng đồi với kiến trúc thượng tang",
       "C": "Vai trò quyết định của ý thức xã hội đối với tồn tại xã hội",
-      "D": "Vai trò quyết định của tồn tại xã hội đối với ý thức xã hội ---"
+      "D": "Vai trò quyết định của tồn tại xã hội đối với ý thức xã hội"
     },
     "question": "\"Phải giải thíchýthứcxãhội bang nhitng mâu thuẫn, những sự xung đột hiện có giữa các lực lượng sản xuất những quan hệ sản xuất của xã hội\". Luận điểm này nhắn mạnh điểm nào trong quan niệm của chủ nghĩa di vật lịch sử?",
     "correctAnswers": [
@@ -3436,7 +3592,7 @@
     "options": {
       "A": "Triết học duy vật",
       "B": "Triết học duy tâm",
-      "C": "Triết học nhị nguyên ---"
+      "C": "Triết học nhị nguyên"
     },
     "question": "Triết học coi vật chất và tinh than cùng quyết định nguồn góc và sự tồn tai của thế giới như nhau gọi là",
     "correctAnswers": [
@@ -3488,7 +3644,7 @@
       "A": "Kinh tế - giai cấp",
       "B": "Lực lượng sản xuất",
       "C": "Tư liệu sản xuất",
-      "D": "Kiến trúc thượng tang ---"
+      "D": "Kiến trúc thượng tang"
     },
     "question": "Về cấu trúc, người lao động thuộc mặt nào trong một phương thức sản xuất?",
     "correctAnswers": [
@@ -3553,7 +3709,7 @@
       "A": "Toàn bộ đời sống tinh thần của xã hội",
       "B": "Toàn bộ điều kiện vật chất của xã hội",
       "C": "Toàn bộ điều kiện tinh thần của xã hội",
-      "D": "Toàn bộ đời sống nói chung của xã hội ---"
+      "D": "Toàn bộ đời sống nói chung của xã hội"
     },
     "question": "Ý thức xã hội là phạm trù triết học dùng để chii",
     "correctAnswers": [
@@ -3605,7 +3761,7 @@
       "A": "Chủ nghĩa xã hội không tưởng Pháp",
       "B": "Chủ nghĩa Duy vật và chủ nghĩa kinh viện phê phán",
       "C": "Chủ nghĩa Duy vật và chủ nghĩa kinh nghiệm phê phán",
-      "D": "Đường Kách Mệnh ---"
+      "D": "Đường Kách Mệnh"
     },
     "question": "Đâu là một trong những tác phẩm của Lénin?",
     "correctAnswers": [
@@ -3670,7 +3826,7 @@
       "A": "Do sự phát triển của lực lượng sản xuất",
       "B": "Cách mạng nỗ ra, những tộc người tan rã",
       "C": "Lao động trí óc đã tách khỏi lao động chân tay",
-      "D": "Phân tích đúng tình hình trên toàn thế giới, sản xuất phát triển ---"
+      "D": "Phân tích đúng tình hình trên toàn thế giới, sản xuất phát triển"
     },
     "question": "Nguồn gốc xã hội dẫn đến sự ra đời của Triết học là?",
     "correctAnswers": [
@@ -3734,7 +3890,7 @@
       "A": "Cái chung",
       "B": "Cái riêng",
       "C": "Cái đơn nhất",
-      "D": "Cái phd biến ---"
+      "D": "Cái phd biến"
     },
     "question": "Khi một sự vật, một hiện tượng mới được nảy sinh thi yếu tố nào sẽ xuất hiện đầu tiên?",
     "correctAnswers": [
@@ -3799,7 +3955,7 @@
       "A": "Tự giác",
       "B": "Tích cực",
       "C": "Sáng tạo",
-      "D": "Chủ quan ---"
+      "D": "Chủ quan"
     },
     "question": "Điền vào chỗ trồng: Chủ nghĩa duy vật biện chứng đã định nghĩa nhận thức là một quá trình phản ánh.... thế giới khách quan vào bộ óc của con người. (Chọn 3 đáp án)",
     "correctAnswers": [
@@ -3879,7 +4035,7 @@
       "A": "Tỉnh khách quan",
       "B": "Tính phd biến",
       "C": "Tính tất yếu",
-      "D": "Tính biện chứng ---"
+      "D": "Tính biện chứng"
     },
     "question": "Những sự vật, hiện tượng nếu có cùng nguyên nhân, trong những điều kiện giống nhau thì sẽ tạo nên kết quả như nhau. Điều này thé hiện tính chất gi trong mi liên hệ nhân quả?",
     "correctAnswers": [
@@ -3983,7 +4139,7 @@
       "A": "Hàng hóa, dịch vụ",
       "B": "Tư liệu sản xuất",
       "C": "Tư liệu tiêu dùng",
-      "D": "Sản xuất vật chất ---"
+      "D": "Sản xuất vật chất"
     },
     "question": "Cơ sở của sự ton tạivàpháttriểncủaxã hội là sản xuất:",
     "correctAnswers": [
@@ -4048,7 +4204,7 @@
       "A": "Thói quen tập quán lâu đời",
       "B": "Ý thức xã hội không phản ánh kịp tôi tại xã hội",
       "C": "Thói quen tập quán lâu đời và ý thức xã hội không phần ánh kịp tồi tại xã hội",
-      "D": "Ý thức xã hội phản ánh tồi tại xã hội và thói quen tập quán ---"
+      "D": "Ý thức xã hội phản ánh tồi tại xã hội và thói quen tập quán"
     },
     "question": "Những ý thức lạc hậu tiêu cực không mất đi một cách dễ dàng, là do:",
     "correctAnswers": [
@@ -4113,7 +4269,7 @@
       "A": "Cái ngẫu nhiên không có nguyên nhân",
       "B": "Chi có cái tất yếu mi có nguyên nhân",
       "C": "Không phải cái gì con người chưa nhận thức được nguyên nhân là cái ngẫu nhiên",
-      "D": "Cái ngẫu nhiên luôn trở thành cái tất nhiên ---"
+      "D": "Cái ngẫu nhiên luôn trở thành cái tất nhiên"
     },
     "question": "Theo quan điểm của chủ nghĩa duy vật biện chứng khẳng định nào sau day là đúng?",
     "correctAnswers": [
@@ -4243,7 +4399,7 @@
       "A": "Một bộ phận của bản chất",
       "B": "Luôn đông nhất với bản chất",
       "C": "Biểu hiện bên ngoài của bản chất",
-      "D": "Kết quà của bản chất ---"
+      "D": "Kết quà của bản chất"
     },
     "question": "Loxip và Đêmôcrít có điểm chung là gì?",
     "correctAnswers": [
@@ -4307,7 +4463,7 @@
       "A": "Phải đặc biệt nhãn mạnh một mặt nào đó, bỏ qua những mặt còn lại",
       "B": "Phải đặt họ vào những điều kiện, thời đại của minh mà đánh giá",
       "C": "Phải đặt họ trong những mỗi quan hệ với những người khác, với những việc khác có thế ảnh hưởng đến sự phát triển của họ mà đánh giá",
-      "D": "Phải xuất phát từ mục đích và lợi ích của họ mà đánh giá ---"
+      "D": "Phải xuất phát từ mục đích và lợi ích của họ mà đánh giá"
     },
     "question": "Khi đánh giá một con người, quan điểm toàn diện đòi hỏi điều gì?",
     "correctAnswers": [
@@ -4383,7 +4539,7 @@
       "A": "Cơ sở hạ tằng",
       "B": "Cơ sở thượng tàng",
       "C": "Quan hệ sản xuất",
-      "D": "Kiến trúc thượng tàng ---"
+      "D": "Kiến trúc thượng tàng"
     },
     "question": "Toàn bộ những chính sách, quan điểm, tư tường, đường lồi chỉ đạo của nhà nước được gọi là gi?",
     "correctAnswers": [
@@ -4461,7 +4617,7 @@
       "A": "Quần chúng nhân dân",
       "B": "Vĩ nhân, lãnh tụ",
       "C": "Tầng lớp trí thức",
-      "D": "Trí thức, vĩ nhân ---"
+      "D": "Trí thức, vĩ nhân"
     },
     "question": "Theo quan điểm của chủ nghĩa duy vật lịch sử, lực lượng chủ thể sáng tạo ra lịch sử là:",
     "correctAnswers": [
@@ -4513,7 +4669,7 @@
       "A": "Duy tâm chủ quan và duy tâm khách quan",
       "B": "Duy tâm biện chứng và duy tâm siêu hình",
       "C": "Duy tâm trung cỗ cận đại và duy tâm cb điển Đức",
-      "D": "Duy tâm khách quan và duy tâm cổ đại ---"
+      "D": "Duy tâm khách quan và duy tâm cổ đại"
     },
     "question": "Các hình thức cơ bản của chủ nghĩa duy tâm:",
     "correctAnswers": [
@@ -4578,7 +4734,7 @@
       "A": "Một đối tượng",
       "B": "Những đặc tính nào đó",
       "C": "Một số mặt nào đó",
-      "D": "Một mặt, một đặc tính nào đó ---"
+      "D": "Một mặt, một đặc tính nào đó"
     },
     "question": "Chủ nghĩa duy tâm có nguồn gốc nhận thức và nguồn góc xã hội là trong quá trình nhân thức nó xem xét phiến diện, tuyệt đổi hóá, thần thánh hóa cái gì của quá trình nhận thức?",
     "correctAnswers": [
@@ -4643,7 +4799,7 @@
       "A": "Sản xuất",
       "B": "Đảm bảo các nhu cầu xã hội",
       "C": "Đảm bảo cân đối cung-cầu",
-      "D": "Sản xuất chính ---"
+      "D": "Sản xuất chính"
     },
     "question": "Cơ sở khách quan của xây dụng liên minh giữa giai cấp công nhàn với giai cấp nông dẫn và các tầng lớp lao động khác trong cách mạng xã hội chủ nghĩa là công nghiệp và nông nghiệp là hai ngành có vai trò như thế nào?",
     "correctAnswers": [
@@ -4720,7 +4876,7 @@
     "options": {
       "B": "Điều kiện",
       "C": "Nguyên cũ",
-      "D": "Y chí ---"
+      "D": "Y chí"
     },
     "question": "Chủ nghĩa duy vật biện chứng khẳng định rằng, nguyên nhân sinh ra kết quả phải có thêm yếu tố nào A Tác động",
     "correctAnswers": [
@@ -4783,7 +4939,7 @@
       "A": "Phương thức sản xuất của nó",
       "B": "Quan hệ sản xuất của nó",
       "C": "Tư liệu sản xuất của nó",
-      "D": "Cơ sở vật chất ---"
+      "D": "Cơ sở vật chất"
     },
     "question": "Theo quan niệm duy vật biện chứng về lịch sử thì đề giải thích đúng đắn các van đề của đời sống xã hội thì phải tim nguyên nhân cuối cùng từ thực trạng phát triển của năm sản xuất vật chất của xã hội đô, mà căn bản là từ trình độ phát triển của",
     "correctAnswers": [
@@ -4847,7 +5003,7 @@
       "A": "Triết học là hạt nhân của tôn giáo",
       "B": "Triết học là hạt nhân của thế giới quan",
       "C": "Triết học là trung tâm của phương pháp luận",
-      "D": "Triết học là hạt nhân của phương pháp luận ---"
+      "D": "Triết học là hạt nhân của phương pháp luận"
     },
     "question": "Đâu là nhận định đúng về Triết học?",
     "correctAnswers": [
@@ -4899,7 +5055,7 @@
       "A": "Quan điểm tôn giáo và duy tâm",
       "B": "Quan điểm duy vật siêu hình và tôn giáo",
       "C": "Quan điểm duy tâm và siêu hình",
-      "D": "Quan điểm duy vật tự nhiên và tầm thường ---"
+      "D": "Quan điểm duy vật tự nhiên và tầm thường"
     },
     "question": "Theo triết học Mác - Lênin, yếu tố nào đóng vai trò quyết định đối với tất cả các mặt của đời sống xã hội?",
     "correctAnswers": [
@@ -5016,7 +5172,7 @@
       "A": "Nhị nguyên luận",
       "B": "Biện chững",
       "C": "Biện chúng luận",
-      "D": "Chủ nghĩa Mác - Lênin ---"
+      "D": "Chủ nghĩa Mác - Lênin"
     },
     "question": "Thừanhậnsựtồntạicủavậtchấtvàtnh thần là bản nguyên có thể cùng quyết định nguồn gốc va sự vận động của thé giới là trường phái nào?",
     "correctAnswers": [
@@ -5081,7 +5237,7 @@
       "A": "Lực lượng sản xuất, kiến trúc thượng tang",
       "B": "Quan hệ kinh tế, lực lượng sản xuất và kiến trúc thượng tang",
       "C": "Quan hệ sản xuất và kiến trúc thượng tang",
-      "D": "Lực lượng sản xuất, quan hệ sản xuất hợp thành cơ cấu kinh tế của xã hội và kiến trúc thượng tang ---"
+      "D": "Lực lượng sản xuất, quan hệ sản xuất hợp thành cơ cấu kinh tế của xã hội và kiến trúc thượng tang"
     },
     "question": "Theo quan điểm của chủ nghĩa duy vật lịch sử, mỗi hình thái kinh tế - xã hội được cầu thành từ những nhân tố nào?",
     "correctAnswers": [
@@ -5146,7 +5302,7 @@
       "A": "Công cụ lao động",
       "B": "Két cầu hạ tang sản xuất",
       "C": "Nhà cửa, kho bãi để chứa đựng, bảo quản",
-      "D": "Quan hệ sản xuất ---"
+      "D": "Quan hệ sản xuất"
     },
     "question": "Bộ phận nào của tư liệu lao động được coi là tiêu chí phản ánh đặc trưng phát triển của một thời đại kinh tế?",
     "correctAnswers": [
@@ -5211,7 +5367,7 @@
       "A": "Nguyên lý duy vật lịch sử",
       "B": "Nguyên lý về mi liên hệ phd biến",
       "C": "Nguyên lý phát triển",
-      "D": "Nguyên lý triết học thực hành ---"
+      "D": "Nguyên lý triết học thực hành"
     },
     "question": "Quan điểm lịch sử cụ thể được rút ra từ nghiên cứu nguyên lý triết học nào sau đây?",
     "correctAnswers": [
@@ -5262,7 +5418,7 @@
       "A": "Nhà nước",
       "B": "Tôn giáo",
       "C": "Ý thức chính trị",
-      "D": "Văn hóa ---"
+      "D": "Văn hóa"
     },
     "question": "Trong sự tác động trở lại của kiến trúc thượng tầng đến cơ sở hạ tang, yếu tó nào có tác động lớn nhất?",
     "correctAnswers": [
@@ -5314,7 +5470,7 @@
       "A": "Tính đa dạng",
       "B": "Tính khách quan",
       "C": "Tính phổ biến",
-      "D": "Tính chung nhất ---"
+      "D": "Tính chung nhất"
     },
     "question": "Theo quan điểm của chủ nghĩa duy vật thi bất ky một sự vat, hiện tượng nào, ở bắt kỳ không gian nào và ở bất kỳ thời gian nào cũng có mỗi liên hệ với những sự vật, hiện tượng khác là biểu hiện tính chất nào của mỗi liên hệ?",
     "correctAnswers": [
@@ -5377,7 +5533,7 @@
       "A": "Đều thực hiện chế độ nhất nguyên chính trị",
       "B": "Không thực hiện chế độ đa nguyên chính trị",
       "C": "Tùy từng nước mà có thể thực hiện chế độ đa nguyên chính trị hay không",
-      "D": "Thực hiện chế độ đa đảng nhưng nhất nguyên chính trị ---"
+      "D": "Thực hiện chế độ đa đảng nhưng nhất nguyên chính trị"
     },
     "question": "Thông thường, trong kiến trúc thượng tang các nhà nước tư bản hiện nay:",
     "correctAnswers": [
@@ -5441,7 +5597,7 @@
       "A": "Chủ nghĩa duy tâm chủ quan",
       "B": "Chủ nghĩa duy tâm khách quan",
       "C": "Chủ nghĩa duy vật siêu hình",
-      "D": "Tắt cà các đáp án đều đúng ---"
+      "D": "Tắt cà các đáp án đều đúng"
     },
     "question": "Luận điểm \"Bản chất là những thực thể tỉnh thần tồn tại khách quan, quyết định sự tồn tại của sự vật\" thuộc lập trường triết học nào?",
     "correctAnswers": [
@@ -5506,7 +5662,7 @@
       "A": "Nền sản xuất vật chất của xã hội",
       "B": "Quan điểm chính trị của giai cấp nắm quyền lực nhà nước",
       "C": "Truyền thống văn hóa xã hội",
-      "D": "Ý trí của mọi thành viên trong cộng đồng xã hội ---"
+      "D": "Ý trí của mọi thành viên trong cộng đồng xã hội"
     },
     "question": "Theo quan điểm của chủ nghĩa duy vật lịch sử, dé giải thích đúng và triệt để các hiện tượng trong đời sống xã hội, can phải xuất phát trừ:",
     "correctAnswers": [
@@ -5571,7 +5727,7 @@
       "A": "Lao động của thễ giới",
       "B": "Sản xuất vật chất",
       "C": "Chủ nghĩa tư bản và chủ nghĩa xã hội",
-      "D": "Tiêu dùng xã hội ---"
+      "D": "Tiêu dùng xã hội"
     },
     "question": "Cơ sở của sự tồn tại, phát triển là gì?",
     "correctAnswers": [
@@ -5636,7 +5792,7 @@
       "A": "Thế kỷ II. TCN",
       "B": "Thế kỷ VIII - VI TCN",
       "C": "Thế kỷ II sau CN",
-      "D": "Thế kỷ VII - VI TCN ---"
+      "D": "Thế kỷ VII - VI TCN"
     },
     "question": "Triết học ra đời vào thời gian nào?",
     "correctAnswers": [
@@ -5688,7 +5844,7 @@
       "A": "Ở Tây Âu thời trung có",
       "B": "Ở Tây Âu thời cb đại",
       "C": "Ở Tây Âu thời cận đại",
-      "D": "Ở Châu Âu thời hiện đại ---"
+      "D": "Ở Châu Âu thời hiện đại"
     },
     "question": "Triết học trở thành nữ tì của thần học trong giai đoạn nào?",
     "correctAnswers": [
@@ -5714,7 +5870,7 @@
       "A": "Một giá trị xã hội phản ánh các quyền cơ bản của con người; là một hình thức tổ chức nhà nước của giai cấp cằm quyền; có quá trình ra đời, phát triển cùng với lịch sử xã hội nhân loại",
       "B": "Một giá trị xã hội phản ánh các quyền cơ bản của con người; là một hình thức tổ chức nhà nước của giai cấp tư sản cầm quyền; có quá trình ra đời, phát triển cùng với lịch sử xã hội nhân loại",
       "C": "Một giá trị xã hội phản ánh các quyền cơ bản của con người; là một hình thức tố chức nhà nước của giai cấp thống trị cầm quyền; có quá trình ra đời, phát triên từ xã hội chiếm hữu nô lệ",
-      "D": "Một giá trị xã hội phản ánh các quyền cơ bản của con người; là một hình thức tổ chức nhà nước của giai cấp vô sản cầm quyền; có quá trình ra đời, phát triễn cùng với lịch sử xã hội nhân loại ---"
+      "D": "Một giá trị xã hội phản ánh các quyền cơ bản của con người; là một hình thức tổ chức nhà nước của giai cấp vô sản cầm quyền; có quá trình ra đời, phát triễn cùng với lịch sử xã hội nhân loại"
     },
     "question": "Dân chủ được hiểu là gi?",
     "correctAnswers": [
@@ -5753,7 +5909,7 @@
       "A": "Là thế giới quan khoa học cho hoạt động thực tiễn",
       "B": "Là phương pháp luận biện chứng cho nhận thức khoa học",
       "C": "Là chìa khóa vạn năng dé giải quyết mọi vấn đề",
-      "D": "Là nền tảng tư tưởng, kim chỉ nam cho hành động ---"
+      "D": "Là nền tảng tư tưởng, kim chỉ nam cho hành động"
     },
     "question": "Nhận định nào sau đây là sai khi nói về vị trí, vai trò của Triết học Mác - Lênin trong đời sống xã hội và trong sự nghiệp đổi mới ở Việt Nam hiện nay?2",
     "correctAnswers": [
@@ -5804,7 +5960,7 @@
     "options": {
       "A": "Là cái chung",
       "B": "Là cái tắt yếu",
-      "C": "Vừa là cái chung vừa là cái tất yếu ---"
+      "C": "Vừa là cái chung vừa là cái tất yếu"
     },
     "question": "Nhu cầu ăn, mặc, ở, học tap của con người là",
     "correctAnswers": [
@@ -5869,7 +6025,7 @@
       "A": "Tôn giáo",
       "B": "Đảng phái",
       "C": "Nhà nước",
-      "D": "Nhóm xã hội ---"
+      "D": "Nhóm xã hội"
     },
     "question": "Theo quan điểm duy vật lịch sử, phạm trù nào sau đây ra đời là kết qua của những mâu thuẫn giai cấp không thể điều hòa được?",
     "correctAnswers": [
@@ -5895,7 +6051,7 @@
       "A": "Cho rằng đầu óc con người quyết định tắt cả hoạt động của con người",
       "B": "Cho rằng con người có thể biết được thế giới khi ở trong bồn bức tường trắng",
       "C": "Cho rằng ý thức con người chi phái hoạt động của bản thân họ",
-      "D": "Cho rằng tinh than khách quan chi phối hoạt động của con người ---"
+      "D": "Cho rằng tinh than khách quan chi phối hoạt động của con người"
     },
     "question": "Chủ nghĩa duy tâm khách quan có tư tưởng như thế nào?",
     "correctAnswers": [
@@ -5947,7 +6103,7 @@
       "A": "Phát triển của phương thức sử dụng lao động",
       "B": "Phát triển của các nguồn lực sử dụng trong quá trình sản xuất",
       "C": "Phát triển của lực lượng sản xuất",
-      "D": "Phát triển của quan hệ sản xuất ---"
+      "D": "Phát triển của quan hệ sản xuất"
     },
     "question": "Theo quan điểm của chủ nghĩa duy vật lich sử, thì suy đến cùng, trình độ phát triển của nền sản xuất ra của cải vật chất của xã hội được quyết định bởi trình độ:",
     "correctAnswers": [
@@ -5999,7 +6155,7 @@
       "A": "Hiện thực và bỏ qua các khả năng",
       "B": "Mối quan hệ giữa khả năng và hiện thực",
       "C": "Hiện thực vì khả năng là cái chưa tồn tại",
-      "D": "Khả năng vì khả năng có thể chữa hiện thực ---"
+      "D": "Khả năng vì khả năng có thể chữa hiện thực"
     },
     "question": "Ý nghĩa phương pháp luận rút ra từ việc nghiên cứu cặp phạm trủ khả năng - hiện thực là trong thực tế, chúng ta phải dựa vào điều gì sau đây?",
     "correctAnswers": [
@@ -6052,7 +6208,7 @@
       "A": "Khoa học",
       "B": "Sản xuất vật chất",
       "C": "Thực nghiệm khoa học",
-      "D": "Nghiên cứu khoa học ---"
+      "D": "Nghiên cứu khoa học"
     },
     "question": "Loại hình hoạt động thực tiền nhằm mục dich cải biến các đồi tượng của gibi tự nhiên theo nhu cầu tồn tại và phát triển của con người và xã hội là gì?",
     "correctAnswers": [
@@ -6104,7 +6260,7 @@
       "A": "Sự chuyển biến dần bộ óc của loài vượn người thành bộ óc con người",
       "B": "Sự chuyễn biến dần tâm lý động vật thành ý thức con người",
       "C": "Sự chuyễn biến hay mã hóa các đối tượng tỉnh thần phi vật chất thành các ý tưởng vật chất",
-      "D": "Sự chuyển biến mô hình từ tư duy đến hình ảnh tinh than ---"
+      "D": "Sự chuyển biến mô hình từ tư duy đến hình ảnh tinh than"
     },
     "question": "Theo chủ nghĩa duy vật biện chứng, lao động và ngôn ngữ là sự kích thích chủ yếu dẫn đến các chuyén biến nào trong các chuyễn biến sau đây?",
     "correctAnswers": [
@@ -6156,7 +6312,7 @@
       "A": "Lợi ích",
       "B": "Pháp luật",
       "C": "Đạo đức",
-      "D": "Tình cảm ---"
+      "D": "Tình cảm"
     },
     "question": "Nền tảng quan hệ giữa cá nhân và xã hội là gì?",
     "correctAnswers": [
@@ -6221,7 +6377,7 @@
       "A": "Duy vật siêu hình",
       "B": "Duy tâm khách quan",
       "C": "Duy tâm chủ quan",
-      "D": "Duy vật máy móc ---"
+      "D": "Duy vật máy móc"
     },
     "question": "Về hình thức cơ bản, loại chủ nghĩa nào khẳng định mọi sự vat, hiện tượng chi là phức hợp những cảm giác của cá nhân, của chủ thể?",
     "correctAnswers": [
@@ -6273,7 +6429,7 @@
       "A": "2",
       "B": "3",
       "C": "4",
-      "D": "5 ---"
+      "D": "5"
     },
     "question": "Từ phương diện chính trị và xã hội, nhà nước thực hiện may chức năng?",
     "correctAnswers": [
@@ -6325,7 +6481,7 @@
       "A": "Con người có phải do thần linh tạo nên hay không.",
       "B": "Con người có thể nhận thức được thế giới hay không.",
       "C": "Con người là thực thể xã hội - sinh học.",
-      "D": "Bản nguyên của thế giới là vật chất hay ý thức. ---"
+      "D": "Bản nguyên của thế giới là vật chất hay ý thức."
     },
     "question": "Lý luận nhận thức ra đời dé trả lời câu hỏi nào dưới đây? (Lựa chọn phương án đúng nhất)",
     "correctAnswers": [
@@ -6377,7 +6533,7 @@
       "A": "Một nguyên nhân chỉ có thể đưa đến một kết quả",
       "B": "Nguyên nhân khác nhau cũng có thể đưa đến kết quả như nhau",
       "C": "Nguyên nhân giống nhau trong điều kiện giống nhau luôn luôn đưa đến kết quả như nhau",
-      "D": "Nguyên nhân khác nhau thì đưa ra kết quả không giống nhau ---"
+      "D": "Nguyên nhân khác nhau thì đưa ra kết quả không giống nhau"
     },
     "question": "Theo quan điễm của chủ nghĩa duy vật biện chững, luận điêm nào sau đây chưa đúng?",
     "correctAnswers": [
@@ -6414,7 +6570,7 @@
       "A": "Vì bản thân triết học chính là thê giới quan",
       "B": "Vì thế giới quan triết học như thế nào sẽ quy định các thế giới quan và các quan niệm khác như thế",
       "C": "Vì triết học bao giờ cũng là thành phần quan trọng, đóng vai trò là nhân tó cốt lõi trong các thế giới quan khác",
-      "D": "Vì triết học luôn luôn ảnh hưỡng và chi phối một cách tự giác đối với các loại thế giới quan ---"
+      "D": "Vì triết học luôn luôn ảnh hưỡng và chi phối một cách tự giác đối với các loại thế giới quan"
     },
     "question": "Vì sao nói triết học là hạt nhân của thé giối quan? Lựa chon 3 đáp án đúng.",
     "correctAnswers": [
@@ -6482,7 +6638,7 @@
       "A": "Đức",
       "B": "Áo",
       "C": "Liên Xô",
-      "D": "Tiệp Khắc ---"
+      "D": "Tiệp Khắc"
     },
     "question": "\"Triết học\" là thuật ngữ được sử dụng lần đầu tiên trong trường phái nào?",
     "correctAnswers": [
@@ -6536,7 +6692,7 @@
       "A": "Biện chứng chủ quan",
       "B": "Biện chứng khách quan",
       "C": "Siêu hình học",
-      "D": "Ý muốn con người ---"
+      "D": "Ý muốn con người"
     },
     "question": "Phép biện chứng là phương pháp nghiên cứu, khái quát thế giới thành hệ thống các nguyên lý, quy luật là phép biện chứng gì?",
     "correctAnswers": [
@@ -6588,7 +6744,7 @@
       "A": "Có. Vì nó được con người dạy",
       "B": "Không. Vì nó không được dạy",
       "C": "Có. Vì nó được rèn luyện qua quá trình tiếp xúc với con người",
-      "D": "Không. Vì nó chỉ có bản năng ---"
+      "D": "Không. Vì nó chỉ có bản năng"
     },
     "question": "Con chó, con mèo có ý thức không?",
     "correctAnswers": [
@@ -6601,7 +6757,7 @@
       "A": "Những điều kiện lịch sử cụ thể",
       "B": "Vai trò lịch sử của giai cấp đại diện cho ngọn cờ tư tưởng đó",
       "C": "Trình độ phản ánh và sức lan tỏa của ý thức đối với các nhu cầu khác nhau của sự phát triển xã hội",
-      "D": "Các quan hệ chính trị vốn là cơ sở hình thành các hình thái ý thức xã hội ---"
+      "D": "Các quan hệ chính trị vốn là cơ sở hình thành các hình thái ý thức xã hội"
     },
     "question": "Theo chủ nghĩa duy vật lịch sử, sự tác động trở lại đối với tồn tại xã hội của các hình thái ý thức xã hội mạnh hay yếu còn phụ thuộc vào yếu tố nào? Chọn 3 đáp án đúng.",
     "correctAnswers": [
