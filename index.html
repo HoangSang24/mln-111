@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizlet MLN111 - Chuẩn Nhung Hoàng</title>
+    <meta name="description"
+        content="Ứng dụng học tập thông minh cho học phần MLN111. Học bằng Thẻ ghi nhớ, làm trắc nghiệm và theo dõi tiến trình học tập của bạn.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        rel="stylesheet">
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body class="dark-theme">
+    <div class="app-container">
+        <!-- Sidebar / Navigation -->
+        <aside class="sidebar">
+            <div class="brand">
+                <div class="logo-icon">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                </div>
+                <div class="brand-text">
+                    <h1>QUIZLET</h1>
+                    <span class="sub-brand">MLN111</span>
+                </div>
+            </div>
+
+            <nav class="nav-menu">
+                <button id="mode-flashcard" class="nav-item active" onclick="switchMode('flashcard')">
+                    <i class="fa-solid fa-clone"></i>
+                    <span>Thẻ ghi nhớ</span>
+                </button>
+                <button id="mode-quiz" class="nav-item" onclick="switchMode('quiz')">
+                    <i class="fa-solid fa-circle-question"></i>
+                    <span>Trắc nghiệm</span>
+                </button>
+                <button id="mode-list" class="nav-item" onclick="switchMode('list')">
+                    <i class="fa-solid fa-list-ul"></i>
+                    <span>Danh sách câu hỏi</span>
+                </button>
+            </nav>
+
+            <div class="progress-section">
+                <h3>Tiến trình học</h3>
+                <div class="progress-bar-container">
+                    <div id="global-progress-bar" class="progress-bar" style="width: 0%"></div>
+                </div>
+                <div class="progress-stats">
+                    <span>Đã học: <strong id="stats-learned-count">0</strong>/<span
+                            class="total-q-count">512</span></span>
+                    <span id="stats-percent">0%</span>
+                </div>
+            </div>
+
+            <div class="sidebar-footer">
+                <div id="save-status" class="save-status">
+                    <span class="dot green"></span>
+                    <span>Tự động lưu tiến độ</span>
+                </div>
+                <button id="theme-toggle" class="theme-toggle-btn" onclick="toggleTheme()">
+                    <i class="fa-solid fa-moon"></i>
+                    <span id="theme-text">Chế độ tối</span>
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Header / Dashboard Bar -->
+            <header class="top-bar">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" id="search-input" placeholder="Tìm kiếm câu hỏi..." oninput="handleSearch()">
+                </div>
+
+                <div class="filters">
+                    <!-- Page Range Filter -->
+                    <div class="filter-select-wrapper">
+                        <i class="fa-solid fa-book-open"></i>
+                        <select id="page-filter" onchange="handlePageFilter()">
+                            <option value="all">Tất cả trang (1-123)</option>
+                            <!-- Options generated dynamically -->
+                        </select>
+                    </div>
+
+                    <!-- Starred Only Toggle -->
+                    <button id="star-filter-btn" class="star-filter-btn" onclick="toggleStarFilter()">
+                        <i class="fa-regular fa-star"></i>
+                        <span>Đã đánh dấu (<span id="starred-count">0</span>)</span>
+                    </button>
+
+                    <!-- Reset Progress Button -->
+                    <button class="reset-progress-btn" onclick="resetProgress()" title="Xóa tiến trình học">
+                        <i class="fa-solid fa-rotate-left"></i>
+                    </button>
+                </div>
+            </header>
+
+            <!-- Dashboard Content Areas -->
+            <div class="content-wrapper">
+
+                <!-- 1. FLASHCARD MODE -->
+                <section id="section-flashcard" class="mode-section active">
+                    <div class="card-deck-container">
+                        <!-- Flashcard Core -->
+                        <div class="flashcard-wrapper">
+                            <div class="flashcard" id="main-flashcard" onclick="flipCard()">
+                                <!-- Front of the card -->
+                                <div class="card-side card-front">
+                                    <div class="card-header-info">
+                                        <span class="card-page-label">Trang <span id="card-page-num">1</span></span>
+                                        <button class="card-star-btn"
+                                            onclick="event.stopPropagation(); toggleStarCurrent()">
+                                            <i class="fa-regular fa-star" id="card-star-icon"></i>
+                                        </button>
+                                    </div>
+                                    <div class="card-content-text">
+                                        <p id="card-question-text">Câu hỏi...</p>
+                                        <div class="options-container-front" id="card-options-front"></div>
+                                    </div>
+                                    <div class="card-footer-tip">
+                                        <i class="fa-solid fa-arrows-rotate"></i>
+                                        <span>Click vào thẻ để lật xem đáp án</span>
+                                    </div>
+                                </div>
+
+                                <!-- Back of the card -->
+                                <div class="card-side card-back">
+                                    <div class="card-header-info">
+                                        <span class="card-page-label">Đáp án đúng</span>
+                                        <button class="card-star-btn"
+                                            onclick="event.stopPropagation(); toggleStarCurrent()">
+                                            <i class="fa-regular fa-star" id="card-star-icon-back"></i>
+                                        </button>
+                                    </div>
+                                    <div class="card-content-text">
+                                        <p class="back-question" id="card-question-text-back">Câu hỏi...</p>
+                                        <div class="options-container-back" id="card-options-back">
+                                            <!-- Options generated dynamically -->
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Flashcard Controls -->
+                        <div class="deck-controls">
+                            <button class="control-btn" id="btn-show-options-front" onclick="toggleOptionsOnFront()"
+                                title="Hiện lựa chọn ở mặt trước">
+                                <i class="fa-solid fa-list-check"></i>
+                            </button>
+                            <button class="control-btn" id="btn-shuffle" onclick="shuffleDeck()" title="Trộn câu hỏi">
+                                <i class="fa-solid fa-shuffle"></i>
+                            </button>
+                            <button class="control-btn nav-btn" onclick="prevCard()">
+                                <i class="fa-solid fa-arrow-left"></i>
+                            </button>
+                            <span class="deck-counter">
+                                <span id="current-card-num">0</span> / <span id="total-card-num">0</span>
+                            </span>
+                            <button class="control-btn nav-btn" onclick="nextCard()">
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+                            <button class="control-btn" id="btn-mark-learned" onclick="markCurrentAsLearned()"
+                                title="Đánh dấu đã thuộc">
+                                <i class="fa-regular fa-circle-check"></i>
+                            </button>
+                        </div>
+
+                        <!-- Keyboard shortcuts help -->
+                        <div class="keyboard-shortcuts">
+                            <span><kbd>←</kbd> Trước</span>
+                            <span><kbd>→</kbd> Tiếp theo</span>
+                            <span><kbd>Space</kbd> Lật thẻ</span>
+                            <span><kbd>S</kbd> Đánh dấu</span>
+                            <span><kbd>L</kbd> Đã thuộc</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 2. QUIZ MODE -->
+                <section id="section-quiz" class="mode-section">
+                    <div class="quiz-container">
+                        <!-- Sub-mode selectors -->
+                        <div class="quiz-mode-header">
+                            <div class="quiz-mode-tabs">
+                                <button id="quiz-tab-study" class="quiz-mode-tab active"
+                                    onclick="switchQuizSubMode('study')">
+                                    <i class="fa-solid fa-book"></i> Học trắc nghiệm
+                                </button>
+                                <button id="quiz-tab-exam" class="quiz-mode-tab" onclick="switchQuizSubMode('exam')">
+                                    <i class="fa-solid fa-file-signature"></i> Thi thử
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Scoreboard -->
+                        <div class="quiz-scoreboard" id="quiz-scoreboard">
+                            <div class="score-card">
+                                <span class="label">Đúng</span>
+                                <span class="value correct" id="quiz-correct-count">0</span>
+                            </div>
+                            <div class="score-card">
+                                <span class="label">Sai</span>
+                                <span class="value incorrect" id="quiz-incorrect-count">0</span>
+                            </div>
+                            <div class="score-card" id="quiz-score-card">
+                                <span class="label">Điểm số</span>
+                                <span class="value score" id="quiz-score-percent">0.0 / 10</span>
+                            </div>
+                        </div>
+
+                        <!-- Exam Progress Bar -->
+                        <div class="exam-progress-bar-wrapper hidden" id="exam-progress-wrapper">
+                            <div class="exam-progress-info">
+                                <span>Đã trả lời: <strong id="exam-answered-count">0</strong> / <strong
+                                        id="exam-total-count">0</strong></span>
+                            </div>
+                            <div class="exam-progress-track">
+                                <div class="exam-progress-fill" id="exam-progress-fill" style="width: 0%"></div>
+                            </div>
+                        </div>
+
+                        <!-- Quiz Core -->
+                        <div class="quiz-card-wrapper" id="quiz-main-card">
+                            <div class="quiz-question-header">
+                                <span class="quiz-page-label">Trang <span id="quiz-page-num">1</span></span>
+                                <button class="quiz-star-btn" onclick="toggleStarQuizCurrent()">
+                                    <i class="fa-regular fa-star" id="quiz-star-icon"></i>
+                                </button>
+                            </div>
+                            <h2 class="quiz-question" id="quiz-question-text">Câu hỏi trắc nghiệm sẽ hiện ở đây...</h2>
+
+                            <div class="quiz-options" id="quiz-options-container">
+                                <!-- Quiz options generated dynamically -->
+                            </div>
+
+                            <div class="quiz-feedback hidden" id="quiz-feedback-box">
+                                <div class="feedback-content">
+                                    <i id="feedback-icon" class="fa-solid"></i>
+                                    <span id="feedback-message">Giải thích đáp án...</span>
+                                </div>
+                            </div>
+
+                            <!-- Quiz Navigation Controls -->
+                            <div class="quiz-controls" id="quiz-controls-bar">
+                                <button class="control-btn nav-btn" id="quiz-prev-btn-nav" onclick="prevQuizQuestion()"
+                                    title="Câu trước">
+                                    <i class="fa-solid fa-arrow-left"></i>
+                                </button>
+                                <span class="deck-counter">
+                                    <span id="current-quiz-num">0</span> / <span id="total-quiz-num">0</span>
+                                </span>
+                                <button class="control-btn nav-btn" id="quiz-next-btn-nav" onclick="nextQuizQuestion()"
+                                    title="Câu tiếp theo">
+                                    <i class="fa-solid fa-arrow-right"></i>
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Exam Setup Card -->
+                        <div id="quiz-exam-setup" class="quiz-setup-card hidden">
+                            <h2><i class="fa-solid fa-file-signature"></i> Thi thử MLN111</h2>
+                            <p>Hệ thống sẽ tự động tạo ngẫu nhiên một đề thi trắc nghiệm từ bộ câu hỏi thuộc trang đang
+                                lọc.</p>
+
+                            <div class="setup-group">
+                                <label for="exam-q-count">Số lượng câu hỏi trong đề:</label>
+                                <div class="input-with-button">
+                                    <input type="number" id="exam-q-count" min="5" max="200" value="60">
+                                    <span class="input-suffix">câu</span>
+                                </div>
+                            </div>
+
+                            <button class="start-exam-btn" onclick="startExam()">
+                                <i class="fa-solid fa-play"></i> Bắt đầu làm bài
+                            </button>
+                        </div>
+
+                        <!-- Exam Result Card -->
+                        <div id="quiz-exam-result" class="quiz-result-card hidden">
+                            <div class="result-badge-container">
+                                <div class="result-badge" id="exam-result-score">0.0</div>
+                                <span class="result-badge-label">Điểm số (Thang điểm 10)</span>
+                            </div>
+
+                            <h2 id="exam-result-title">Hoàn thành bài thi!</h2>
+
+                            <div class="result-details">
+                                <div class="result-detail-item">
+                                    <span class="label">Số câu đúng</span>
+                                    <span class="value correct" id="exam-correct-detail">0</span>
+                                </div>
+                                <div class="result-detail-item">
+                                    <span class="label">Số câu sai</span>
+                                    <span class="value incorrect" id="exam-incorrect-detail">0</span>
+                                </div>
+                                <div class="result-detail-item">
+                                    <span class="label">Tổng số câu</span>
+                                    <span class="value" id="exam-total-detail">60</span>
+                                </div>
+                            </div>
+
+                            <div class="result-actions">
+                                <button class="exam-action-btn primary" onclick="startExam()">
+                                    <i class="fa-solid fa-rotate-left"></i> Làm đề mới
+                                </button>
+                                <button class="exam-action-btn review" onclick="toggleExamReview()">
+                                    <i class="fa-solid fa-list-check"></i> Xem lại đề thi
+                                </button>
+                                <button class="exam-action-btn secondary" onclick="exitExam()">
+                                    <i class="fa-solid fa-xmark"></i> Thoát thi thử
+                                </button>
+                            </div>
+                        </div>
+
+                        <!-- Exam Review Panel -->
+                        <div id="exam-review-panel" class="exam-review-panel hidden">
+                            <div class="exam-review-header">
+                                <h3><i class="fa-solid fa-list-check"></i> Xem lại toàn bộ đề thi</h3>
+                                <button class="review-close-btn" onclick="toggleExamReview()">
+                                    <i class="fa-solid fa-chevron-up"></i> Thu gọn
+                                </button>
+                            </div>
+                            <div id="exam-review-list"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- 3. LIST MODE -->
+                <section id="section-list" class="mode-section">
+                    <div class="list-container">
+                        <div class="list-controls-bar">
+                            <div class="stats-pill">
+                                <i class="fa-solid fa-circle-info"></i>
+                                <span>Tìm thấy <strong id="list-total-count">0</strong> câu hỏi thỏa mãn bộ lọc</span>
+                            </div>
+                            <button class="list-toggle-answers-btn" onclick="toggleAllListAnswers()">
+                                <i class="fa-solid fa-eye"></i>
+                                <span id="toggle-answers-text">Hiện tất cả đáp án</span>
+                            </button>
+                        </div>
+
+                        <div class="questions-list" id="questions-list-element">
+                            <!-- List of questions generated dynamically -->
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </main>
+    </div>
+
+    <!-- Custom Confirmation Modal -->
+    <div id="custom-confirm-modal" class="modal-overlay hidden">
+        <div class="modal-card">
+            <div class="modal-icon">
+                <i class="fa-solid fa-triangle-exclamation"></i>
+            </div>
+            <h2 id="modal-title">Xác nhận đặt lại</h2>
+            <p id="modal-message">Bạn có chắc chắn muốn đặt lại toàn bộ tiến trình và bắt đầu học lại từ đầu không? Thao tác này sẽ xóa tất cả câu hỏi đã thuộc, các câu hỏi đã đánh dấu và đáp án trắc nghiệm đã trả lời.</p>
+            <div class="modal-actions">
+                <button id="modal-cancel-btn" class="modal-btn secondary">Hủy bỏ</button>
+                <button id="modal-confirm-btn" class="modal-btn primary">Đồng ý</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Data & Script files -->
+    <script src="questions.js"></script>
+    <script src="app.js"></script>
+</body>
+
+</html>
