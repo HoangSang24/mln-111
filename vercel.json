@@ -3,7 +3,17 @@
     "builds": [
         {
             "src": "server.js",
-            "use": "@vercel/node"
+            "use": "@vercel/node",
+            "config": {
+                "includeFiles": [
+                    "index.html",
+                    "index.css",
+                    "app.js",
+                    "questions.js",
+                    "questions.json",
+                    "MLN.md"
+                ]
+            }
         }
     ],
     "routes": [
