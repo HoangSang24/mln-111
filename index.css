@@ -1715,15 +1715,61 @@ body.light-theme .quiz-option-letter {
     }
 
     .flashcard-wrapper {
-        height: 380px;
+        /* Allow card to grow with content on mobile */
+        height: auto;
+        min-height: 340px;
+        perspective: 1200px;
     }
-    
+
+    /* On mobile, disable 3D flip and use visibility toggle instead
+       so the card can be natural height and scroll */
+    .flashcard {
+        position: relative;
+        transform-style: flat;
+        transition: none;
+        height: auto;
+    }
+
+    .flashcard.flipped {
+        transform: none;
+    }
+
     .card-side {
-        padding: 24px;
+        position: relative;
+        backface-visibility: visible;
+        height: auto;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    /* Hide/show sides with opacity + display instead of 3D flip */
+    .card-front {
+        display: flex;
+    }
+
+    .card-back {
+        display: none;
+        transform: none;
+    }
+
+    .flashcard.flipped .card-front {
+        display: none;
+    }
+
+    .flashcard.flipped .card-back {
+        display: flex;
+    }
+
+    .card-content-text {
+        overflow-y: visible;
+        justify-content: flex-start;
+        padding: 12px 0;
     }
 
     #card-question-text {
-        font-size: 19px;
+        font-size: 17px;
     }
     
     .back-question {
@@ -1742,6 +1788,10 @@ body.light-theme .quiz-option-letter {
         width: 22px;
         height: 22px;
         font-size: 11px;
+    }
+
+    .card-footer-tip {
+        margin-top: 12px;
     }
 
     .quiz-card-wrapper {
@@ -1778,14 +1828,23 @@ body.light-theme .quiz-option-letter {
         grid-column: span 2;
     }
     
+    /* Star & Reset buttons: same size, same row, side by side */
     .star-filter-btn {
         justify-content: center;
+        height: 44px;
+        padding: 0 12px;
+        font-size: 13px;
     }
     
     .reset-progress-btn {
-        grid-column: span 2;
+        /* Remove span 2 - stay in its own cell next to star btn */
         width: 100%;
+        height: 44px;
+        padding: 0;
         border-radius: var(--radius-sm);
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .deck-controls {
