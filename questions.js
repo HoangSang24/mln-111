@@ -1,4 +1,4 @@
-const QUESTIONS = [
+var QUESTIONS = [
   {
     "page": 1,
     "question": "Xanh-ximông là đại biểu của trường phải nào?",
@@ -7576,4 +7576,4 @@ const QUESTIONS = [
       "C"
     ]
   }
-];
+]; if (typeof window !== 'undefined') window.QUESTIONS = QUESTIONS;

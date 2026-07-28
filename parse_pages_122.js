@@ -120,7 +120,7 @@ function compile() {
     const jsPath = path.join(__dirname, 'questions_mln122.js');
 
     fs.writeFileSync(jsonPath, JSON.stringify(allQuestions, null, 2), 'utf8');
-    fs.writeFileSync(jsPath, `const QUESTIONS_MLN122 = ${JSON.stringify(allQuestions, null, 2)};`, 'utf8');
+    fs.writeFileSync(jsPath, `var QUESTIONS_MLN122 = ${JSON.stringify(allQuestions, null, 2)}; if (typeof window !== 'undefined') window.QUESTIONS_MLN122 = QUESTIONS_MLN122;`, 'utf8');
     console.log('Saved questions_mln122.json and questions_mln122.js successfully!');
 }
 

@@ -1,4 +1,4 @@
-const QUESTIONS_MLN122 = [
+var QUESTIONS_MLN122 = [
   {
     "page": 1,
     "question": "Biểu hiện mới của sự phân chia thị trường giữa các liên minh độc quyền đó là",
@@ -6836,4 +6836,4 @@ const QUESTIONS_MLN122 = [
     ],
     "id": 496
   }
-];
+]; if (typeof window !== 'undefined') window.QUESTIONS_MLN122 = QUESTIONS_MLN122;

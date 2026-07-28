@@ -124,7 +124,7 @@ function compile() {
     const jsPath = path.join(__dirname, 'questions.js');
 
     fs.writeFileSync(jsonPath, JSON.stringify(allQuestions, null, 2), 'utf8');
-    fs.writeFileSync(jsPath, `const QUESTIONS = ${JSON.stringify(allQuestions, null, 2)};`, 'utf8');
+    fs.writeFileSync(jsPath, `var QUESTIONS = ${JSON.stringify(allQuestions, null, 2)}; if (typeof window !== 'undefined') window.QUESTIONS = QUESTIONS;`, 'utf8');
 
     console.log('Successfully written to questions.json and questions.js');
 }

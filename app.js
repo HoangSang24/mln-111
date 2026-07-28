@@ -194,9 +194,15 @@ function switchSubject(subject) {
     state.currentSubject = subject;
     saveToStorage('currentSubject', subject, true);
 
+    // Reset page filter and search query when switching subjects so user doesn't get stuck on invalid page ranges
+    state.pageFilter = 'all';
+    saveToStorage('pageFilter', 'all');
+    state.searchQuery = '';
+    const searchInput = document.getElementById('search-input');
+    if (searchInput) searchInput.value = '';
+
     updateSubjectUI();
 
-    state.pageFilter = loadFromStorage('pageFilter', 'all');
     state.flashcardIndex = loadFromStorage('flashcardIndex', 0);
     state.quizIndex = loadFromStorage('quizIndex', 0);
     state.quizScore = loadFromStorage('quizScore', { correct: 0, incorrect: 0, answered: false, selectedKey: null });
@@ -285,6 +291,7 @@ function generatePageFilterOptions() {
     defaultOpt.textContent = `Tất cả trang (1-${maxPage})`;
     pageSelect.appendChild(defaultOpt);
 
+    const validValues = ['all'];
     const step = 10;
     for (let i = 1; i <= maxPage; i += step) {
         const start = i;
@@ -293,6 +300,12 @@ function generatePageFilterOptions() {
         option.value = `${start}-${end}`;
         option.textContent = `Trang ${start} - ${end}`;
         pageSelect.appendChild(option);
+        validValues.push(option.value);
+    }
+
+    if (!validValues.includes(state.pageFilter)) {
+        state.pageFilter = 'all';
+        saveToStorage('pageFilter', 'all');
     }
 }
 
