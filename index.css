@@ -155,6 +155,89 @@ body {
     text-transform: uppercase;
 }
 
+/* Subject Selector Tabs */
+.subject-section {
+    margin-bottom: 24px;
+}
+
+.subject-label {
+    display: block;
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--text-muted);
+    margin-bottom: 10px;
+    padding-left: 4px;
+}
+
+.subject-tabs {
+    display: flex;
+    gap: 8px;
+    background: rgba(0, 0, 0, 0.25);
+    padding: 6px;
+    border-radius: var(--radius-md);
+    border: 1px solid var(--border-color);
+    backdrop-filter: var(--glass-blur);
+}
+
+body.light-theme .subject-tabs {
+    background: rgba(0, 0, 0, 0.04);
+}
+
+.subject-tab {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 10px;
+    border: 1px solid transparent;
+    border-radius: var(--radius-sm);
+    background: transparent;
+    color: var(--text-muted);
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition-smooth);
+    position: relative;
+    overflow: hidden;
+}
+
+.subject-tab:hover {
+    color: var(--text-main);
+    background: rgba(255, 255, 255, 0.06);
+    border-color: var(--border-color);
+}
+
+body.light-theme .subject-tab:hover {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.subject-tab.active {
+    background: var(--primary-gradient);
+    color: #ffffff;
+    box-shadow: var(--shadow-glow);
+    border-color: transparent;
+}
+
+.subject-code {
+    font-size: 13px;
+    font-weight: 800;
+    letter-spacing: 0.5px;
+}
+
+.subject-badge {
+    font-size: 10px;
+    opacity: 0.85;
+    font-weight: 500;
+    margin-top: 2px;
+}
+
+.subject-tab.active .subject-badge {
+    opacity: 1;
+    font-weight: 600;
+}
+
 .nav-menu {
     display: flex;
     flex-direction: column;
@@ -1279,11 +1362,56 @@ body.light-theme .quiz-option-letter {
     background-color: rgba(16, 185, 129, 0.05);
 }
 
-.quiz-option.disabled {
-    pointer-events: none;
+.multi-select-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: rgba(99, 102, 241, 0.15);
+    border: 1px solid rgba(99, 102, 241, 0.4);
+    color: var(--color-primary);
+    padding: 4px 10px;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 700;
+    margin-left: 10px;
+    vertical-align: middle;
 }
 
-/* Quiz Feedback Box */
+.quiz-option.selected {
+    border-color: var(--color-primary);
+    background-color: rgba(99, 102, 241, 0.15);
+    box-shadow: 0 0 12px rgba(99, 102, 241, 0.2);
+}
+
+.quiz-option.selected .quiz-option-letter {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    color: white;
+}
+
+.confirm-multi-btn {
+    margin-top: 15px;
+    padding: 14px 28px;
+    background: var(--primary-gradient);
+    border: none;
+    border-radius: var(--radius-md);
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    cursor: pointer;
+    box-shadow: var(--shadow-glow);
+    transition: var(--transition-smooth);
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    align-self: flex-start;
+}
+
+.confirm-multi-btn:hover {
+    background: var(--primary-gradient-hover);
+    transform: translateY(-2px);
+}
+
 .quiz-feedback {
     display: flex;
     align-items: center;
@@ -2292,4 +2420,39 @@ body.light-theme .review-option-letter {
 
 .modal-btn.secondary:hover {
     background-color: var(--bg-card-hover);
+}
+
+/* ==========================================================================
+   EXPLANATION BOX STYLING
+   ========================================================================== */
+.card-explanation-box,
+.quiz-explanation-text,
+.list-explanation-text {
+    margin-top: 14px;
+    padding: 12px 16px;
+    background: rgba(99, 102, 241, 0.12);
+    border-left: 4px solid var(--color-primary);
+    border-radius: var(--radius-sm);
+    color: var(--text-main);
+    font-size: 13.5px;
+    line-height: 1.6;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+body.light-theme .card-explanation-box,
+body.light-theme .quiz-explanation-text,
+body.light-theme .list-explanation-text {
+    background: rgba(99, 102, 241, 0.08);
+}
+
+.card-explanation-box i,
+.quiz-explanation-text i,
+.list-explanation-text i {
+    color: var(--color-primary);
+    font-size: 16px;
+    margin-top: 2px;
+    flex-shrink: 0;
 }

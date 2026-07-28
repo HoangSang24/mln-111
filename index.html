@@ -32,6 +32,21 @@
                 </div>
             </div>
 
+            <!-- Subject Selector Tabs -->
+            <div class="subject-section">
+                <span class="subject-label">Môn học</span>
+                <div class="subject-tabs">
+                    <button id="subject-mln111" class="subject-tab active" onclick="switchSubject('MLN111')">
+                        <span class="subject-code">MLN111</span>
+                        <span class="subject-badge" id="badge-mln111">...</span>
+                    </button>
+                    <button id="subject-mln122" class="subject-tab" onclick="switchSubject('MLN122')">
+                        <span class="subject-code">MLN122</span>
+                        <span class="subject-badge" id="badge-mln122">...</span>
+                    </button>
+                </div>
+            </div>
+
             <nav class="nav-menu">
                 <button id="mode-flashcard" class="nav-item active" onclick="switchMode('flashcard')">
                     <i class="fa-solid fa-clone"></i>
@@ -267,7 +282,7 @@
 
                         <!-- Exam Setup Card -->
                         <div id="quiz-exam-setup" class="quiz-setup-card hidden">
-                            <h2><i class="fa-solid fa-file-signature"></i> Thi thử MLN111</h2>
+                            <h2><i class="fa-solid fa-file-signature"></i> Thi thử <span id="exam-subject-title">MLN111</span></h2>
                             <p>Hệ thống sẽ tự động tạo ngẫu nhiên một đề thi trắc nghiệm từ bộ câu hỏi thuộc trang đang
                                 lọc.</p>
 
@@ -375,6 +390,7 @@
 
     <!-- Data & Script files -->
     <script src="questions.js"></script>
+    <script src="questions_mln122.js"></script>
     <script src="app.js"></script>
 </body>
 

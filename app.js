@@ -38,7 +38,9 @@ let state = {
         selectedKey: null
     },
     // List temporary state
-    showListAnswers: false
+    showListAnswers: false,
+    // Pending multi-select set for study mode
+    quizPendingMultiSelect: new Set()
 };
 
 // Assign IDs to all questions on load
@@ -50,19 +52,54 @@ if (typeof QUESTIONS !== 'undefined') {
     window.QUESTIONS = [];
 }
 
+if (typeof QUESTIONS_MLN122 !== 'undefined') {
+    QUESTIONS_MLN122.forEach((q, idx) => {
+        q.id = idx;
+    });
+} else {
+    window.QUESTIONS_MLN122 = [];
+}
+
+// Helper to get active questions array based on current subject
+function getActiveQuestionsSet() {
+    if (state.currentSubject === 'MLN122') {
+        return (typeof QUESTIONS_MLN122 !== 'undefined') ? QUESTIONS_MLN122 : [];
+    }
+    return (typeof QUESTIONS !== 'undefined') ? QUESTIONS : [];
+}
+
+// Helper to compare user answer(s) with correct answer(s)
+function isAnswerCorrect(userAns, correctAnswers) {
+    if (!userAns || !correctAnswers) return false;
+    let userArr = Array.isArray(userAns) ? userAns : userAns.toString().split('');
+    let targetArr = Array.isArray(correctAnswers) ? correctAnswers : correctAnswers.toString().split('');
+    
+    userArr = Array.from(new Set(userArr.map(s => s.trim().toUpperCase()))).sort();
+    targetArr = Array.from(new Set(targetArr.map(s => s.trim().toUpperCase()))).sort();
+    
+    if (userArr.length !== targetArr.length) return false;
+    return userArr.every((val, idx) => val === targetArr[idx]);
+}
+
 // Local Storage Helper
-const STORAGE_PREFIX = 'quizlet_mln111_';
-function saveToStorage(key, value) {
+function getStoragePrefix() {
+    const subj = (state && state.currentSubject) ? state.currentSubject.toLowerCase() : 'mln111';
+    return `quizlet_${subj}_`;
+}
+
+function saveToStorage(key, value, isGlobal = false) {
     try {
-        localStorage.setItem(STORAGE_PREFIX + key, JSON.stringify(value));
+        const prefix = isGlobal ? 'quizlet_global_' : getStoragePrefix();
+        localStorage.setItem(prefix + key, JSON.stringify(value));
     } catch (e) {
         console.error('Error saving to LocalStorage:', e);
     }
 }
 
-function loadFromStorage(key, defaultValue) {
+function loadFromStorage(key, defaultValue, isGlobal = false) {
     try {
-        const item = localStorage.getItem(STORAGE_PREFIX + key);
+        const prefix = isGlobal ? 'quizlet_global_' : getStoragePrefix();
+        const item = localStorage.getItem(prefix + key);
         return item ? JSON.parse(item) : defaultValue;
     } catch (e) {
         console.error('Error loading from LocalStorage:', e);
@@ -75,8 +112,10 @@ function loadFromStorage(key, defaultValue) {
 // ==========================================================================
 document.addEventListener('DOMContentLoaded', () => {
     // 1. Load data from LocalStorage
-    state.theme = loadFromStorage('theme', 'dark');
-    state.activeMode = loadFromStorage('activeMode', 'flashcard');
+    state.theme = loadFromStorage('theme', 'dark', true);
+    state.currentSubject = loadFromStorage('currentSubject', 'MLN111', true);
+    state.activeMode = loadFromStorage('activeMode', 'flashcard', true);
+
     state.pageFilter = loadFromStorage('pageFilter', 'all');
     state.flashcardIndex = loadFromStorage('flashcardIndex', 0);
     state.quizIndex = loadFromStorage('quizIndex', 0);
@@ -109,10 +148,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const savedLearned = loadFromStorage('learned', []);
     state.learnedQuestionIds = new Set(savedLearned);
 
-    // 2. Apply theme
+    // 2. Apply theme & subject UI
     applyTheme();
+    updateSubjectUI();
 
-    // 3. Generate page filter options dynamically (123 pages in blocks of 10)
+    // 3. Generate page filter options dynamically
     generatePageFilterOptions();
 
     // 4. Set page filter dropdown value
@@ -137,18 +177,118 @@ document.addEventListener('DOMContentLoaded', () => {
     document.addEventListener('keydown', handleKeyboardShortcuts);
 });
 
-// Generate page ranges
+// Subject Switching Logic
+function switchSubject(subject) {
+    if (state.currentSubject === subject) return;
+
+    if (state.activeMode === 'flashcard') {
+        state.flashcardIndex = state.currentIndex;
+        saveToStorage('flashcardIndex', state.flashcardIndex);
+    } else if (state.activeMode === 'quiz') {
+        if (state.quizSubMode === 'study') {
+            state.quizIndex = state.currentIndex;
+            saveToStorage('quizIndex', state.quizIndex);
+        }
+    }
+
+    state.currentSubject = subject;
+    saveToStorage('currentSubject', subject, true);
+
+    updateSubjectUI();
+
+    state.pageFilter = loadFromStorage('pageFilter', 'all');
+    state.flashcardIndex = loadFromStorage('flashcardIndex', 0);
+    state.quizIndex = loadFromStorage('quizIndex', 0);
+    state.quizScore = loadFromStorage('quizScore', { correct: 0, incorrect: 0, answered: false, selectedKey: null });
+    state.quizSubMode = loadFromStorage('quizSubMode', 'study');
+    state.exam = loadFromStorage('exam', {
+        running: false,
+        finished: false,
+        questions: [],
+        currentIndex: 0,
+        correct: 0,
+        incorrect: 0,
+        answered: false,
+        selectedKey: null,
+        totalQuestions: 60
+    });
+    state.quizAnswers = loadFromStorage('quizAnswers', {});
+
+    const savedStars = loadFromStorage('starred', []);
+    state.starredQuestionIds = new Set(savedStars);
+    
+    const savedLearned = loadFromStorage('learned', []);
+    state.learnedQuestionIds = new Set(savedLearned);
+
+    if (state.activeMode === 'quiz') {
+        state.currentIndex = (state.quizSubMode === 'exam') ? state.exam.currentIndex : state.quizIndex;
+    } else {
+        state.currentIndex = state.flashcardIndex;
+    }
+
+    generatePageFilterOptions();
+
+    const pageSelect = document.getElementById('page-filter');
+    if (pageSelect) {
+        pageSelect.value = state.pageFilter;
+    }
+
+    buildDeck();
+    renderActiveMode();
+    updateGlobalProgress();
+    updateStarredBtnCounter();
+    flashSaveStatus();
+}
+
+function updateSubjectUI() {
+    document.querySelectorAll('.subject-tab').forEach(tab => {
+        tab.classList.remove('active');
+    });
+    const activeTab = document.getElementById(`subject-${state.currentSubject.toLowerCase()}`);
+    if (activeTab) activeTab.classList.add('active');
+
+    const subBrand = document.querySelector('.sub-brand');
+    if (subBrand) subBrand.textContent = state.currentSubject;
+
+    const examSubjTitle = document.getElementById('exam-subject-title');
+    if (examSubjTitle) examSubjTitle.textContent = state.currentSubject;
+
+    document.title = `Quizlet ${state.currentSubject} - Chuẩn Nhung Hoàng`;
+    updateSubjectBadges();
+}
+
+function updateSubjectBadges() {
+    const badge111 = document.getElementById('badge-mln111');
+    const badge122 = document.getElementById('badge-mln122');
+
+    const count111 = (typeof QUESTIONS !== 'undefined') ? QUESTIONS.length : 0;
+    const count122 = (typeof QUESTIONS_MLN122 !== 'undefined') ? QUESTIONS_MLN122.length : 0;
+
+    if (badge111) badge111.textContent = `${count111} câu`;
+    if (badge122) badge122.textContent = `${count122} câu`;
+}
+
+// Generate page ranges dynamically
 function generatePageFilterOptions() {
     const pageSelect = document.getElementById('page-filter');
     if (!pageSelect) return;
 
-    // We have 123 pages
-    const totalPages = 123;
+    pageSelect.innerHTML = '';
+    const activeSet = getActiveQuestionsSet();
+    let maxPage = 1;
+    activeSet.forEach(q => {
+        if (q.page > maxPage) maxPage = q.page;
+    });
+
+    const defaultOpt = document.createElement('option');
+    defaultOpt.value = 'all';
+    defaultOpt.textContent = `Tất cả trang (1-${maxPage})`;
+    pageSelect.appendChild(defaultOpt);
+
     const step = 10;
-    
-    for (let i = 1; i <= totalPages; i += step) {
+    for (let i = 1; i <= maxPage; i += step) {
         const start = i;
-        const end = Math.min(i + step - 1, totalPages);
+        const end = Math.min(i + step - 1, maxPage);
         const option = document.createElement('option');
         option.value = `${start}-${end}`;
         option.textContent = `Trang ${start} - ${end}`;
@@ -263,7 +403,7 @@ function renderActiveMode() {
 // DATA DECK FILTERS & SHUFFLE
 // ==========================================================================
 function buildDeck() {
-    let filtered = [...QUESTIONS];
+    let filtered = [...getActiveQuestionsSet()];
 
     // 1. Apply page range filter
     if (state.pageFilter !== 'all') {
@@ -459,6 +599,14 @@ function renderFlashcard() {
             <div class="option-text-back">${optionVal}</div>
         `;
         optionsContainer.appendChild(optionPill);
+    }
+
+    // Render explanation on back of card if available
+    if (currentQuestion.explanation) {
+        const expDiv = document.createElement('div');
+        expDiv.className = 'card-explanation-box';
+        expDiv.innerHTML = `<i class="fa-solid fa-circle-info"></i> <span>${currentQuestion.explanation}</span>`;
+        optionsContainer.appendChild(expDiv);
     }
 
     // Toggle Star Active Style
@@ -833,16 +981,19 @@ function renderQuizQuestion() {
         }
 
         // Set question text
-        questionTextEl.textContent = `[Câu ${state.exam.currentIndex + 1}/${state.exam.totalQuestions}] ${q.question}`;
+        const isMulti = q.correctAnswers && q.correctAnswers.length > 1;
+        const badgeHtml = isMulti ? `<span class="multi-select-badge"><i class="fa-solid fa-list-check"></i> Chọn ${q.correctAnswers.length} đáp án</span>` : '';
+        questionTextEl.innerHTML = `[Câu ${state.exam.currentIndex + 1}/${state.exam.totalQuestions}] ${q.question} ${badgeHtml}`;
 
         // Render options
         optionsContainer.innerHTML = '';
+        let userAnsArr = Array.isArray(q.userAnswer) ? q.userAnswer : (q.userAnswer ? q.userAnswer.split('') : []);
         for (let key in q.options) {
             const optionVal = q.options[key];
             
             const optionBtn = document.createElement('button');
             optionBtn.className = 'quiz-option';
-            if (q.userAnswer === key) {
+            if (userAnsArr.includes(key)) {
                 optionBtn.classList.add('selected');
             }
             optionBtn.innerHTML = `
@@ -901,28 +1052,60 @@ function renderQuizQuestion() {
             starIcon.parentElement.classList.remove('active');
         }
 
+        const isMulti = q.correctAnswers && q.correctAnswers.length > 1;
+        const badgeHtml = isMulti ? `<span class="multi-select-badge"><i class="fa-solid fa-list-check"></i> Chọn ${q.correctAnswers.length} đáp án</span>` : '';
+
         // Set question text
-        questionTextEl.textContent = q.question;
+        questionTextEl.innerHTML = `${q.question} ${badgeHtml}`;
 
         // Render options
         optionsContainer.innerHTML = '';
+        const savedAnswer = state.quizAnswers[q.id];
+
         for (let key in q.options) {
             const optionVal = q.options[key];
             
             const optionBtn = document.createElement('button');
             optionBtn.className = 'quiz-option';
+
+            if (!savedAnswer && isMulti && state.quizPendingMultiSelect && state.quizPendingMultiSelect.has(key)) {
+                optionBtn.classList.add('selected');
+            }
+
             optionBtn.innerHTML = `
                 <div class="quiz-option-letter">${key}</div>
                 <div class="quiz-option-text">${optionVal}</div>
             `;
-            optionBtn.onclick = () => selectQuizOption(key, optionBtn);
+            if (!savedAnswer) {
+                optionBtn.onclick = () => selectQuizOption(key, optionBtn);
+            }
             optionsContainer.appendChild(optionBtn);
         }
 
+        if (!savedAnswer && isMulti) {
+            const confirmBtn = document.createElement('button');
+            confirmBtn.id = 'quiz-confirm-multi-btn';
+            confirmBtn.className = 'confirm-multi-btn';
+            const selectedCount = state.quizPendingMultiSelect ? state.quizPendingMultiSelect.size : 0;
+            confirmBtn.innerHTML = `<i class="fa-solid fa-check"></i> Xác nhận đáp án (${selectedCount}/${q.correctAnswers.length})`;
+            if (selectedCount === 0) {
+                confirmBtn.style.opacity = '0.5';
+                confirmBtn.style.cursor = 'not-allowed';
+                confirmBtn.disabled = true;
+            } else {
+                confirmBtn.style.opacity = '1';
+                confirmBtn.style.cursor = 'pointer';
+                confirmBtn.disabled = false;
+            }
+            confirmBtn.onclick = () => submitMultiSelectAnswer();
+            optionsContainer.appendChild(confirmBtn);
+        }
+
         // Restore answered state elements if already answered
-        const savedAnswer = state.quizAnswers[q.id];
         if (savedAnswer) {
             const optionButtons = optionsContainer.querySelectorAll('.quiz-option');
+            let userAnsArr = Array.isArray(savedAnswer.selectedKeys) ? savedAnswer.selectedKeys : (savedAnswer.selectedKey ? savedAnswer.selectedKey.split('') : []);
+
             optionButtons.forEach(btn => {
                 btn.classList.add('disabled');
                 const letter = btn.querySelector('.quiz-option-letter').textContent.trim();
@@ -933,7 +1116,7 @@ function renderQuizQuestion() {
                 }
                 
                 // Highlight selected answer if incorrect
-                if (letter === savedAnswer.selectedKey && !q.correctAnswers.includes(letter)) {
+                if (userAnsArr.includes(letter) && !q.correctAnswers.includes(letter)) {
                     btn.classList.add('incorrect');
                 }
             });
@@ -944,10 +1127,12 @@ function renderQuizQuestion() {
 
             if (isCorrect) {
                 feedbackIcon.className = 'fa-solid fa-circle-check correct';
-                feedbackMessage.textContent = 'Chính xác! Bạn đã ghi nhớ được kiến thức này.';
+                feedbackMessage.innerHTML = `Chính xác! Bạn đã chọn đúng tất cả các đáp án.` +
+                    (q.explanation ? `<div class="quiz-explanation-text"><i class="fa-solid fa-circle-info"></i> ${q.explanation}</div>` : '');
             } else {
                 feedbackIcon.className = 'fa-solid fa-circle-xmark incorrect';
-                feedbackMessage.textContent = `Sai mất rồi. Đáp án đúng là: ${q.correctAnswers.join(', ')}`;
+                feedbackMessage.innerHTML = `Sai mất rồi. Đáp án đúng là: ${q.correctAnswers.join(', ')}` +
+                    (q.explanation ? `<div class="quiz-explanation-text"><i class="fa-solid fa-circle-info"></i> ${q.explanation}</div>` : '');
             }
 
             feedbackBox.classList.remove('hidden');
@@ -976,19 +1161,20 @@ function selectQuizOption(selectedKey, optionBtnElement) {
     if (!q) return;
 
     if (isExam) {
-        // Toggle selected state
-        q.userAnswer = selectedKey;
-        saveToStorage('exam', state.exam);
-
-        const optionButtons = document.querySelectorAll('.quiz-option');
-        optionButtons.forEach(btn => {
-            const letter = btn.querySelector('.quiz-option-letter').textContent.trim();
-            if (letter === selectedKey) {
-                btn.classList.add('selected');
+        const isMulti = q.correctAnswers && q.correctAnswers.length > 1;
+        if (isMulti) {
+            let userAnsArr = Array.isArray(q.userAnswer) ? [...q.userAnswer] : (q.userAnswer ? q.userAnswer.split('') : []);
+            if (userAnsArr.includes(selectedKey)) {
+                userAnsArr = userAnsArr.filter(k => k !== selectedKey);
             } else {
-                btn.classList.remove('selected');
+                userAnsArr.push(selectedKey);
             }
-        });
+            q.userAnswer = userAnsArr;
+        } else {
+            q.userAnswer = selectedKey;
+        }
+        saveToStorage('exam', state.exam);
+        renderQuizQuestion();
         updateExamProgress();
         return;
     }
@@ -996,9 +1182,24 @@ function selectQuizOption(selectedKey, optionBtnElement) {
     // Study mode grading
     if (state.quizAnswers[q.id]) return; // Prevent double answering
 
-    const isCorrect = q.correctAnswers.includes(selectedKey);
+    const isMulti = q.correctAnswers && q.correctAnswers.length > 1;
+    if (isMulti) {
+        if (!state.quizPendingMultiSelect) {
+            state.quizPendingMultiSelect = new Set();
+        }
+        if (state.quizPendingMultiSelect.has(selectedKey)) {
+            state.quizPendingMultiSelect.delete(selectedKey);
+        } else {
+            state.quizPendingMultiSelect.add(selectedKey);
+        }
+        renderQuizQuestion();
+        return;
+    }
+
+    const isCorrect = isAnswerCorrect(selectedKey, q.correctAnswers);
     state.quizAnswers[q.id] = {
         selectedKey: selectedKey,
+        selectedKeys: [selectedKey],
         isCorrect: isCorrect
     };
     saveToStorage('quizAnswers', state.quizAnswers);
@@ -1035,19 +1236,51 @@ function selectQuizOption(selectedKey, optionBtnElement) {
         }
 
         feedbackIcon.className = 'fa-solid fa-circle-check correct';
-        feedbackMessage.textContent = 'Chính xác! Bạn đã ghi nhớ được kiến thức này.';
+        feedbackMessage.innerHTML = `Chính xác! Bạn đã ghi nhớ được kiến thức này.` +
+            (q.explanation ? `<div class="quiz-explanation-text"><i class="fa-solid fa-circle-info"></i> ${q.explanation}</div>` : '');
     } else {
         optionBtnElement.classList.add('incorrect');
 
         feedbackIcon.className = 'fa-solid fa-circle-xmark incorrect';
-        feedbackMessage.textContent = `Sai mất rồi. Đáp án đúng là: ${q.correctAnswers.join(', ')}`;
+        feedbackMessage.innerHTML = `Sai mất rồi. Đáp án đúng là: ${q.correctAnswers.join(', ')}` +
+            (q.explanation ? `<div class="quiz-explanation-text"><i class="fa-solid fa-circle-info"></i> ${q.explanation}</div>` : '');
     }
 
     updateQuizScoreboard();
     feedbackBox.classList.remove('hidden');
 }
 
+function submitMultiSelectAnswer() {
+    const q = getActiveQuizQuestion();
+    if (!q || !state.quizPendingMultiSelect || state.quizPendingMultiSelect.size === 0) return;
+    if (state.quizAnswers[q.id]) return;
+
+    const selectedArray = Array.from(state.quizPendingMultiSelect);
+    const isCorrect = isAnswerCorrect(selectedArray, q.correctAnswers);
+
+    state.quizAnswers[q.id] = {
+        selectedKey: selectedArray.join(''),
+        selectedKeys: selectedArray,
+        isCorrect: isCorrect
+    };
+    saveToStorage('quizAnswers', state.quizAnswers);
+
+    state.quizPendingMultiSelect.clear();
+
+    if (isCorrect) {
+        if (!state.learnedQuestionIds.has(q.id)) {
+            state.learnedQuestionIds.add(q.id);
+            saveToStorage('learned', Array.from(state.learnedQuestionIds));
+            updateGlobalProgress();
+        }
+    }
+
+    renderQuizQuestion();
+    updateQuizScoreboard();
+}
+
 function prevQuizQuestion() {
+    if (state.quizPendingMultiSelect) state.quizPendingMultiSelect.clear();
     const isExam = (state.quizSubMode === 'exam');
     
     if (isExam) {
@@ -1068,6 +1301,7 @@ function prevQuizQuestion() {
 }
 
 function nextQuizQuestion() {
+    if (state.quizPendingMultiSelect) state.quizPendingMultiSelect.clear();
     const isExam = (state.quizSubMode === 'exam');
     
     if (isExam) {
@@ -1097,7 +1331,7 @@ function submitExam() {
     let incorrectCount = 0;
     state.exam.questions.forEach(q => {
         if (q.userAnswer) {
-            if (q.correctAnswers.includes(q.userAnswer)) {
+            if (isAnswerCorrect(q.userAnswer, q.correctAnswers)) {
                 correctCount++;
             } else {
                 incorrectCount++;
@@ -1149,8 +1383,8 @@ function renderExamReviewList() {
         const itemDiv = document.createElement('div');
         itemDiv.className = 'review-item';
         
-        const isCorrect = q.userAnswer && q.correctAnswers.includes(q.userAnswer);
-        const isAnswered = !!q.userAnswer;
+        const isCorrect = q.userAnswer && isAnswerCorrect(q.userAnswer, q.correctAnswers);
+        const isAnswered = !!q.userAnswer && (Array.isArray(q.userAnswer) ? q.userAnswer.length > 0 : true);
         
         let statusClass = 'unanswered';
         let statusText = 'Chưa trả lời';
@@ -1164,10 +1398,12 @@ function renderExamReviewList() {
             }
         }
 
+        let userAnsArr = Array.isArray(q.userAnswer) ? q.userAnswer : (q.userAnswer ? q.userAnswer.split('') : []);
+
         let optionsHtml = '';
         for (let key in q.options) {
             const isOptionCorrect = q.correctAnswers.includes(key);
-            const isOptionSelected = q.userAnswer === key;
+            const isOptionSelected = userAnsArr.includes(key);
             
             let optionClass = '';
             if (isOptionCorrect) {
@@ -1262,6 +1498,13 @@ function renderList() {
             `;
         }
 
+        const explanationHtml = q.explanation ? `
+            <div class="list-explanation-text">
+                <i class="fa-solid fa-circle-info"></i>
+                <span>${q.explanation}</span>
+            </div>
+        ` : '';
+
         itemDiv.innerHTML = `
             <div class="list-item-header">
                 <span class="list-item-page">Trang ${q.page}</span>
@@ -1275,6 +1518,7 @@ function renderList() {
             <div class="list-options">
                 ${optionsHtml}
             </div>
+            ${explanationHtml}
         `;
         listContainer.appendChild(itemDiv);
     });
@@ -1350,7 +1594,7 @@ function handleKeyboardShortcuts(e) {
 // PROGRESS UPDATES & GLOBAL HELPERS
 // ==========================================================================
 function updateGlobalProgress() {
-    const totalCount = QUESTIONS.length;
+    const totalCount = getActiveQuestionsSet().length;
     if (totalCount === 0) return;
 
     const learnedCount = state.learnedQuestionIds.size;

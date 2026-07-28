@@ -17,7 +17,7 @@ function cleanText(text) {
 }
 
 function compile() {
-    const pageDir = path.join(__dirname, 'Page');
+    const pageDir = fs.existsSync(path.join(__dirname, 'Page_111')) ? path.join(__dirname, 'Page_111') : path.join(__dirname, 'Page');
     const files = fs.readdirSync(pageDir)
         .filter(f => f.startsWith('Page_') && f.endsWith('.md'))
         .sort((a, b) => {
