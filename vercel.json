@@ -11,7 +11,13 @@
                     "app.js",
                     "questions.js",
                     "questions.json",
-                    "MLN.md"
+                    "questions_mln122.js",
+                    "questions_mln122.json",
+                    "MLN.md",
+                    "Page_111/**",
+                    "Page_122/**",
+                    "Page_images_111/**",
+                    "Page_images_122/**"
                 ]
             }
         }
