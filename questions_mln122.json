@@ -112,7 +112,7 @@
   },
   {
     "page": 2,
-    "question": "Chênh lệch Địa tô chính I thu được trên",
+    "question": "Chênh lệch Địa tô chênh lệch I thu được trên",
     "options": {
       "A": "Ruộng đất có độ màu mỡ trung bình",
       "B": "Ruộng đất tốt",
@@ -225,7 +225,7 @@
     "options": {
       "A": "Từ nửa cuối thế kỷ XIX đến đầu thế kỷ XX",
       "B": "Từ nửa đầu thế kỷ XIX đến cuối thế kỷ XIX",
-      "C": "Từ nửa đầu thế kỷ XX đề nữa cuối thế kỷ XX",
+      "C": "Từ nửa đầu thế kỷ XX đến nửa cuối thế kỷ XX",
       "D": "Từ nửa cuối thế kỷ XIX đến nửa cuối thế kỷ XX"
     },
     "correctAnswers": [
@@ -254,7 +254,7 @@
       "A": "Rút ra kết luận giá trị là do hao phí lao động tạo ra",
       "B": "Rút ra được bản chất bóc lột của chủ nghĩa tư bản",
       "C": "Khái quát đúng mục đích của chủ nghĩa tư bản là lợi nhuận",
-      "D": "Luận giải về nhiều phạm trù kinh tế như giá trị, sản phẩm rồng, tư bản, tiền lương"
+      "D": "Luận giải về nhiều phạm trù kinh tế như giá trị, sản phẩm ròng, tư bản, tiền lương"
     },
     "correctAnswers": [
       "A"
@@ -319,7 +319,7 @@
   },
   {
     "page": 4,
-    "question": "Kinh tế chính trị Mác - Lênin có những chức nào?",
+    "question": "Kinh tế chính trị Mác - Lênin có những chức năng nào?",
     "options": {
       "A": "Chức năng nhận thức, chức năng thực tiễn, chức năng tư tưởng, chức năng khoa học",
       "B": "Chức năng nhận thức, chức năng thực tiễn, chức năng khoa học, chức năng phương pháp luận",

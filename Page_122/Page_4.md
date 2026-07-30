@@ -28,7 +28,7 @@ C. Từ 60 - 90 năm
 D. Từ 50 - 80 năm
 Đáp án: A
 
-Kinh tế chính trị Mác - Lênin có những chức nào?
+Kinh tế chính trị Mác - Lênin có những chức năng nào?
 A. Chức năng nhận thức, chức năng thực tiễn, chức năng tư tưởng, chức năng khoa học
 B. Chức năng nhận thức, chức năng thực tiễn, chức năng khoa học, chức năng phương pháp luận
 C. Chức năng thực tiễn, chức năng tư tưởng, chức năng dự báo, chức năng phương pháp luận

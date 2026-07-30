@@ -28,7 +28,7 @@ C. Vì các xí nghiệp trong nội bộ tổ chức độc quyền cạnh tran
 Cách mạng công nghiệp lần thứ hai diễn ra trong giai đoạn nào?
 A. Từ nửa cuối thế kỷ XIX đến đầu thế kỷ XX
 B. Từ nửa đầu thế kỷ XIX đến cuối thế kỷ XIX
-C. Từ nửa đầu thế kỷ XX đề nữa cuối thế kỷ XX
+C. Từ nửa đầu thế kỷ XX đến nửa cuối thế kỷ XX
 D. Từ nửa cuối thế kỷ XIX đến nửa cuối thế kỷ XX
 Đáp án: A
 
@@ -43,5 +43,5 @@ Những đóng góp to lớn của kinh tế chính trị cổ điển Anh vào 
 A. Rút ra kết luận giá trị là do hao phí lao động tạo ra
 B. Rút ra được bản chất bóc lột của chủ nghĩa tư bản
 C. Khái quát đúng mục đích của chủ nghĩa tư bản là lợi nhuận
-D. Luận giải về nhiều phạm trù kinh tế như giá trị, sản phẩm rồng, tư bản, tiền lương
+D. Luận giải về nhiều phạm trù kinh tế như giá trị, sản phẩm ròng, tư bản, tiền lương
 Đáp án: A

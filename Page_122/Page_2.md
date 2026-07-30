@@ -20,7 +20,7 @@ C. Chăn nuôi tách khỏi trồng trọt
 D. Thủ công nghiệp tách khỏi nông nghiệp
 Đáp án: C
 
-Chênh lệch Địa tô chính I thu được trên
+Chênh lệch Địa tô chênh lệch I thu được trên
 A. Ruộng đất có độ màu mỡ trung bình
 B. Ruộng đất tốt
 C. Đất ruộng ở vị trí thuận lợi
