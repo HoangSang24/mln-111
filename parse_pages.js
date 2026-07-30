@@ -67,10 +67,14 @@ function compile() {
             const answerMatch = line.match(/^(Đáp\s*án|Answer|Correct)\s*:\s*(.*)/i);
             if (answerMatch) {
                 if (currentQuestion) {
-                    const ansStr = answerMatch[2].toUpperCase();
-                    const answers = ansStr.split(/[\s,]+/)
-                        .map(a => a.trim())
-                        .filter(a => ['A', 'B', 'C', 'D', 'E'].includes(a));
+                    const ansStr = answerMatch[2].toUpperCase().trim();
+                    let answers = [];
+                    if (ansStr.includes(',') || ansStr.includes(' ')) {
+                        answers = ansStr.split(/[\s,]+/).map(a => a.trim()).filter(a => ['A', 'B', 'C', 'D', 'E'].includes(a));
+                    } else {
+                        answers = ansStr.split('').map(a => a.trim()).filter(a => ['A', 'B', 'C', 'D', 'E'].includes(a));
+                    }
+                    answers = Array.from(new Set(answers)).sort();
                     currentQuestion.correctAnswers = answers;
                     
                     // Post-clean question and options

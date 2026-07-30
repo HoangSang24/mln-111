@@ -4617,7 +4617,10 @@
       "C": "Hướng tới dân giàu, nước mạnh, dân chủ, công bằng, văn minh.",
       "D": "Giảm thiểu vai trò của Nhà nước trong quản lý kinh tế."
     },
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A",
+      "C"
+    ],
     "id": 334
   },
   {
@@ -5168,7 +5171,11 @@
       "C": "Tăng khối lượng giá trị thặng dư",
       "D": "Tăng trình độ bóc lột sức lao động"
     },
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A",
+      "B",
+      "C"
+    ],
     "id": 375
   },
   {
@@ -6133,7 +6140,10 @@
       "C": "Viện trợ thuốc men",
       "D": "Viện trợ chính trị"
     },
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A",
+      "B"
+    ],
     "id": 445
   },
   {
@@ -6628,7 +6638,11 @@
       "C": "Cạnh tranh trong nội bộ các tổ chức độc quyền",
       "D": "Cạnh tranh giữa các tổ chức tư bản độc quyền nhà nước với nhau"
     },
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A",
+      "B",
+      "C"
+    ],
     "id": 481
   },
   {
@@ -7154,7 +7168,10 @@
       "C": "Kinh tế thị trường là động lực thúc đẩy lực lượng sản xuất phát triển nhanh và hiệu quả.",
       "D": "Kinh tế thị trường giúp Việt Nam độc lập hoàn toàn khỏi các quy luật của thị trường toàn cầu."
     },
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A",
+      "C"
+    ],
     "id": 519
   },
   {
@@ -7223,7 +7240,10 @@
       "C": "Đều có hai hành vi đối lập nhau - mua và bán.",
       "D": "Đều kết thúc bằng hành vi mua."
     },
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A",
+      "C"
+    ],
     "id": 524
   },
   {
@@ -7248,7 +7268,10 @@
       "C": "Cân bằng lợi ích giữa các thành phần kinh tế.",
       "D": "Hoàn toàn không cần sự quản lý của Nhà nước."
     },
-    "correctAnswers": [],
+    "correctAnswers": [
+      "A",
+      "C"
+    ],
     "id": 526
   },
   {

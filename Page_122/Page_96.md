@@ -13,7 +13,7 @@ A. Đều có hai thực thể vật chất là tiền và hàng.
 B. Đều bắt đầu bằng hành vi bán.
 C. Đều có hai hành vi đối lập nhau - mua và bán.
 D. Đều kết thúc bằng hành vi mua.
-Đáp án: AC
+Đáp án: A, C
 
 Các nhân tố nào sau đây ảnh hưởng đến năng suất lao động?
 A. Trình độ khéo léo trung bình của người lao động; Mức độ phát triển của khoa học và trình độ áp dụng khoa học vào quy trình công nghệ; Sự kết hợp xã hội của quá trình sản xuất; Quy mô và hiệu suất của tư liệu sản xuất; Các điều kiện tự nhiên

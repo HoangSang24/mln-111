@@ -5,7 +5,7 @@ A. cạnh tranh giữa các tổ chức độc quyền với các xí nghiệp n
 B. Cạnh tranh giữa các tổ chức độc quyền với nhau
 C. Cạnh tranh trong nội bộ các tổ chức độc quyền
 D. Cạnh tranh giữa các tổ chức tư bản độc quyền nhà nước với nhau
-Đáp án: ABC
+Đáp án: A, B, C
 
 Thế nào là tư bản cho vay?
 A. Là tư bản hàng hóa mà người chủ của nó nhường cho người khác sử dụng ở trong một thời gian nhất định để thu lợi tức

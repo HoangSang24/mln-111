@@ -11,14 +11,14 @@ Yếu tố quyết định đến giá cả hàng hoá là
 A. Giá trị của hàng hoá
 B. Quan hệ cung cầu về hàng hoá
 C. Giá trị sử dụng của hàng hoá
-Đáp án: a
+Đáp án: A
 
 Tăng tốc độ chu chuyển của tư bản sẽ dẫn tới? (chọn nhiều đáp án)
 A. Tăng lượng tư bản lưu động được sử dụng trong năm
 B. Tăng tỷ suất giá trị thặng dư
 C. Tăng khối lượng giá trị thặng dư
 D. Tăng trình độ bóc lột sức lao động
-Đáp án: ABC
+Đáp án: A, B, C
 
 Chức năng nào của kinh tế chính trị Mác - Lênin thể hiện sự vận dụng đúng các quy luật kinh tế khách quan thông qua điều chỉnh hành vi cá nhân hoặc các chính sách kinh tế sẽ góp phần thúc đẩy kinh tế - xã hội phát triển theo hướng tiến bộ?
 A. Chức năng thực tiễn

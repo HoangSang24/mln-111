@@ -40,4 +40,4 @@ A. Xây dựng cơ sở vật chất cho chủ nghĩa xã hội và nâng cao đ
 B. Tối đa hóa lợi nhuận cho các doanh nghiệp tư nhân.
 C. Hướng tới dân giàu, nước mạnh, dân chủ, công bằng, văn minh.
 D. Giảm thiểu vai trò của Nhà nước trong quản lý kinh tế.
-Đáp án: AC
+Đáp án: A, C

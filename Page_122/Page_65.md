@@ -10,7 +10,7 @@ Xét về thời gian, kinh tế hàng hóa ra đời sau
 A. Nền kinh tế xã hội
 B. Nền kinh tế tự do
 C. Nền kinh tế tự nhiên
-Đáp án: c
+Đáp án: C
 
 Mâu thuẫn chung trong công thức chung của tư bản là:
 A. T' > T
@@ -37,7 +37,7 @@ Chi phí sản xuất tư bản xét về lượng luôn luôn
 A. Lớn hơn chi phí sản xuất thực tế
 B. Nhỏ hơn chi phí sản xuất thực tế
 C. Bằng chi phí sản xuất thực tế
-Đáp án: b
+Đáp án: B
 
 Hàng hóa sức lao động ra đời phải dựa trên mấy điều kiện
 A. Ba điều kiện

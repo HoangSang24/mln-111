@@ -12,7 +12,7 @@ A. Kinh tế thị trường có thể tự hình thành khi có các điều ki
 B. Kinh tế thị trường tư bản chủ nghĩa là mô hình tối ưu nhất cho mọi quốc gia.
 C. Kinh tế thị trường là động lực thúc đẩy lực lượng sản xuất phát triển nhanh và hiệu quả.
 D. Kinh tế thị trường giúp Việt Nam độc lập hoàn toàn khỏi các quy luật của thị trường toàn cầu.
-Đáp án: AC
+Đáp án: A, C
 
 Lựa chọn đáp án đúng nhất: Mong muốn dân giàu, nước mạnh, dân chủ, công bằng, văn minh là mong muốn chung của ai?
 A. Chỉ các quốc gia phát triển

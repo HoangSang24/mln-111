@@ -11,7 +11,7 @@ A. Viện trợ kinh tế
 B. Viện trợ quân sự
 C. Viện trợ thuốc men
 D. Viện trợ chính trị
-Đáp án: AB
+Đáp án: A, B
 
 Tiến hành công nghiệp hóa theo kiểu rút ngắn so với các nước đi trước đặc biệt chúng ta cần thực hiện yêu cầu nào?
 A. Phát triển kinh tế và công nghiệp phải có sự nhảy vọt và không cần thực hiện tuần tự

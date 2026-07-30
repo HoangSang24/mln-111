@@ -5,7 +5,7 @@ A. Xã hội "dân giàu, nước mạnh, dân chủ, công bằng, văn minh".
 B. Kinh tế chỉ vận hành dựa trên nguyên tắc thị trường tự do.
 C. Cân bằng lợi ích giữa các thành phần kinh tế.
 D. Hoàn toàn không cần sự quản lý của Nhà nước.
-Đáp án: AC
+Đáp án: A, C
 
 Hiện nay, do sự phát triển của lực lượng sản xuất và khoa học công nghệ đã hình thành các tổ chức độc quyền mới đó là:
 A. Concern và Conglomerate

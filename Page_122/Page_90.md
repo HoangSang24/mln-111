@@ -5,7 +5,7 @@ A. Nhà tư bản cần bắt công nhân tăng ca 4 giờ nữa bên cạnh 8 g
 B. Nhà tư bản không cần làm gì cả chỉ ngồi không thì giá trị thặng dư cũng tạo ra
 C. Đầu tư thêm 50 USD cho nguyên liệu, 5 USD cho hao mòn máy móc và bắt công nhân làm thêm 4 giờ nữa như thỏa thuận
 D. Ngay từ thời điểm làm xong 4 giờ thì giá trị thặng dư đã được tạo ra rồi
-Đáp án: c
+Đáp án: C
 
 Nền kinh tế trí thức có bản chất là gì?
 A. Một phương thức sản xuất mới
