@@ -3307,6 +3307,76 @@ var QUESTIONS_MLN122 = [
     "id": 238
   },
   {
+    "page": 50,
+    "question": "Tuần hoàn tư bản công nghiệp là sự thống nhất của ba hình thái tuần hoàn:",
+    "options": {
+      "A": "Tư bản lưu thông, tư bản sản xuất và tư bản hàng hóa",
+      "B": "Tư bản tiền tệ, tư bản sản xuất và tư bản cho vay",
+      "C": "Tư bản tiền tệ, tư bản sản xuất và tư bản hàng hóa",
+      "D": "Tư bản tiền tệ, tư bản trao đổi và tư bản hàng hóa"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 239
+  },
+  {
+    "page": 50,
+    "question": "Thời gian lao động của người công nhân chia thành:",
+    "options": {
+      "A": "Thời gian lao động giản đơn và thời gian lao động thặng dư",
+      "B": "Thời gian lao động phức tạp và thời gian lao động thặng dư",
+      "C": "Thời gian lao động cần thiết và thời gian lao động thặng dư",
+      "D": "Thời gian lao động giản đơn và thời gian lao động phức tạp"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 240
+  },
+  {
+    "page": 50,
+    "question": "Nguồn gốc chủ yếu của tích lũy tư bản là:",
+    "options": {
+      "A": "Lợi nhuận bình quân",
+      "B": "Giá trị lao động",
+      "C": "Giá trị thặng dư",
+      "D": "Giá trị trao đổi"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 241
+  },
+  {
+    "page": 50,
+    "question": "Tiền lương tính theo sản phẩm là:",
+    "options": {
+      "A": "Tiền lương được trả căn cứ vào số lượng sản phẩm người công nhân làm ra",
+      "B": "Tiền lương được trả căn cứ vào chất lượng sản phẩm mà người công nhân làm ra",
+      "C": "Tiền lương được trả căn cứ vào số lượng và chất lượng sản phẩm mà người công nhân làm ra",
+      "D": "Tiền lương được trả căn cứ vào sản phẩm mà người công nhân làm ra"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 242
+  },
+  {
+    "page": 50,
+    "question": "Căn cứ phân chia tư bản bất biến và tư bản khả biến là:",
+    "options": {
+      "A": "Căn cứ vào vai trò của các bộ phận này trong quá trình sản xuất ra giá trị",
+      "B": "Căn cứ vào vai trò của các bộ phận này trong quá trình sản xuất ra giá trị sử dụng",
+      "C": "Căn cứ vào vai trò của các bộ phận này trong quá trình tạo ra sản phẩm",
+      "D": "Căn cứ vào vai trò của các bộ phận này trong quá trình sản xuất ra giá trị thặng dư"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "id": 243
+  },
+  {
     "page": 51,
     "question": "Mức độ giàu có của xã hội phụ thuộc chủ yếu vào:",
     "options": {
@@ -3317,7 +3387,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 239
+    "id": 244
   },
   {
     "page": 51,
@@ -3330,7 +3400,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 240
+    "id": 245
   },
   {
     "page": 51,
@@ -3343,7 +3413,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 241
+    "id": 246
   },
   {
     "page": 52,
@@ -3354,7 +3424,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "D"
     ],
-    "id": 242
+    "id": 247
   },
   {
     "page": 52,
@@ -3368,7 +3438,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "D"
     ],
-    "id": 243
+    "id": 248
   },
   {
     "page": 53,
@@ -3381,7 +3451,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 244
+    "id": 249
   },
   {
     "page": 53,
@@ -3395,7 +3465,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "D"
     ],
-    "id": 245
+    "id": 250
   },
   {
     "page": 53,
@@ -3408,7 +3478,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 246
+    "id": 251
   },
   {
     "page": 54,
@@ -3422,7 +3492,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 247
+    "id": 252
   },
   {
     "page": 54,
@@ -3436,7 +3506,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 248
+    "id": 253
   },
   {
     "page": 54,
@@ -3449,7 +3519,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 249
+    "id": 254
   },
   {
     "page": 54,
@@ -3463,7 +3533,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 250
+    "id": 255
   },
   {
     "page": 55,
@@ -3477,7 +3547,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 251
+    "id": 256
   },
   {
     "page": 55,
@@ -3490,7 +3560,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 252
+    "id": 257
   },
   {
     "page": 55,
@@ -3503,7 +3573,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 253
+    "id": 258
   },
   {
     "page": 56,
@@ -3516,7 +3586,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 254
+    "id": 259
   },
   {
     "page": 56,
@@ -3529,7 +3599,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 255
+    "id": 260
   },
   {
     "page": 56,
@@ -3542,7 +3612,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 256
+    "id": 261
   },
   {
     "page": 57,
@@ -3555,7 +3625,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 257
+    "id": 262
   },
   {
     "page": 57,
@@ -3568,7 +3638,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 258
+    "id": 263
   },
   {
     "page": 57,
@@ -3581,7 +3651,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 259
+    "id": 264
   },
   {
     "page": 57,
@@ -3594,7 +3664,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 260
+    "id": 265
   },
   {
     "page": 57,
@@ -3607,7 +3677,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 261
+    "id": 266
   },
   {
     "page": 58,
@@ -3620,7 +3690,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 262
+    "id": 267
   },
   {
     "page": 58,
@@ -3633,7 +3703,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 263
+    "id": 268
   },
   {
     "page": 58,
@@ -3647,7 +3717,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "D"
     ],
-    "id": 264
+    "id": 269
   },
   {
     "page": 58,
@@ -3660,7 +3730,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 265
+    "id": 270
   },
   {
     "page": 58,
@@ -3673,7 +3743,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 266
+    "id": 271
   },
   {
     "page": 59,
@@ -3686,7 +3756,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 267
+    "id": 272
   },
   {
     "page": 59,
@@ -3699,7 +3769,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 268
+    "id": 273
   },
   {
     "page": 59,
@@ -3713,7 +3783,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 269
+    "id": 274
   },
   {
     "page": 60,
@@ -3726,7 +3796,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 270
+    "id": 275
   },
   {
     "page": 60,
@@ -3740,7 +3810,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "D"
     ],
-    "id": 271
+    "id": 276
   },
   {
     "page": 60,
@@ -3754,7 +3824,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 272
+    "id": 277
   },
   {
     "page": 60,
@@ -3768,7 +3838,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 273
+    "id": 278
   },
   {
     "page": 61,
@@ -3782,7 +3852,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "D"
     ],
-    "id": 274
+    "id": 279
   },
   {
     "page": 61,
@@ -3796,7 +3866,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 275
+    "id": 280
   },
   {
     "page": 61,
@@ -3808,7 +3878,7 @@ var QUESTIONS_MLN122 = [
       "D": "Giảm thiểu vai trò của Nhà nước trong quản lý kinh tế."
     },
     "correctAnswers": [],
-    "id": 276
+    "id": 281
   },
   {
     "page": 62,
@@ -3822,7 +3892,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 277
+    "id": 282
   },
   {
     "page": 62,
@@ -3835,7 +3905,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 278
+    "id": 283
   },
   {
     "page": 62,
@@ -3848,7 +3918,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 279
+    "id": 284
   },
   {
     "page": 62,
@@ -3861,7 +3931,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 280
+    "id": 285
   },
   {
     "page": 63,
@@ -3874,7 +3944,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 281
+    "id": 286
   },
   {
     "page": 63,
@@ -3888,7 +3958,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 282
+    "id": 287
   },
   {
     "page": 63,
@@ -3901,7 +3971,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 283
+    "id": 288
   },
   {
     "page": 63,
@@ -3914,7 +3984,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 284
+    "id": 289
   },
   {
     "page": 63,
@@ -3927,7 +3997,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 285
+    "id": 290
   },
   {
     "page": 63,
@@ -3940,7 +4010,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 286
+    "id": 291
   },
   {
     "page": 64,
@@ -3953,7 +4023,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 287
+    "id": 292
   },
   {
     "page": 64,
@@ -3967,7 +4037,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 288
+    "id": 293
   },
   {
     "page": 64,
@@ -3981,7 +4051,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 289
+    "id": 294
   },
   {
     "page": 64,
@@ -3994,7 +4064,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 290
+    "id": 295
   },
   {
     "page": 64,
@@ -4007,7 +4077,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 291
+    "id": 296
   },
   {
     "page": 65,
@@ -4020,7 +4090,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 292
+    "id": 297
   },
   {
     "page": 65,
@@ -4034,7 +4104,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 293
+    "id": 298
   },
   {
     "page": 65,
@@ -4047,7 +4117,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 294
+    "id": 299
   },
   {
     "page": 65,
@@ -4060,7 +4130,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 295
+    "id": 300
   },
   {
     "page": 66,
@@ -4073,7 +4143,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 296
+    "id": 301
   },
   {
     "page": 66,
@@ -4087,7 +4157,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 297
+    "id": 302
   },
   {
     "page": 66,
@@ -4100,7 +4170,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 298
+    "id": 303
   },
   {
     "page": 66,
@@ -4113,7 +4183,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 299
+    "id": 304
   },
   {
     "page": 66,
@@ -4127,7 +4197,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 300
+    "id": 305
   },
   {
     "page": 66,
@@ -4141,7 +4211,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 301
+    "id": 306
   },
   {
     "page": 67,
@@ -4155,7 +4225,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 302
+    "id": 307
   },
   {
     "page": 67,
@@ -4169,7 +4239,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 303
+    "id": 308
   },
   {
     "page": 67,
@@ -4183,7 +4253,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 304
+    "id": 309
   },
   {
     "page": 67,
@@ -4197,7 +4267,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 305
+    "id": 310
   },
   {
     "page": 67,
@@ -4211,7 +4281,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 306
+    "id": 311
   },
   {
     "page": 67,
@@ -4224,7 +4294,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 307
+    "id": 312
   },
   {
     "page": 68,
@@ -4238,7 +4308,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 308
+    "id": 313
   },
   {
     "page": 68,
@@ -4251,7 +4321,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 309
+    "id": 314
   },
   {
     "page": 68,
@@ -4263,7 +4333,7 @@ var QUESTIONS_MLN122 = [
       "D": "Tăng trình độ bóc lột sức lao động"
     },
     "correctAnswers": [],
-    "id": 310
+    "id": 315
   },
   {
     "page": 68,
@@ -4277,7 +4347,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 311
+    "id": 316
   },
   {
     "page": 68,
@@ -4291,7 +4361,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 312
+    "id": 317
   },
   {
     "page": 68,
@@ -4304,7 +4374,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 313
+    "id": 318
   },
   {
     "page": 69,
@@ -4318,7 +4388,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 314
+    "id": 319
   },
   {
     "page": 69,
@@ -4332,7 +4402,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 315
+    "id": 320
   },
   {
     "page": 69,
@@ -4346,7 +4416,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 316
+    "id": 321
   },
   {
     "page": 69,
@@ -4359,7 +4429,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 317
+    "id": 322
   },
   {
     "page": 69,
@@ -4373,7 +4443,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 318
+    "id": 323
   },
   {
     "page": 70,
@@ -4386,7 +4456,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 319
+    "id": 324
   },
   {
     "page": 70,
@@ -4400,7 +4470,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "D"
     ],
-    "id": 320
+    "id": 325
   },
   {
     "page": 70,
@@ -4414,7 +4484,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 321
+    "id": 326
   },
   {
     "page": 70,
@@ -4428,7 +4498,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 322
+    "id": 327
   },
   {
     "page": 70,
@@ -4441,7 +4511,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 323
+    "id": 328
   },
   {
     "page": 70,
@@ -4455,7 +4525,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 324
+    "id": 329
   },
   {
     "page": 71,
@@ -4469,7 +4539,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 325
+    "id": 330
   },
   {
     "page": 71,
@@ -4483,7 +4553,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 326
+    "id": 331
   },
   {
     "page": 71,
@@ -4497,7 +4567,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 327
+    "id": 332
   },
   {
     "page": 71,
@@ -4511,7 +4581,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 328
+    "id": 333
   },
   {
     "page": 71,
@@ -4525,7 +4595,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 329
+    "id": 334
   },
   {
     "page": 72,
@@ -4539,7 +4609,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 330
+    "id": 335
   },
   {
     "page": 72,
@@ -4552,7 +4622,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 331
+    "id": 336
   },
   {
     "page": 72,
@@ -4566,7 +4636,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 332
+    "id": 337
   },
   {
     "page": 72,
@@ -4580,7 +4650,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 333
+    "id": 338
   },
   {
     "page": 72,
@@ -4594,7 +4664,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 334
+    "id": 339
   },
   {
     "page": 72,
@@ -4608,7 +4678,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 335
+    "id": 340
   },
   {
     "page": 73,
@@ -4622,7 +4692,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 336
+    "id": 341
   },
   {
     "page": 73,
@@ -4636,7 +4706,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 337
+    "id": 342
   },
   {
     "page": 73,
@@ -4650,7 +4720,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 338
+    "id": 343
   },
   {
     "page": 73,
@@ -4664,7 +4734,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 339
+    "id": 344
   },
   {
     "page": 73,
@@ -4677,7 +4747,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 340
+    "id": 345
   },
   {
     "page": 73,
@@ -4691,7 +4761,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "D"
     ],
-    "id": 341
+    "id": 346
   },
   {
     "page": 73,
@@ -4705,7 +4775,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 342
+    "id": 347
   },
   {
     "page": 74,
@@ -4718,7 +4788,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 343
+    "id": 348
   },
   {
     "page": 74,
@@ -4731,7 +4801,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 344
+    "id": 349
   },
   {
     "page": 74,
@@ -4745,7 +4815,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 345
+    "id": 350
   },
   {
     "page": 74,
@@ -4759,7 +4829,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 346
+    "id": 351
   },
   {
     "page": 74,
@@ -4773,7 +4843,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 347
+    "id": 352
   },
   {
     "page": 74,
@@ -4788,7 +4858,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "E"
     ],
-    "id": 348
+    "id": 353
   },
   {
     "page": 74,
@@ -4802,7 +4872,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 349
+    "id": 354
   },
   {
     "page": 75,
@@ -4816,7 +4886,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 350
+    "id": 355
   },
   {
     "page": 75,
@@ -4830,7 +4900,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 351
+    "id": 356
   },
   {
     "page": 75,
@@ -4844,7 +4914,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 352
+    "id": 357
   },
   {
     "page": 75,
@@ -4858,7 +4928,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 353
+    "id": 358
   },
   {
     "page": 75,
@@ -4872,7 +4942,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 354
+    "id": 359
   },
   {
     "page": 75,
@@ -4886,7 +4956,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 355
+    "id": 360
   },
   {
     "page": 75,
@@ -4900,7 +4970,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 356
+    "id": 361
   },
   {
     "page": 76,
@@ -4914,7 +4984,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 357
+    "id": 362
   },
   {
     "page": 76,
@@ -4928,7 +4998,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 358
+    "id": 363
   },
   {
     "page": 76,
@@ -4942,7 +5012,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 359
+    "id": 364
   },
   {
     "page": 76,
@@ -4957,7 +5027,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "E"
     ],
-    "id": 360
+    "id": 365
   },
   {
     "page": 76,
@@ -4971,7 +5041,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 361
+    "id": 366
   },
   {
     "page": 77,
@@ -4985,7 +5055,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 362
+    "id": 367
   },
   {
     "page": 77,
@@ -4999,7 +5069,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "D"
     ],
-    "id": 363
+    "id": 368
   },
   {
     "page": 77,
@@ -5012,7 +5082,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 364
+    "id": 369
   },
   {
     "page": 77,
@@ -5025,7 +5095,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 365
+    "id": 370
   },
   {
     "page": 77,
@@ -5039,7 +5109,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "D"
     ],
-    "id": 366
+    "id": 371
   },
   {
     "page": 78,
@@ -5053,7 +5123,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 367
+    "id": 372
   },
   {
     "page": 78,
@@ -5066,7 +5136,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 368
+    "id": 373
   },
   {
     "page": 78,
@@ -5080,7 +5150,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 369
+    "id": 374
   },
   {
     "page": 78,
@@ -5093,7 +5163,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 370
+    "id": 375
   },
   {
     "page": 78,
@@ -5106,7 +5176,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 371
+    "id": 376
   },
   {
     "page": 78,
@@ -5120,7 +5190,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 372
+    "id": 377
   },
   {
     "page": 78,
@@ -5134,7 +5204,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 373
+    "id": 378
   },
   {
     "page": 79,
@@ -5148,7 +5218,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 374
+    "id": 379
   },
   {
     "page": 79,
@@ -5162,7 +5232,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 375
+    "id": 380
   },
   {
     "page": 79,
@@ -5176,7 +5246,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 376
+    "id": 381
   },
   {
     "page": 79,
@@ -5190,7 +5260,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 377
+    "id": 382
   },
   {
     "page": 79,
@@ -5203,7 +5273,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 378
+    "id": 383
   },
   {
     "page": 80,
@@ -5216,7 +5286,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 379
+    "id": 384
   },
   {
     "page": 80,
@@ -5228,7 +5298,7 @@ var QUESTIONS_MLN122 = [
       "D": "Viện trợ chính trị"
     },
     "correctAnswers": [],
-    "id": 380
+    "id": 385
   },
   {
     "page": 80,
@@ -5242,7 +5312,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 381
+    "id": 386
   },
   {
     "page": 80,
@@ -5256,7 +5326,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 382
+    "id": 387
   },
   {
     "page": 80,
@@ -5270,7 +5340,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 383
+    "id": 388
   },
   {
     "page": 81,
@@ -5283,7 +5353,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 384
+    "id": 389
   },
   {
     "page": 81,
@@ -5297,7 +5367,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 385
+    "id": 390
   },
   {
     "page": 81,
@@ -5311,7 +5381,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 386
+    "id": 391
   },
   {
     "page": 81,
@@ -5325,7 +5395,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 387
+    "id": 392
   },
   {
     "page": 81,
@@ -5339,7 +5409,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 388
+    "id": 393
   },
   {
     "page": 82,
@@ -5353,7 +5423,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 389
+    "id": 394
   },
   {
     "page": 82,
@@ -5366,7 +5436,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 390
+    "id": 395
   },
   {
     "page": 82,
@@ -5380,7 +5450,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 391
+    "id": 396
   },
   {
     "page": 82,
@@ -5394,7 +5464,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 392
+    "id": 397
   },
   {
     "page": 82,
@@ -5407,7 +5477,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 393
+    "id": 398
   },
   {
     "page": 83,
@@ -5421,7 +5491,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 394
+    "id": 399
   },
   {
     "page": 83,
@@ -5435,7 +5505,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 395
+    "id": 400
   },
   {
     "page": 83,
@@ -5449,7 +5519,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 396
+    "id": 401
   },
   {
     "page": 83,
@@ -5463,7 +5533,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "D"
     ],
-    "id": 397
+    "id": 402
   },
   {
     "page": 84,
@@ -5477,7 +5547,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 398
+    "id": 403
   },
   {
     "page": 84,
@@ -5491,7 +5561,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 399
+    "id": 404
   },
   {
     "page": 84,
@@ -5505,7 +5575,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 400
+    "id": 405
   },
   {
     "page": 84,
@@ -5519,7 +5589,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 401
+    "id": 406
   },
   {
     "page": 84,
@@ -5533,7 +5603,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 402
+    "id": 407
   },
   {
     "page": 84,
@@ -5547,7 +5617,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 403
+    "id": 408
   },
   {
     "page": 85,
@@ -5561,7 +5631,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 404
+    "id": 409
   },
   {
     "page": 85,
@@ -5575,7 +5645,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 405
+    "id": 410
   },
   {
     "page": 85,
@@ -5589,7 +5659,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 406
+    "id": 411
   },
   {
     "page": 85,
@@ -5603,7 +5673,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 407
+    "id": 412
   },
   {
     "page": 85,
@@ -5616,7 +5686,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 408
+    "id": 413
   },
   {
     "page": 85,
@@ -5630,7 +5700,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 409
+    "id": 414
   },
   {
     "page": 86,
@@ -5644,7 +5714,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 410
+    "id": 415
   },
   {
     "page": 86,
@@ -5657,7 +5727,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 411
+    "id": 416
   },
   {
     "page": 86,
@@ -5670,7 +5740,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 412
+    "id": 417
   },
   {
     "page": 86,
@@ -5683,7 +5753,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 413
+    "id": 418
   },
   {
     "page": 86,
@@ -5697,7 +5767,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 414
+    "id": 419
   },
   {
     "page": 86,
@@ -5711,7 +5781,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 415
+    "id": 420
   },
   {
     "page": 87,
@@ -5723,7 +5793,7 @@ var QUESTIONS_MLN122 = [
       "D": "Cạnh tranh giữa các tổ chức tư bản độc quyền nhà nước với nhau"
     },
     "correctAnswers": [],
-    "id": 416
+    "id": 421
   },
   {
     "page": 87,
@@ -5737,7 +5807,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 417
+    "id": 422
   },
   {
     "page": 87,
@@ -5751,7 +5821,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "D"
     ],
-    "id": 418
+    "id": 423
   },
   {
     "page": 87,
@@ -5765,7 +5835,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 419
+    "id": 424
   },
   {
     "page": 88,
@@ -5779,7 +5849,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 420
+    "id": 425
   },
   {
     "page": 88,
@@ -5793,7 +5863,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 421
+    "id": 426
   },
   {
     "page": 88,
@@ -5807,7 +5877,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 422
+    "id": 427
   },
   {
     "page": 88,
@@ -5821,7 +5891,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 423
+    "id": 428
   },
   {
     "page": 89,
@@ -5834,7 +5904,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 424
+    "id": 429
   },
   {
     "page": 89,
@@ -5848,7 +5918,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 425
+    "id": 430
   },
   {
     "page": 89,
@@ -5862,7 +5932,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 426
+    "id": 431
   },
   {
     "page": 89,
@@ -5876,7 +5946,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 427
+    "id": 432
   },
   {
     "page": 89,
@@ -5890,7 +5960,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 428
+    "id": 433
   },
   {
     "page": 90,
@@ -5904,7 +5974,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 429
+    "id": 434
   },
   {
     "page": 90,
@@ -5918,7 +5988,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 430
+    "id": 435
   },
   {
     "page": 90,
@@ -5932,7 +6002,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 431
+    "id": 436
   },
   {
     "page": 90,
@@ -5946,7 +6016,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 432
+    "id": 437
   },
   {
     "page": 91,
@@ -5960,7 +6030,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 433
+    "id": 438
   },
   {
     "page": 91,
@@ -5974,7 +6044,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 434
+    "id": 439
   },
   {
     "page": 91,
@@ -5987,7 +6057,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 435
+    "id": 440
   },
   {
     "page": 91,
@@ -6001,7 +6071,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "D"
     ],
-    "id": 436
+    "id": 441
   },
   {
     "page": 91,
@@ -6015,7 +6085,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 437
+    "id": 442
   },
   {
     "page": 92,
@@ -6029,7 +6099,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 438
+    "id": 443
   },
   {
     "page": 92,
@@ -6043,7 +6113,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 439
+    "id": 444
   },
   {
     "page": 92,
@@ -6056,7 +6126,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 440
+    "id": 445
   },
   {
     "page": 92,
@@ -6070,7 +6140,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 441
+    "id": 446
   },
   {
     "page": 93,
@@ -6084,7 +6154,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 442
+    "id": 447
   },
   {
     "page": 93,
@@ -6098,7 +6168,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 443
+    "id": 448
   },
   {
     "page": 93,
@@ -6112,7 +6182,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 444
+    "id": 449
   },
   {
     "page": 93,
@@ -6126,7 +6196,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 445
+    "id": 450
   },
   {
     "page": 93,
@@ -6140,7 +6210,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "D"
     ],
-    "id": 446
+    "id": 451
   },
   {
     "page": 93,
@@ -6153,7 +6223,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 447
+    "id": 452
   },
   {
     "page": 94,
@@ -6167,7 +6237,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "D"
     ],
-    "id": 448
+    "id": 453
   },
   {
     "page": 94,
@@ -6181,7 +6251,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 449
+    "id": 454
   },
   {
     "page": 94,
@@ -6195,7 +6265,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 450
+    "id": 455
   },
   {
     "page": 94,
@@ -6209,7 +6279,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 451
+    "id": 456
   },
   {
     "page": 94,
@@ -6223,7 +6293,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 452
+    "id": 457
   },
   {
     "page": 95,
@@ -6237,7 +6307,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "D"
     ],
-    "id": 453
+    "id": 458
   },
   {
     "page": 95,
@@ -6249,7 +6319,7 @@ var QUESTIONS_MLN122 = [
       "D": "Kinh tế thị trường giúp Việt Nam độc lập hoàn toàn khỏi các quy luật của thị trường toàn cầu."
     },
     "correctAnswers": [],
-    "id": 454
+    "id": 459
   },
   {
     "page": 95,
@@ -6263,7 +6333,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "D"
     ],
-    "id": 455
+    "id": 460
   },
   {
     "page": 95,
@@ -6277,7 +6347,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 456
+    "id": 461
   },
   {
     "page": 95,
@@ -6291,7 +6361,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 457
+    "id": 462
   },
   {
     "page": 96,
@@ -6306,7 +6376,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "E"
     ],
-    "id": 458
+    "id": 463
   },
   {
     "page": 96,
@@ -6318,7 +6388,7 @@ var QUESTIONS_MLN122 = [
       "D": "Đều kết thúc bằng hành vi mua."
     },
     "correctAnswers": [],
-    "id": 459
+    "id": 464
   },
   {
     "page": 96,
@@ -6331,7 +6401,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 460
+    "id": 465
   },
   {
     "page": 97,
@@ -6343,7 +6413,7 @@ var QUESTIONS_MLN122 = [
       "D": "Hoàn toàn không cần sự quản lý của Nhà nước."
     },
     "correctAnswers": [],
-    "id": 461
+    "id": 466
   },
   {
     "page": 97,
@@ -6357,7 +6427,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 462
+    "id": 467
   },
   {
     "page": 97,
@@ -6371,7 +6441,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 463
+    "id": 468
   },
   {
     "page": 97,
@@ -6385,7 +6455,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 464
+    "id": 469
   },
   {
     "page": 98,
@@ -6399,7 +6469,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 465
+    "id": 470
   },
   {
     "page": 99,
@@ -6413,7 +6483,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 466
+    "id": 471
   },
   {
     "page": 99,
@@ -6427,7 +6497,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "D"
     ],
-    "id": 467
+    "id": 472
   },
   {
     "page": 99,
@@ -6441,7 +6511,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 468
+    "id": 473
   },
   {
     "page": 99,
@@ -6455,7 +6525,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 469
+    "id": 474
   },
   {
     "page": 99,
@@ -6469,7 +6539,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 470
+    "id": 475
   },
   {
     "page": 100,
@@ -6483,7 +6553,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 471
+    "id": 476
   },
   {
     "page": 100,
@@ -6497,7 +6567,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "C"
     ],
-    "id": 472
+    "id": 477
   },
   {
     "page": 100,
@@ -6511,7 +6581,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 473
+    "id": 478
   },
   {
     "page": 100,
@@ -6525,7 +6595,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 474
+    "id": 479
   },
   {
     "page": 100,
@@ -6539,7 +6609,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 475
+    "id": 480
   },
   {
     "page": 101,
@@ -6553,7 +6623,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 476
+    "id": 481
   },
   {
     "page": 101,
@@ -6567,7 +6637,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "D"
     ],
-    "id": 477
+    "id": 482
   },
   {
     "page": 101,
@@ -6581,7 +6651,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 478
+    "id": 483
   },
   {
     "page": 101,
@@ -6595,7 +6665,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "D"
     ],
-    "id": 479
+    "id": 484
   },
   {
     "page": 101,
@@ -6609,7 +6679,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 480
+    "id": 485
   },
   {
     "page": 102,
@@ -6623,7 +6693,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 481
+    "id": 486
   },
   {
     "page": 102,
@@ -6637,7 +6707,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 482
+    "id": 487
   },
   {
     "page": 102,
@@ -6651,7 +6721,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 483
+    "id": 488
   },
   {
     "page": 102,
@@ -6665,7 +6735,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "D"
     ],
-    "id": 484
+    "id": 489
   },
   {
     "page": 102,
@@ -6677,7 +6747,7 @@ var QUESTIONS_MLN122 = [
       "D": "Kinh tế thị trường giúp Việt Nam độc lập hoàn toàn khỏi các quy luật của thị trường toàn cầu."
     },
     "correctAnswers": [],
-    "id": 485
+    "id": 490
   },
   {
     "page": 103,
@@ -6691,7 +6761,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "D"
     ],
-    "id": 486
+    "id": 491
   },
   {
     "page": 103,
@@ -6705,7 +6775,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 487
+    "id": 492
   },
   {
     "page": 103,
@@ -6719,7 +6789,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 488
+    "id": 493
   },
   {
     "page": 103,
@@ -6733,7 +6803,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "D"
     ],
-    "id": 489
+    "id": 494
   },
   {
     "page": 103,
@@ -6745,7 +6815,7 @@ var QUESTIONS_MLN122 = [
       "D": "Đều kết thúc bằng hành vi mua."
     },
     "correctAnswers": [],
-    "id": 490
+    "id": 495
   },
   {
     "page": 104,
@@ -6759,7 +6829,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 491
+    "id": 496
   },
   {
     "page": 104,
@@ -6771,7 +6841,7 @@ var QUESTIONS_MLN122 = [
       "D": "Hoàn toàn không cần sự quản lý của Nhà nước."
     },
     "correctAnswers": [],
-    "id": 492
+    "id": 497
   },
   {
     "page": 104,
@@ -6785,7 +6855,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 493
+    "id": 498
   },
   {
     "page": 104,
@@ -6799,7 +6869,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "B"
     ],
-    "id": 494
+    "id": 499
   },
   {
     "page": 104,
@@ -6813,7 +6883,7 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 495
+    "id": 500
   },
   {
     "page": 105,
@@ -6827,6 +6897,6 @@ var QUESTIONS_MLN122 = [
     "correctAnswers": [
       "A"
     ],
-    "id": 496
+    "id": 501
   }
 ]; if (typeof window !== 'undefined') window.QUESTIONS_MLN122 = QUESTIONS_MLN122;
