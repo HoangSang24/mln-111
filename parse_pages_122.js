@@ -44,7 +44,7 @@ function compile() {
             if (!line) return;
             if (line.startsWith('## Page')) return;
 
-            const optMatch = line.match(/^([A-E])\s*\.\s+(.*)/i);
+            const optMatch = line.match(/^([A-Ea-e])\s*[\.\)\:\,]\s*(.*)/i);
             if (optMatch) {
                 const key = optMatch[1].toUpperCase();
                 const rest = optMatch[2].trim();

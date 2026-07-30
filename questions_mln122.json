@@ -3195,6 +3195,20 @@
   },
   {
     "page": 43,
+    "question": "Phương thức sản xuất tư bản chủ nghĩa được thiết lập và phát triển qua các giai đoạn nào sau đây:",
+    "options": {
+      "A": "Chủ nghĩa tư bản độc quyền",
+      "B": "Chủ nghĩa tư bản tự do cạnh tranh",
+      "C": "Chủ nghĩa tư bản tự do cạnh tranh và chủ nghĩa tư bản độc quyền.",
+      "D": "Chủ nghĩa tư bản hiện đại"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 231
+  },
+  {
+    "page": 43,
     "question": "Trong các nhà kinh điển của chủ nghĩa Mác - Lênin, ai là người khái quát về nguyên nhân ra đời của chủ nghĩa tư bản độc quyền bằng câu: \"tự do cạnh tranh đẻ ra tập trung sản xuất và sự tập trung sản xuất này, khi phát triển tới một mức độ nhất định lại dẫn tới độc quyền\".",
     "options": {
       "A": "Ph. Ắngghen",
@@ -3205,7 +3219,21 @@
     "correctAnswers": [
       "D"
     ],
-    "id": 231
+    "id": 232
+  },
+  {
+    "page": 44,
+    "question": "Địa tô tư bản là:",
+    "options": {
+      "A": "Phần lợi nhuận ngoài lợi nhuận bình quân mà nhà tư bản kinh doanh nông nghiệp phải nộp cho chủ đất",
+      "B": "Phần tỷ suất giá trị thặng dư ngoài lợi nhuận bình quân mà nhà tư bản kinh doanh nông nghiệp phải nộp cho chủ đất",
+      "C": "Phần giá trị thặng dư ngoài lợi nhuận bình quân mà nhà tư bản kinh doanh nông nghiệp phải nộp cho chủ đất.",
+      "D": "Phần giá trị thặng dư ngoài lợi n"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 233
   },
   {
     "page": 44,
@@ -3219,7 +3247,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 232
+    "id": 234
   },
   {
     "page": 44,
@@ -3235,7 +3263,77 @@
       "B",
       "D"
     ],
-    "id": 233
+    "id": 235
+  },
+  {
+    "page": 44,
+    "question": "Ngày nay, sự can thiệp của nhà nước tư sản thể hiện:",
+    "options": {
+      "A": "Vào khâu xuất khẩu",
+      "B": "Vào khâu phân phối - trao đổi",
+      "C": "Vào khâu sản xuất - tiêu dùng",
+      "D": "Sản xuất - phân phối - trao đổi - tiêu dùng."
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "id": 236
+  },
+  {
+    "page": 44,
+    "question": "Mục đích của xuất khẩu tư bản nhà nước:",
+    "options": {
+      "A": "Kinh tế",
+      "B": "Kinh tế - chính trị",
+      "C": "Quân sự",
+      "D": "Kinh tế - chính trị - quân sự."
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "id": 237
+  },
+  {
+    "page": 45,
+    "question": "Sự kết hợp về nhân sự giữa các tổ chức độc quyền và nhà nước thể hiện ở:",
+    "options": {
+      "A": "Liên minh giữa cá nhân tổ chức độc quyền ngân hàng với tổ chức độc quyền công nghiệp",
+      "B": "Liên minh giữa tổ chức độc quyền công nghiệp với chính phủ",
+      "C": "Liên minh giữa tổ chức độc quyền ngân hàng với chính phủ",
+      "D": "Liên minh giữa tổ chức độc quyền ngân hàng, tổ chức độc quyền công nghiệp và chính"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "id": 238
+  },
+  {
+    "page": 45,
+    "question": "Xuất khẩu tư bản là đặc điểm của:",
+    "options": {
+      "A": "Phương thức sản xuất phong kiến",
+      "B": "Phương thức sản xuất tư bản chủ nghĩa",
+      "C": "Chủ nghĩa tư bản giai đoạn tự do cạnh tranh",
+      "D": "Chủ nghĩa tư bản giai đoạn độc quyền."
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "id": 239
+  },
+  {
+    "page": 45,
+    "question": "Trong giai đoạn chủ nghĩa tư bản độc quyền:",
+    "options": {
+      "A": "Quy luật giá trị không hoạt động",
+      "B": "Quy luật giá trị hoạt động kém hiệu quả",
+      "C": "Quy luật giá trị vẫn hoạt động.",
+      "D": "Quy luật giá trị lúc hoạt động, lúc không."
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 240
   },
   {
     "page": 45,
@@ -3249,7 +3347,77 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 234
+    "id": 241
+  },
+  {
+    "page": 45,
+    "question": "Trong giai đoạn phát triển của chủ nghĩa tư bản độc quyền, quy luật giá trị thặng dư biểu hiện thành:",
+    "options": {
+      "A": "Quy luật giá cả sản xuất",
+      "B": "Quy luật giá cả độc quyền",
+      "C": "Quy luật tỷ suất lợi nhuận bình quân",
+      "D": "Quy luật lợi nhuận độc quyền cao."
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "id": 242
+  },
+  {
+    "page": 45,
+    "question": "Các hình thức cơ bản của địa tô tư bản chủ nghĩa",
+    "options": {
+      "A": "Địa tô chênh lệch I; địa tô chênh lệch II",
+      "B": "Địa tô tuyệt đối; địa tô độc quyền",
+      "C": "Địa tô chênh lệch; địa tô tuyệt đối",
+      "D": "Địa tô chênh lệch; địa tô độc quyền"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 243
+  },
+  {
+    "page": 46,
+    "question": "Sự ra đời của chủ nghĩa tư bản độc quyền nhà nước nhằm:",
+    "options": {
+      "A": "Phục vụ lợi ích của nhân dân lao động",
+      "B": "Phục vụ lợi ích của tổ chức độc quyền tư nhân",
+      "C": "Phục vụ lợi ích của nhà nước tư sản",
+      "D": "Phục vụ lợi ích của tổ chức độc quyền tư nhân và cứu nguy cho chủ nghĩa tư bản."
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "id": 244
+  },
+  {
+    "page": 46,
+    "question": "Các tổ chức độc quyền của các quốc gia cạnh tranh với nhau trên thị trường quốc tế sẽ dẫn đến:",
+    "options": {
+      "A": "Sự thôn tính nhau",
+      "B": "Sẽ có các tổ chức độc quyền bị phá sản, còn những tổ chức độc quyền mạnh",
+      "C": "Đấu tranh không khoan nhượng",
+      "D": "Thỏa hiệp với nhau để hình thành các tổ chức độc quyền quốc tế."
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "id": 245
+  },
+  {
+    "page": 46,
+    "question": "Điểm giống nhau giữa địa tô chênh lệch và địa tô tuyệt đối là:",
+    "options": {
+      "A": "Có nguồn gốc từ giá trị thặng dư",
+      "B": "Tư bản bất biến",
+      "C": "Có nguồn gốc từ giá trị trao đổi",
+      "D": "Có nguồn gốc từ giá trị."
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "id": 246
   },
   {
     "page": 46,
@@ -3263,7 +3431,21 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 235
+    "id": 247
+  },
+  {
+    "page": 46,
+    "question": "V.I. Lênin đã phân tích chủ nghĩa tư bản độc quyền bằng các đặc điểm kinh tế cơ bản nào sau đây:",
+    "options": {
+      "A": "Tập trung sản xuất và các tổ chức độc quyền; tư bản tài chính và bọn đầu sỏ tài chính",
+      "B": "Tập trung sản xuất và các tổ chức độc quyền; tư bản tài chính và bọn đầu sỏ tài chính; xuất khẩu tư bản",
+      "C": "Tập trung sản xuất và các tổ chức độc quyền, tư bản tài chính và bọn đầu",
+      "D": "Tập trung sản xuất và các tổ chức độc quyền, tư bản tài chính và bọn đầu sỏ tài chính; xuất khẩu tư bản; phân chia thế giới về kinh tế giữa các tổ chức độc quyền; sự phân chia thế giới về lãnh thổ giữa các cường quốc đế quốc"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "id": 248
   },
   {
     "page": 47,
@@ -3277,7 +3459,104 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 236
+    "id": 249
+  },
+  {
+    "page": 47,
+    "question": "Cơ cấu kinh tế của chủ nghĩa tư bản độc quyền nhà nước là sự dung hợp:",
+    "options": {
+      "A": "Cơ chế thị trường và độc quyền tư nhân",
+      "B": "Độc quyền tư nhân và sự điều tiết của nhà nước.",
+      "C": "Cơ chế thị trường, độc quyền tư nhân và sự can thiệp của nhà nước."
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 250
+  },
+  {
+    "page": 47,
+    "question": "Sự phát triển của trình độ xã hội hóa lực lượng sản xuất đòi hỏi:",
+    "options": {
+      "A": "Nhà nước can thiệp vào kinh tế với vai trò quản lý chung",
+      "B": "Nhà nước không can thiệp vào kinh tế",
+      "C": "Nhà nước chỉ can thiệp vào kinh tế với vai trò người gác cổng",
+      "D": "Nhà nước can thiệp vào kinh tế ở cấp độ vi mô"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "id": 251
+  },
+  {
+    "page": 47,
+    "question": "Kết quả cạnh tranh giữa các tổ chức độc quyền trong cùng một ngành:",
+    "options": {
+      "A": "Một sự thỏa hiệp được hình thành",
+      "B": "Một bên phá sản",
+      "C": "Một sự thỏa hiệp được hình thành hoặc một bên phá sản",
+      "D": "Cả hai cùng lớn mạnh"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 252
+  },
+  {
+    "page": 47,
+    "question": "Bản chất lợi nhuận độc quyền hình thành là do:",
+    "options": {
+      "A": "Cạnh tranh nội bộ ngành",
+      "B": "Cạnh tranh giữa các ngành",
+      "C": "Cạnh tranh giữa các nước",
+      "D": "Do địa vị độc quyền đem lại"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "id": 253
+  },
+  {
+    "page": 47,
+    "question": "Nhà nước tư sản đảm nhận đầu tư kinh doanh vào các ngành:",
+    "options": {
+      "A": "Đầu tư lớn, thu hồi vốn nhanh, ít lợi nhuận",
+      "B": "Đầu tư lơn, thu hồi vốn chậm, lợi nhuận cao",
+      "C": "Đầu tư vừa và nhỏ, lợi nhuận cao, thu hồi vốn nhanh",
+      "D": "Đầu tư lớn, thu hồi vốn chậm, ít lợi nhuận"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "id": 254
+  },
+  {
+    "page": 48,
+    "question": "Do có địa vị độc quyền, các tổ chức độc quyền áp đặt:",
+    "options": {
+      "A": "Giá cả độc quyền thấp khi mua và bán đúng giá trị",
+      "B": "Mua đúng giá trị và bán với giá cả độc quyền cao",
+      "C": "Giá cả sản xuất cao",
+      "D": "Giá cả độc quyền thấp khi mua, cao khi bán."
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "id": 255
+  },
+  {
+    "page": 48,
+    "question": "Hai hình thức của tiền công cơ bản:",
+    "options": {
+      "A": "Tiền công theo thời gian và tiền công theo lao động",
+      "B": "Tiền công theo giờ và tiền công theo sản phẩm",
+      "C": "Tiền công theo thời gian và tiền công theo sản phẩm",
+      "D": "Tiền công theo tháng và tiền công theo sản phẩm"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 256
   },
   {
     "page": 48,
@@ -3290,7 +3569,48 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 237
+    "id": 257
+  },
+  {
+    "page": 48,
+    "question": "Giá cả sản xuất tư bản chủ nghĩa bằng:",
+    "options": {
+      "A": "Chi phí sản xuất cộng tỷ suất lợi nhuận bình quân",
+      "B": "Chi phí sản xuất cộng giá trị thặng dư",
+      "C": "Chi phí sản xuất cộng lợi nhuận",
+      "D": "Chi phí sản xuất cộng lợi nhuận bình quân"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "id": 258
+  },
+  {
+    "page": 48,
+    "question": "Giá trị thặng dư siêu ngạch là giá trị thặng dư có được do:",
+    "options": {
+      "A": "Giá cả cá biệt của hàng hóa thấp hơn giá trị xã hội",
+      "B": "Giá trị cá biệt của hàng hóa bằng giá trị xã hội",
+      "C": "Giá trị xã hội của hàng hóa thấp hơn giá trị cá biệt",
+      "D": "Giá trị cá biệt của hàng hóa thấp hơn giá trị xã hội"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "id": 259
+  },
+  {
+    "page": 49,
+    "question": "Tuần hoàn tư bản công nghiệp là:",
+    "options": {
+      "A": "Sự vận động của tư bản trải quan ba giai đoạn, lần lượt mang lấy ba hình thái để rồi quay trở lại hình thái ban đầu với giá trị được bảo tồn",
+      "B": "Sự vận động của tư bản trải quan ba giai đoạn, lần lượt mang lấy ba hình thái để rồi quay trở lại hình thái ban đầu với giá trị được bảo tồn và tăng lên",
+      "C": "Sự vận động của tư bản trải quan ba giai đoạn, lần lượt mang lấy ba hình thái để rồi quay trở lại hình thái ban đầu với giá trị sử dụng được bảo tồn và tăng lên"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "id": 260
   },
   {
     "page": 49,
@@ -3304,7 +3624,35 @@
     "correctAnswers": [
       "D"
     ],
-    "id": 238
+    "id": 261
+  },
+  {
+    "page": 49,
+    "question": "Tư bản cố định là bộ phận tư bản khi tham gia quá trình sản xuất:",
+    "options": {
+      "A": "Giá trị của nó được chuyển ngay một lần vào sản phẩm mới",
+      "B": "Giá trị sử dụng của nó được chuyển dần vào sản phẩm mới",
+      "C": "Giá trị trao đổi của nó được chuyển dần vào sản phẩm mới",
+      "D": "Giá trị của nó được chuyển dần vào sản phẩm mới"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "id": 262
+  },
+  {
+    "page": 49,
+    "question": "Công thức chung của tư bản phản ánh:",
+    "options": {
+      "A": "Mục đích của sản xuất, lưu thông là giá trị và giá trị thặng dư",
+      "B": "Phương tiện của lưu thông tư bản là giá trị và giá trị thặng dư",
+      "C": "Mục đích của sản xuất, lưu thông tư bản là giá trị và giá trị thặng dư",
+      "D": "Mục đích của sản xuất, lưu thông tư bản là giá trị sử dụng và giá trị thặng dư"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 263
   },
   {
     "page": 50,
@@ -3318,7 +3666,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 239
+    "id": 264
   },
   {
     "page": 50,
@@ -3332,7 +3680,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 240
+    "id": 265
   },
   {
     "page": 50,
@@ -3346,7 +3694,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 241
+    "id": 266
   },
   {
     "page": 50,
@@ -3360,7 +3708,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 242
+    "id": 267
   },
   {
     "page": 50,
@@ -3374,7 +3722,20 @@
     "correctAnswers": [
       "D"
     ],
-    "id": 243
+    "id": 268
+  },
+  {
+    "page": 51,
+    "question": "Chu chuyển tư bản là:",
+    "options": {
+      "A": "Sự tuần hoàn của tư bản nếu xét nó là một quá trình định kỳ đổi mới, không lặp đi lặp lại",
+      "B": "Sự sản xuất của tư bản nếu xét nó là một quá trình định kỳ đổi mới, lặp đi lặp lại không ngừng",
+      "C": "Sự tuần hoàn của tư bản nếu xét nó là một quá trình định kỳ đổi mới, lặp đi lặp lại không ngừng"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 269
   },
   {
     "page": 51,
@@ -3387,7 +3748,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 244
+    "id": 270
   },
   {
     "page": 51,
@@ -3400,7 +3761,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 245
+    "id": 271
   },
   {
     "page": 51,
@@ -3413,18 +3774,91 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 246
+    "id": 272
+  },
+  {
+    "page": 51,
+    "question": "Chủ nghĩa tư bản độc quyền nhà nước hình thành rõ nét từ:",
+    "options": {
+      "A": "Thế kỷ XIX",
+      "B": "Cuối thế kỷ XIX - đầu thế kỷ XX",
+      "C": "Giữa thế kỷ XX",
+      "D": "Đầu thế kỷ XXI"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 273
+  },
+  {
+    "page": 51,
+    "question": "Nguồn gốc chủ yếu của tích tụ tư bản là:",
+    "options": {
+      "A": "Giá trị",
+      "B": "Giá trị trao đổi",
+      "C": "Giá trị thặng dư",
+      "D": "Vốn của các tư bản trong xã hội"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 274
+  },
+  {
+    "page": 51,
+    "question": "Về lượng tỷ suất lợi nhuận (p') là:",
+    "options": {
+      "A": "Luôn luôn nhỏ hơn giá trị thặng dư",
+      "B": "Luôn luôn lớn hơn tỷ suất giá trị thặng dư",
+      "C": "Luôn luôn bằng tỷ suất giá trị thặng dư",
+      "D": "Luôn luôn nhỏ hơn tỷ suất giá trị thặng dư"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "id": 275
   },
   {
     "page": 52,
-    "question": "Tư bản lưu động là bộ phận tư bản khi tham gia quá trình sản xuất: a) Giá trị của nó được chuyển dần vào sản phẩm mới, bao gồm: nguyên nhiên vật liệu và tiền công lao động b) Giá trị sử dụng của nó được chuyển ngay một lần vào sản phẩm mới, bao gồm: nguyên nhiên vật liệu và tiền CLĐ c) Giá trị của nó được chuyển ngay một lần vào sản phẩm cũ, bao gồm: nguyên nhiên vật liệu",
+    "question": "Tư bản lưu động là bộ phận tư bản khi tham gia quá trình sản xuất:",
     "options": {
+      "A": "Giá trị của nó được chuyển dần vào sản phẩm mới, bao gồm: nguyên nhiên vật liệu và tiền công lao động",
+      "B": "Giá trị sử dụng của nó được chuyển ngay một lần vào sản phẩm mới, bao gồm: nguyên nhiên vật liệu và tiền CLĐ",
+      "C": "Giá trị của nó được chuyển ngay một lần vào sản phẩm cũ, bao gồm: nguyên nhiên vật liệu",
       "D": "Giá trị của nó được chuyển ngay một lần vào sản phẩm mới, bao gồm: nguyên nhiên vật liệu và tiền công lao động."
     },
     "correctAnswers": [
       "D"
     ],
-    "id": 247
+    "id": 276
+  },
+  {
+    "page": 52,
+    "question": "Giá trị thặng dư tương đối có được do:",
+    "options": {
+      "A": "Tăng sản lượng, làm rút ngắn thời gian lao động cần thiết",
+      "B": "Tăng cường độ lao động, rút ngắn thời gian lao động cần thiết",
+      "C": "Tăng năng suất lao động, làm rút ngắn thời gian lao động cần thiết",
+      "D": "Tăng năng suất lao động, làm rút ngắn thời gian lao động cá biệt"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 277
+  },
+  {
+    "page": 52,
+    "question": "Tập trung tư bản là:",
+    "options": {
+      "A": "Quá trình liên kết, hợp nhất các tư bản xã hội trong xã hội thành một tư bản lớn hơn",
+      "B": "Quá trình liên kết, hợp nhất các tư bản tiền tệ trong xã hội thành một tư bản lớn hơn",
+      "C": "Quá trình liên kết, hợp nhất các tư bản cá biệt trong xã hội thành một tư bản lớn hơn",
+      "D": "Quá trình liên kết, hợp nhất các tư bản thương nghiệp trong xã hội thành một tư bản lớn hơ"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 278
   },
   {
     "page": 52,
@@ -3438,7 +3872,21 @@
     "correctAnswers": [
       "D"
     ],
-    "id": 248
+    "id": 279
+  },
+  {
+    "page": 52,
+    "question": "Ba giai đoạn vận động của tuần hoàn tư bản công nghiệp là:",
+    "options": {
+      "A": "Sản xuất - lưu thông - lưu thông",
+      "B": "Lưu thông - sản xuất - lưu thông",
+      "C": "Lưu thông - lưu thông - sản xuất",
+      "D": "Lưu thông - trao đổi - lưu thông"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "id": 280
   },
   {
     "page": 53,
@@ -3451,7 +3899,21 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 249
+    "id": 281
+  },
+  {
+    "page": 53,
+    "question": "Điều kiện để ra đời và tồn tại của sản xuất hàng hóa:",
+    "options": {
+      "A": "Phân công lao động xã hội và sự tách biệt về kinh tế giữa các chủ thể sản xuất",
+      "B": "Phân công lao động trong các giai đình xuất hiện",
+      "C": "Chế độ tư hữu về tư liệu sản xuất",
+      "D": "Nhu cầu trao đổi trong xã hội tăng lên"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "id": 282
   },
   {
     "page": 53,
@@ -3465,7 +3927,7 @@
     "correctAnswers": [
       "D"
     ],
-    "id": 250
+    "id": 283
   },
   {
     "page": 53,
@@ -3478,7 +3940,49 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 251
+    "id": 284
+  },
+  {
+    "page": 53,
+    "question": "Hiểu thế nào là lao động giản đơn?",
+    "options": {
+      "A": "Lao động của những người nông dân, thợ thủ công cá thể",
+      "B": "Lao động trong thời kỳ hợp tác giản đơn",
+      "C": "Lao động sử dụng những công cụ lao động giản đơn",
+      "D": "Là lao động không đòi hỏi phải có sự huấn luyện trước về chuyên môn, bất cứ người nào đến tuổi lao động trong điều kiện bình thường đều tiến hành được"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "id": 285
+  },
+  {
+    "page": 54,
+    "question": "Sức lao động là:",
+    "options": {
+      "A": "Toàn bộ sức thể lực tồn tại trong mỗi con người",
+      "B": "Toàn bộ sức thể lực và trí lực tồn tại trong mỗi con người",
+      "C": "Toàn bộ sức trí lực tồn tại trong mỗi con người",
+      "D": "Toàn bộ sức thể lực và trí lực tồn tại không có khả năng đem ra sử dụng"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "id": 286
+  },
+  {
+    "page": 54,
+    "question": "Tư bản khả biến (V) là:",
+    "options": {
+      "A": "Bộ phận trực tiếp tạo ra giá trị sử dụng",
+      "B": "Bộ phận trực tiếp tạo ra sản phẩm",
+      "C": "Bộ phận trực tiếp tạo ra giá trị thặng dư",
+      "D": "Bộ phận gián tiếp tạo ra giá trị thặng dư"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 287
   },
   {
     "page": 54,
@@ -3492,7 +3996,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 252
+    "id": 288
   },
   {
     "page": 54,
@@ -3506,7 +4010,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 253
+    "id": 289
   },
   {
     "page": 54,
@@ -3519,7 +4023,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 254
+    "id": 290
   },
   {
     "page": 54,
@@ -3533,7 +4037,34 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 255
+    "id": 291
+  },
+  {
+    "page": 55,
+    "question": "Trong những trường hợp nào sau đây của hao phí lao động cá biệt, trường hợp nào không đáp ứng yêu cầu của quy luật giá trị?",
+    "options": {
+      "A": "Hao phí lao động cá biệt < hao phí lao động xã hội cần thiết",
+      "B": "Hao phí lao động cá biệt = hao phí lao động xã hội cần thiết",
+      "C": "Hao phí lao động cá biệt > hao phí lao động xã hội cần thiết"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 292
+  },
+  {
+    "page": 55,
+    "question": "Giá trị sử dụng của hàng hóa sức lao động được coi là:",
+    "options": {
+      "A": "Chia khóa để giải quyết mâu thuẫn giữa tư bản và tư bản",
+      "B": "Chia khóa để giải quyết mâu thuẫn trong lưu thông hàng hóa",
+      "C": "Chia khóa để giải quyết mâu thuẫn giữa tư bản và lao động",
+      "D": "Chia khóa để giải quyết mâu thuẫn công thức chung của tư bản"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "id": 293
   },
   {
     "page": 55,
@@ -3547,7 +4078,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 256
+    "id": 294
   },
   {
     "page": 55,
@@ -3560,7 +4091,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 257
+    "id": 295
   },
   {
     "page": 55,
@@ -3573,7 +4104,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 258
+    "id": 296
   },
   {
     "page": 56,
@@ -3586,7 +4117,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 259
+    "id": 297
   },
   {
     "page": 56,
@@ -3599,7 +4130,21 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 260
+    "id": 298
+  },
+  {
+    "page": 56,
+    "question": "Khi nào tiền tệ ra đời?",
+    "options": {
+      "A": "Khi sản xuất và trao đổi đã phát triển",
+      "B": "Khi vật ngang giá chung được cố định ở vàng, bạc",
+      "C": "Khi không còn quan hệ trao đổi trực tiếp, có một thứ hàng làm trung gian trong trao đổi",
+      "D": "Khi nhu cầu trao đổi vượt quá phạm vi quốc gia"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "id": 299
   },
   {
     "page": 56,
@@ -3612,7 +4157,35 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 261
+    "id": 300
+  },
+  {
+    "page": 56,
+    "question": "Vì sao hàng hóa có hai thuộc tính là giá trị và giá trị sử dụng?",
+    "options": {
+      "A": "Vì lao động sản xuất hàng hóa có tính hai mặt là : lao động cụ thể và lao động trừu tượng",
+      "B": "Vì có lao động giản đơn và lao động phức tạp",
+      "C": "Vì có lao động quá khứ và lao động sống",
+      "D": "Vì nhu cầu trong trao đổi hàng hóa"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "id": 301
+  },
+  {
+    "page": 56,
+    "question": "Căn cứ vào đâu để phân chia tư bản cố định và tư bản lưu động?",
+    "options": {
+      "A": "Căn cứ vào tính chất chuyển giá trị sử dụng của nó vào trong sản phẩm mới",
+      "B": "Căn cứ vào tính chất chuyển giá trị của nó vào trong sản phẩm cũ",
+      "C": "Căn cứ vào tính chất chuyển giá trị của nó vào trong sản phẩm mới",
+      "D": "Căn cứ vào tính chất chuyển giá trị thặng dư của nó vào trong sản phẩm mới"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 302
   },
   {
     "page": 57,
@@ -3625,7 +4198,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 262
+    "id": 303
   },
   {
     "page": 57,
@@ -3638,7 +4211,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 263
+    "id": 304
   },
   {
     "page": 57,
@@ -3651,7 +4224,21 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 264
+    "id": 305
+  },
+  {
+    "page": 57,
+    "question": "Thế nào là sản xuất tự cung, tự cấp?",
+    "options": {
+      "A": "Quá trình sản xuất chỉ có hai khâu: sản xuất và tiên dùng",
+      "B": "Sản xuất có tính chất khép kín",
+      "C": "Là một kiểu tổ chức kinh tế trong đó những sản phẩm được sản xuất ra nhằm mục đích thỏa mãn nhu cầu tiêu dùng của bản thân người sản xuất",
+      "D": "Sản xuất và tái sản xuất"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 306
   },
   {
     "page": 57,
@@ -3664,7 +4251,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 265
+    "id": 307
   },
   {
     "page": 57,
@@ -3677,7 +4264,20 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 266
+    "id": 308
+  },
+  {
+    "page": 57,
+    "question": "Điều kiện để tiền biến thành tư bản là:",
+    "options": {
+      "A": "Phải tích lũy được một lượng tiền lớn; tiền không được đưa vào kinh doanh với mục đích thu giá trị thặng dư",
+      "B": "Phải tích lũy được một lượng tiền lớn; tiền phải được đưa vào kinh doanh tư bản với mục đích thu giá trị thặng dư",
+      "C": "Phải tích lũy được một lượng hàng hóa lớn; hàng hóa phải được đưa vào kinh doanh tư bản với mục"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "id": 309
   },
   {
     "page": 58,
@@ -3690,7 +4290,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 267
+    "id": 310
   },
   {
     "page": 58,
@@ -3703,7 +4303,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 268
+    "id": 311
   },
   {
     "page": 58,
@@ -3717,7 +4317,7 @@
     "correctAnswers": [
       "D"
     ],
-    "id": 269
+    "id": 312
   },
   {
     "page": 58,
@@ -3730,7 +4330,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 270
+    "id": 313
   },
   {
     "page": 58,
@@ -3743,7 +4343,35 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 271
+    "id": 314
+  },
+  {
+    "page": 58,
+    "question": "Về bản chất lợi nhuận và giá trị thặng dư đều là:",
+    "options": {
+      "A": "Lao động cụ thể của người công nhân",
+      "B": "Lao động không công của người công nhân",
+      "C": "Lao động trừu tượng của người công nhân",
+      "D": "Lao động phức tạp của người công nhân"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "id": 315
+  },
+  {
+    "page": 58,
+    "question": "Điểm giống nhau giữa tăng năng suất lao động và tăng cường độ lao động?",
+    "options": {
+      "A": "Đều làm giảm giá trị của một đơn vị hàng hóa",
+      "B": "Đều làm tăng thêm sản lượng sản phẩm được sản xuất ra trong một đơn vị thời gian",
+      "C": "Đều làm tăng lượng lao động hao phí trong một đơn vị thời gian",
+      "D": "Đều gắn với tiến bộ kỹ thuật"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "id": 316
   },
   {
     "page": 59,
@@ -3756,7 +4384,35 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 272
+    "id": 317
+  },
+  {
+    "page": 59,
+    "question": "Tư bản bất biến",
+    "options": {
+      "A": "Là giá trị tư liệu sản xuất, giá trị của nó tăng lên sau quá trình sản xuất",
+      "B": "Là giá trị tư liệu sản xuất, giá trị của nó giảm đi sau quá trình sản xuất",
+      "C": "Là giá trị tư liệu sản xuất, giá trị của nó không thay đổi sau quá trình sản xuất",
+      "D": "Là giá trị tư liệu sản xuất, giá trị sử dụng của nó được bảo tồn và chuyển vào sản phẩm"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 318
+  },
+  {
+    "page": 59,
+    "question": "Giá trị thặng dư là:",
+    "options": {
+      "A": "Là phần lao động được trả công của công nhân",
+      "B": "Là phần lao động không công của công nhân",
+      "C": "Là toàn bộ lao động của công nhân",
+      "D": "Là lao động sáng tạo của công nhân"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "id": 319
   },
   {
     "page": 59,
@@ -3769,7 +4425,21 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 273
+    "id": 320
+  },
+  {
+    "page": 59,
+    "question": "Giá trị sử dụng của hàng hóa sức lao động khi sử dụng sẽ tạo ra:",
+    "options": {
+      "A": "Giá trị mới bằng giá trị bản thân nó",
+      "B": "Giá trị mới lớn hơn giá trị bản thân nó",
+      "C": "Giá trị mới nhỏ hơn giá trị bản thân nó",
+      "D": "Giá trị sử dụng mới lớn hơn giá trị sử dụng bản thân nó"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "id": 321
   },
   {
     "page": 59,
@@ -3783,7 +4453,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 274
+    "id": 322
   },
   {
     "page": 60,
@@ -3796,7 +4466,35 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 275
+    "id": 323
+  },
+  {
+    "page": 60,
+    "question": "Trong các yếu tố sau đây, yếu tố nào được xác định là thực thể giá trị của hàng hóa?",
+    "options": {
+      "A": "Lao động cụ thể",
+      "B": "Lao động giản đơn",
+      "C": "Lao động phức tạp",
+      "D": "Lao động trừu tượng"
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "id": 324
+  },
+  {
+    "page": 60,
+    "question": "Hao mòn hữu hình là:",
+    "options": {
+      "A": "Hao mòn vật chất do quá trình sử dụng hoặc do tác động của con người",
+      "B": "Hao mòn phi vật chất do quá trình sự dụng hoặc do sự tác động của tự nhiên",
+      "C": "Hao mòn vật chất do quá trình sử dụng hoặc do tác động của tự nhiên",
+      "D": "Hao mòn vô hình do quá trình sử dụng hoặc do tác động của tự nhiên"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 325
   },
   {
     "page": 60,
@@ -3810,7 +4508,7 @@
     "correctAnswers": [
       "D"
     ],
-    "id": 276
+    "id": 326
   },
   {
     "page": 60,
@@ -3824,7 +4522,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 277
+    "id": 327
   },
   {
     "page": 60,
@@ -3838,7 +4536,35 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 278
+    "id": 328
+  },
+  {
+    "page": 61,
+    "question": "Về lượng (hỏi về lượng) tỷ suất lợi nhuận (p') là:",
+    "options": {
+      "A": "Luôn luôn nhỏ hơn giá trị thặng dư",
+      "B": "Luôn luôn lớn hơn tỷ suất giá trị thặng dư",
+      "C": "Luôn luôn bằng tỷ suất giá trị thặng dư",
+      "D": "Luôn luôn nhỏ hơn tỷ suất giá trị thặng dư."
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "id": 329
+  },
+  {
+    "page": 61,
+    "question": "Quy luật căn bản của sản xuất và lưu thông hàng hóa là quy luật nào?",
+    "options": {
+      "A": "Quy luật cạnh tranh",
+      "B": "Quy luật cung - cầu",
+      "C": "Quuy luật lưu thông tiền tệ",
+      "D": "Quy luật giá trị."
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "id": 330
   },
   {
     "page": 61,
@@ -3852,7 +4578,21 @@
     "correctAnswers": [
       "D"
     ],
-    "id": 279
+    "id": 331
+  },
+  {
+    "page": 61,
+    "question": "Những chức năng nào của tiền tệ đòi hỏi phải có tiền vàng?",
+    "options": {
+      "A": "Tất cả các chức năng của tiền tệ",
+      "B": "Chỉ có chức năng thước đo giá trị",
+      "C": "Chức năng thước đo giá trị, chức năng tích lũy và chức năng cất trữ",
+      "D": "Chức năng thước đo giá trị; chức năng tích lũy, cất trữ và chức năng tiền tệ thế giới."
+    },
+    "correctAnswers": [
+      "D"
+    ],
+    "id": 332
   },
   {
     "page": 61,
@@ -3866,7 +4606,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 280
+    "id": 333
   },
   {
     "page": 61,
@@ -3878,7 +4618,7 @@
       "D": "Giảm thiểu vai trò của Nhà nước trong quản lý kinh tế."
     },
     "correctAnswers": [],
-    "id": 281
+    "id": 334
   },
   {
     "page": 62,
@@ -3892,7 +4632,21 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 282
+    "id": 335
+  },
+  {
+    "page": 62,
+    "question": "Thế nào là phân công lao động xã hội?",
+    "options": {
+      "A": "Là phân công của xã hội về lao động hình thành những ngành nghề, nghề sản xuất khác nhau. Là sự chuyên môn hóa nhất định đối với người sản xuất",
+      "B": "Là phân công diễn ra trong đơn vị sản xuất",
+      "C": "Là sự chuyên môn hóa nhất định đối với người sản xuất",
+      "D": "Là chia nhỏ quá trình sản xuất, mỗi người chuyên đảm nhận một công đoạn"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "id": 336
   },
   {
     "page": 62,
@@ -3905,7 +4659,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 283
+    "id": 337
   },
   {
     "page": 62,
@@ -3918,7 +4672,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 284
+    "id": 338
   },
   {
     "page": 62,
@@ -3931,7 +4685,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 285
+    "id": 339
   },
   {
     "page": 63,
@@ -3944,7 +4698,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 286
+    "id": 340
   },
   {
     "page": 63,
@@ -3958,7 +4712,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 287
+    "id": 341
   },
   {
     "page": 63,
@@ -3971,7 +4725,21 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 288
+    "id": 342
+  },
+  {
+    "page": 63,
+    "question": "Trong các yếu tố sau đây, yếu tố nào là nguồn gốc của giá trị hàng hóa?",
+    "options": {
+      "A": "Nhà xưởng, máy móc",
+      "B": "Lao động của con người",
+      "C": "Đất đai",
+      "D": "Kỹ thuật, công nghệ sản xuất"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "id": 343
   },
   {
     "page": 63,
@@ -3984,7 +4752,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 289
+    "id": 344
   },
   {
     "page": 63,
@@ -3997,7 +4765,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 290
+    "id": 345
   },
   {
     "page": 63,
@@ -4010,7 +4778,21 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 291
+    "id": 346
+  },
+  {
+    "page": 64,
+    "question": "\"Lao động là cha, còn đất là mẹ của mọi của cải\". Khái niệm lao động trong câu nói này là lao động nào?",
+    "options": {
+      "A": "Lao động giản đơn",
+      "B": "Lao động phức tạp",
+      "C": "Lao động cụ thể",
+      "D": "Lao động trừu tượng"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 347
   },
   {
     "page": 64,
@@ -4023,7 +4805,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 292
+    "id": 348
   },
   {
     "page": 64,
@@ -4037,7 +4819,20 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 293
+    "id": 349
+  },
+  {
+    "page": 64,
+    "question": "Lao động trừu tượng tạo ra cái gì?",
+    "options": {
+      "A": "Tính hữu ích của sản phẩm hàng hóa",
+      "B": "Giá trị hàng hóa",
+      "C": "Tạo ra cả tính hữu ích và giá trị hàng hóa"
+    },
+    "correctAnswers": [
+      "B"
+    ],
+    "id": 350
   },
   {
     "page": 64,
@@ -4051,7 +4846,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 294
+    "id": 351
   },
   {
     "page": 64,
@@ -4064,7 +4859,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 295
+    "id": 352
   },
   {
     "page": 64,
@@ -4077,7 +4872,20 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 296
+    "id": 353
+  },
+  {
+    "page": 65,
+    "question": "Lượng giá trị hàng hóa nhiều hay ít, cao hay thấp, được xác định như thế nào?",
+    "options": {
+      "A": "Xác định bằng thời gian lao động cá biệt",
+      "B": "Xác định bằng thời gian lao động xã hội cần thiết",
+      "C": "Xác định bằng thời gian lao động giản đơn, trung bình xã hội cần thiết"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 354
   },
   {
     "page": 65,
@@ -4090,7 +4898,35 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 297
+    "id": 355
+  },
+  {
+    "page": 65,
+    "question": "Mâu thuẫn chung trong công thức chung của tư bản là:",
+    "options": {
+      "A": "T' > T",
+      "B": "T' < T",
+      "C": "T' = T",
+      "D": "T' > H'"
+    },
+    "correctAnswers": [
+      "A"
+    ],
+    "id": 356
+  },
+  {
+    "page": 65,
+    "question": "Khối lượng giá trị thặng dư (M) được tính bằng công thức",
+    "options": {
+      "A": "M = m'. K",
+      "B": "M = m'. C",
+      "C": "M= m'. V",
+      "D": "M= m'. V'"
+    },
+    "correctAnswers": [
+      "C"
+    ],
+    "id": 357
   },
   {
     "page": 65,
@@ -4104,7 +4940,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 298
+    "id": 358
   },
   {
     "page": 65,
@@ -4117,7 +4953,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 299
+    "id": 359
   },
   {
     "page": 65,
@@ -4130,7 +4966,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 300
+    "id": 360
   },
   {
     "page": 66,
@@ -4143,7 +4979,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 301
+    "id": 361
   },
   {
     "page": 66,
@@ -4157,7 +4993,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 302
+    "id": 362
   },
   {
     "page": 66,
@@ -4170,7 +5006,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 303
+    "id": 363
   },
   {
     "page": 66,
@@ -4183,7 +5019,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 304
+    "id": 364
   },
   {
     "page": 66,
@@ -4197,7 +5033,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 305
+    "id": 365
   },
   {
     "page": 66,
@@ -4211,7 +5047,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 306
+    "id": 366
   },
   {
     "page": 67,
@@ -4225,7 +5061,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 307
+    "id": 367
   },
   {
     "page": 67,
@@ -4239,7 +5075,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 308
+    "id": 368
   },
   {
     "page": 67,
@@ -4253,7 +5089,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 309
+    "id": 369
   },
   {
     "page": 67,
@@ -4267,7 +5103,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 310
+    "id": 370
   },
   {
     "page": 67,
@@ -4281,7 +5117,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 311
+    "id": 371
   },
   {
     "page": 67,
@@ -4294,7 +5130,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 312
+    "id": 372
   },
   {
     "page": 68,
@@ -4308,7 +5144,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 313
+    "id": 373
   },
   {
     "page": 68,
@@ -4321,7 +5157,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 314
+    "id": 374
   },
   {
     "page": 68,
@@ -4333,7 +5169,7 @@
       "D": "Tăng trình độ bóc lột sức lao động"
     },
     "correctAnswers": [],
-    "id": 315
+    "id": 375
   },
   {
     "page": 68,
@@ -4347,7 +5183,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 316
+    "id": 376
   },
   {
     "page": 68,
@@ -4361,7 +5197,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 317
+    "id": 377
   },
   {
     "page": 68,
@@ -4374,7 +5210,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 318
+    "id": 378
   },
   {
     "page": 69,
@@ -4388,7 +5224,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 319
+    "id": 379
   },
   {
     "page": 69,
@@ -4402,7 +5238,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 320
+    "id": 380
   },
   {
     "page": 69,
@@ -4416,7 +5252,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 321
+    "id": 381
   },
   {
     "page": 69,
@@ -4429,7 +5265,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 322
+    "id": 382
   },
   {
     "page": 69,
@@ -4443,7 +5279,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 323
+    "id": 383
   },
   {
     "page": 70,
@@ -4456,7 +5292,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 324
+    "id": 384
   },
   {
     "page": 70,
@@ -4470,7 +5306,7 @@
     "correctAnswers": [
       "D"
     ],
-    "id": 325
+    "id": 385
   },
   {
     "page": 70,
@@ -4484,7 +5320,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 326
+    "id": 386
   },
   {
     "page": 70,
@@ -4498,7 +5334,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 327
+    "id": 387
   },
   {
     "page": 70,
@@ -4511,7 +5347,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 328
+    "id": 388
   },
   {
     "page": 70,
@@ -4525,7 +5361,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 329
+    "id": 389
   },
   {
     "page": 71,
@@ -4539,7 +5375,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 330
+    "id": 390
   },
   {
     "page": 71,
@@ -4553,7 +5389,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 331
+    "id": 391
   },
   {
     "page": 71,
@@ -4567,7 +5403,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 332
+    "id": 392
   },
   {
     "page": 71,
@@ -4581,7 +5417,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 333
+    "id": 393
   },
   {
     "page": 71,
@@ -4595,7 +5431,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 334
+    "id": 394
   },
   {
     "page": 72,
@@ -4609,7 +5445,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 335
+    "id": 395
   },
   {
     "page": 72,
@@ -4622,7 +5458,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 336
+    "id": 396
   },
   {
     "page": 72,
@@ -4636,7 +5472,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 337
+    "id": 397
   },
   {
     "page": 72,
@@ -4650,7 +5486,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 338
+    "id": 398
   },
   {
     "page": 72,
@@ -4664,7 +5500,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 339
+    "id": 399
   },
   {
     "page": 72,
@@ -4678,7 +5514,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 340
+    "id": 400
   },
   {
     "page": 73,
@@ -4692,7 +5528,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 341
+    "id": 401
   },
   {
     "page": 73,
@@ -4706,7 +5542,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 342
+    "id": 402
   },
   {
     "page": 73,
@@ -4720,7 +5556,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 343
+    "id": 403
   },
   {
     "page": 73,
@@ -4734,7 +5570,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 344
+    "id": 404
   },
   {
     "page": 73,
@@ -4747,7 +5583,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 345
+    "id": 405
   },
   {
     "page": 73,
@@ -4761,7 +5597,7 @@
     "correctAnswers": [
       "D"
     ],
-    "id": 346
+    "id": 406
   },
   {
     "page": 73,
@@ -4775,7 +5611,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 347
+    "id": 407
   },
   {
     "page": 74,
@@ -4788,7 +5624,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 348
+    "id": 408
   },
   {
     "page": 74,
@@ -4801,7 +5637,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 349
+    "id": 409
   },
   {
     "page": 74,
@@ -4815,7 +5651,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 350
+    "id": 410
   },
   {
     "page": 74,
@@ -4829,7 +5665,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 351
+    "id": 411
   },
   {
     "page": 74,
@@ -4843,7 +5679,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 352
+    "id": 412
   },
   {
     "page": 74,
@@ -4858,7 +5694,7 @@
     "correctAnswers": [
       "E"
     ],
-    "id": 353
+    "id": 413
   },
   {
     "page": 74,
@@ -4872,7 +5708,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 354
+    "id": 414
   },
   {
     "page": 75,
@@ -4886,7 +5722,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 355
+    "id": 415
   },
   {
     "page": 75,
@@ -4900,7 +5736,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 356
+    "id": 416
   },
   {
     "page": 75,
@@ -4914,7 +5750,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 357
+    "id": 417
   },
   {
     "page": 75,
@@ -4928,7 +5764,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 358
+    "id": 418
   },
   {
     "page": 75,
@@ -4942,7 +5778,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 359
+    "id": 419
   },
   {
     "page": 75,
@@ -4956,7 +5792,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 360
+    "id": 420
   },
   {
     "page": 75,
@@ -4970,7 +5806,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 361
+    "id": 421
   },
   {
     "page": 76,
@@ -4984,7 +5820,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 362
+    "id": 422
   },
   {
     "page": 76,
@@ -4998,7 +5834,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 363
+    "id": 423
   },
   {
     "page": 76,
@@ -5012,7 +5848,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 364
+    "id": 424
   },
   {
     "page": 76,
@@ -5027,7 +5863,7 @@
     "correctAnswers": [
       "E"
     ],
-    "id": 365
+    "id": 425
   },
   {
     "page": 76,
@@ -5041,7 +5877,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 366
+    "id": 426
   },
   {
     "page": 77,
@@ -5055,7 +5891,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 367
+    "id": 427
   },
   {
     "page": 77,
@@ -5069,7 +5905,7 @@
     "correctAnswers": [
       "D"
     ],
-    "id": 368
+    "id": 428
   },
   {
     "page": 77,
@@ -5082,7 +5918,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 369
+    "id": 429
   },
   {
     "page": 77,
@@ -5095,7 +5931,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 370
+    "id": 430
   },
   {
     "page": 77,
@@ -5109,7 +5945,7 @@
     "correctAnswers": [
       "D"
     ],
-    "id": 371
+    "id": 431
   },
   {
     "page": 78,
@@ -5123,7 +5959,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 372
+    "id": 432
   },
   {
     "page": 78,
@@ -5136,7 +5972,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 373
+    "id": 433
   },
   {
     "page": 78,
@@ -5150,7 +5986,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 374
+    "id": 434
   },
   {
     "page": 78,
@@ -5163,7 +5999,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 375
+    "id": 435
   },
   {
     "page": 78,
@@ -5176,7 +6012,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 376
+    "id": 436
   },
   {
     "page": 78,
@@ -5190,7 +6026,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 377
+    "id": 437
   },
   {
     "page": 78,
@@ -5204,7 +6040,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 378
+    "id": 438
   },
   {
     "page": 79,
@@ -5218,7 +6054,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 379
+    "id": 439
   },
   {
     "page": 79,
@@ -5232,7 +6068,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 380
+    "id": 440
   },
   {
     "page": 79,
@@ -5246,7 +6082,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 381
+    "id": 441
   },
   {
     "page": 79,
@@ -5260,7 +6096,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 382
+    "id": 442
   },
   {
     "page": 79,
@@ -5273,7 +6109,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 383
+    "id": 443
   },
   {
     "page": 80,
@@ -5286,7 +6122,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 384
+    "id": 444
   },
   {
     "page": 80,
@@ -5298,7 +6134,7 @@
       "D": "Viện trợ chính trị"
     },
     "correctAnswers": [],
-    "id": 385
+    "id": 445
   },
   {
     "page": 80,
@@ -5312,7 +6148,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 386
+    "id": 446
   },
   {
     "page": 80,
@@ -5326,7 +6162,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 387
+    "id": 447
   },
   {
     "page": 80,
@@ -5340,7 +6176,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 388
+    "id": 448
   },
   {
     "page": 81,
@@ -5353,7 +6189,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 389
+    "id": 449
   },
   {
     "page": 81,
@@ -5367,7 +6203,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 390
+    "id": 450
   },
   {
     "page": 81,
@@ -5381,7 +6217,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 391
+    "id": 451
   },
   {
     "page": 81,
@@ -5395,7 +6231,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 392
+    "id": 452
   },
   {
     "page": 81,
@@ -5409,7 +6245,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 393
+    "id": 453
   },
   {
     "page": 82,
@@ -5423,7 +6259,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 394
+    "id": 454
   },
   {
     "page": 82,
@@ -5436,7 +6272,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 395
+    "id": 455
   },
   {
     "page": 82,
@@ -5450,7 +6286,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 396
+    "id": 456
   },
   {
     "page": 82,
@@ -5464,7 +6300,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 397
+    "id": 457
   },
   {
     "page": 82,
@@ -5477,7 +6313,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 398
+    "id": 458
   },
   {
     "page": 83,
@@ -5491,7 +6327,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 399
+    "id": 459
   },
   {
     "page": 83,
@@ -5505,7 +6341,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 400
+    "id": 460
   },
   {
     "page": 83,
@@ -5519,7 +6355,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 401
+    "id": 461
   },
   {
     "page": 83,
@@ -5533,7 +6369,7 @@
     "correctAnswers": [
       "D"
     ],
-    "id": 402
+    "id": 462
   },
   {
     "page": 84,
@@ -5547,7 +6383,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 403
+    "id": 463
   },
   {
     "page": 84,
@@ -5561,7 +6397,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 404
+    "id": 464
   },
   {
     "page": 84,
@@ -5575,7 +6411,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 405
+    "id": 465
   },
   {
     "page": 84,
@@ -5589,7 +6425,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 406
+    "id": 466
   },
   {
     "page": 84,
@@ -5603,7 +6439,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 407
+    "id": 467
   },
   {
     "page": 84,
@@ -5617,7 +6453,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 408
+    "id": 468
   },
   {
     "page": 85,
@@ -5631,7 +6467,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 409
+    "id": 469
   },
   {
     "page": 85,
@@ -5645,7 +6481,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 410
+    "id": 470
   },
   {
     "page": 85,
@@ -5659,7 +6495,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 411
+    "id": 471
   },
   {
     "page": 85,
@@ -5673,7 +6509,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 412
+    "id": 472
   },
   {
     "page": 85,
@@ -5686,7 +6522,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 413
+    "id": 473
   },
   {
     "page": 85,
@@ -5700,7 +6536,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 414
+    "id": 474
   },
   {
     "page": 86,
@@ -5714,7 +6550,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 415
+    "id": 475
   },
   {
     "page": 86,
@@ -5727,7 +6563,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 416
+    "id": 476
   },
   {
     "page": 86,
@@ -5740,7 +6576,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 417
+    "id": 477
   },
   {
     "page": 86,
@@ -5753,7 +6589,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 418
+    "id": 478
   },
   {
     "page": 86,
@@ -5767,7 +6603,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 419
+    "id": 479
   },
   {
     "page": 86,
@@ -5781,7 +6617,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 420
+    "id": 480
   },
   {
     "page": 87,
@@ -5793,7 +6629,7 @@
       "D": "Cạnh tranh giữa các tổ chức tư bản độc quyền nhà nước với nhau"
     },
     "correctAnswers": [],
-    "id": 421
+    "id": 481
   },
   {
     "page": 87,
@@ -5807,7 +6643,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 422
+    "id": 482
   },
   {
     "page": 87,
@@ -5821,7 +6657,7 @@
     "correctAnswers": [
       "D"
     ],
-    "id": 423
+    "id": 483
   },
   {
     "page": 87,
@@ -5835,7 +6671,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 424
+    "id": 484
   },
   {
     "page": 88,
@@ -5849,7 +6685,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 425
+    "id": 485
   },
   {
     "page": 88,
@@ -5863,7 +6699,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 426
+    "id": 486
   },
   {
     "page": 88,
@@ -5877,7 +6713,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 427
+    "id": 487
   },
   {
     "page": 88,
@@ -5891,7 +6727,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 428
+    "id": 488
   },
   {
     "page": 89,
@@ -5904,7 +6740,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 429
+    "id": 489
   },
   {
     "page": 89,
@@ -5918,7 +6754,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 430
+    "id": 490
   },
   {
     "page": 89,
@@ -5932,7 +6768,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 431
+    "id": 491
   },
   {
     "page": 89,
@@ -5946,7 +6782,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 432
+    "id": 492
   },
   {
     "page": 89,
@@ -5960,7 +6796,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 433
+    "id": 493
   },
   {
     "page": 90,
@@ -5974,7 +6810,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 434
+    "id": 494
   },
   {
     "page": 90,
@@ -5988,7 +6824,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 435
+    "id": 495
   },
   {
     "page": 90,
@@ -6002,7 +6838,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 436
+    "id": 496
   },
   {
     "page": 90,
@@ -6016,7 +6852,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 437
+    "id": 497
   },
   {
     "page": 91,
@@ -6030,7 +6866,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 438
+    "id": 498
   },
   {
     "page": 91,
@@ -6044,7 +6880,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 439
+    "id": 499
   },
   {
     "page": 91,
@@ -6057,7 +6893,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 440
+    "id": 500
   },
   {
     "page": 91,
@@ -6071,7 +6907,7 @@
     "correctAnswers": [
       "D"
     ],
-    "id": 441
+    "id": 501
   },
   {
     "page": 91,
@@ -6085,7 +6921,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 442
+    "id": 502
   },
   {
     "page": 92,
@@ -6099,7 +6935,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 443
+    "id": 503
   },
   {
     "page": 92,
@@ -6113,7 +6949,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 444
+    "id": 504
   },
   {
     "page": 92,
@@ -6126,7 +6962,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 445
+    "id": 505
   },
   {
     "page": 92,
@@ -6140,7 +6976,7 @@
     "correctAnswers": [
       "C"
     ],
-    "id": 446
+    "id": 506
   },
   {
     "page": 93,
@@ -6154,7 +6990,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 447
+    "id": 507
   },
   {
     "page": 93,
@@ -6168,7 +7004,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 448
+    "id": 508
   },
   {
     "page": 93,
@@ -6182,7 +7018,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 449
+    "id": 509
   },
   {
     "page": 93,
@@ -6196,7 +7032,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 450
+    "id": 510
   },
   {
     "page": 93,
@@ -6210,7 +7046,7 @@
     "correctAnswers": [
       "D"
     ],
-    "id": 451
+    "id": 511
   },
   {
     "page": 93,
@@ -6223,7 +7059,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 452
+    "id": 512
   },
   {
     "page": 94,
@@ -6237,7 +7073,7 @@
     "correctAnswers": [
       "D"
     ],
-    "id": 453
+    "id": 513
   },
   {
     "page": 94,
@@ -6251,7 +7087,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 454
+    "id": 514
   },
   {
     "page": 94,
@@ -6265,7 +7101,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 455
+    "id": 515
   },
   {
     "page": 94,
@@ -6279,7 +7115,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 456
+    "id": 516
   },
   {
     "page": 94,
@@ -6293,7 +7129,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 457
+    "id": 517
   },
   {
     "page": 95,
@@ -6307,7 +7143,7 @@
     "correctAnswers": [
       "D"
     ],
-    "id": 458
+    "id": 518
   },
   {
     "page": 95,
@@ -6319,7 +7155,7 @@
       "D": "Kinh tế thị trường giúp Việt Nam độc lập hoàn toàn khỏi các quy luật của thị trường toàn cầu."
     },
     "correctAnswers": [],
-    "id": 459
+    "id": 519
   },
   {
     "page": 95,
@@ -6333,7 +7169,7 @@
     "correctAnswers": [
       "D"
     ],
-    "id": 460
+    "id": 520
   },
   {
     "page": 95,
@@ -6347,7 +7183,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 461
+    "id": 521
   },
   {
     "page": 95,
@@ -6361,7 +7197,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 462
+    "id": 522
   },
   {
     "page": 96,
@@ -6376,7 +7212,7 @@
     "correctAnswers": [
       "E"
     ],
-    "id": 463
+    "id": 523
   },
   {
     "page": 96,
@@ -6388,7 +7224,7 @@
       "D": "Đều kết thúc bằng hành vi mua."
     },
     "correctAnswers": [],
-    "id": 464
+    "id": 524
   },
   {
     "page": 96,
@@ -6401,7 +7237,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 465
+    "id": 525
   },
   {
     "page": 97,
@@ -6413,7 +7249,7 @@
       "D": "Hoàn toàn không cần sự quản lý của Nhà nước."
     },
     "correctAnswers": [],
-    "id": 466
+    "id": 526
   },
   {
     "page": 97,
@@ -6427,7 +7263,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 467
+    "id": 527
   },
   {
     "page": 97,
@@ -6441,7 +7277,7 @@
     "correctAnswers": [
       "B"
     ],
-    "id": 468
+    "id": 528
   },
   {
     "page": 97,
@@ -6455,7 +7291,7 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 469
+    "id": 529
   },
   {
     "page": 98,
@@ -6469,434 +7305,6 @@
     "correctAnswers": [
       "A"
     ],
-    "id": 470
-  },
-  {
-    "page": 99,
-    "question": "Trên phương diện kinh tế chính trị, tái sản xuất",
-    "options": {
-      "A": "Là quá trình sản xuất được lặp đi lặp lại và phục hồi không ngừng",
-      "B": "Là quá trình sản xuất liên tục",
-      "C": "Là sự khôi phục lại sản xuất",
-      "D": "Là sự khôi phục lại sản xuất và tiêu dùng"
-    },
-    "correctAnswers": [
-      "A"
-    ],
-    "id": 471
-  },
-  {
-    "page": 99,
-    "question": "Theo nghĩa trừu tượng, thị trường được hiểu như thế nào?",
-    "options": {
-      "A": "Là nơi diễn ra hành vi trao đổi, mua bán hàng hóa giữa các chủ thể kinh tế với nhau",
-      "B": "Là tổng thể các yếu tố kinh tế vận động theo quy luật của thị trường",
-      "C": "Là nơi người bán quyết định giá cả, người mua chỉ được quyền lựa chọn",
-      "D": "Là tổng hòa các mối quan hệ liên quan đến trao đổi, mua bán hàng hóa, dịch vụ trong xã hội"
-    },
-    "correctAnswers": [
-      "D"
-    ],
-    "id": 472
-  },
-  {
-    "page": 99,
-    "question": "Tư bản khả biến tồn tại dưới hình thức nào?",
-    "options": {
-      "A": "Tiền lương phải trả cho người lao động",
-      "B": "Nguyên liệu, vật liệu, máy móc, sức lao động",
-      "C": "Hàng hóa, sức lao động",
-      "D": "Vật liệu, máy móc, tiền công trả cho công nhân"
-    },
-    "correctAnswers": [
-      "A"
-    ],
-    "id": 473
-  },
-  {
-    "page": 99,
-    "question": "Cấu tạo kỹ thuật của tư bản được hiểu là:",
-    "options": {
-      "A": "Tỷ lệ giữa số lượng tư liệu sản xuất và số lượng sức lao động sử dụng những tư liệu sản xuất đó trong quá trình sản xuất",
-      "B": "Tỷ lệ giữa số lượng nguyên liệu tiêu hao trong quá trình sản xuất và số lượng sức lao động sử dụng những tư liệu sản xuất đó trong quá trình sản xuất",
-      "C": "Tỷ lệ giữa số lượng sức lao động sử dụng trong quá trình sản xuất và tư liệu sản xuất trong quá trình sản xuất",
-      "D": "Tỷ lệ giữa số lượng giá trị của tư bản bất biến và số lượng giá trị của tư bản khả biến cần thiết để tiến hành sản xuất"
-    },
-    "correctAnswers": [
-      "A"
-    ],
-    "id": 474
-  },
-  {
-    "page": 99,
-    "question": "Địa tô tư bản chủ nghĩa được hiểu là gì?",
-    "options": {
-      "A": "Phần giá trị thặng dư còn lại sau khi đã khấu trừ đi phần lợi nhuận bình quân mà các nhà tư bản kinh doanh nông nghiệp phải nộp cho địa chủ",
-      "B": "Phần giá trị thặng dư còn lại sau khi đã khấu trừ đi phần thu nhập bình quân mà các nhà tư bản kinh doanh nông nghiệp phải nộp cho địa chủ",
-      "C": "Phần giá trị còn lại sau khi đã khấu trừ đi phần lợi nhuận bình quân mà các nhà tư bản kinh doanh đất phải nộp cho địa chủ",
-      "D": "Phần giá trị còn lại sau khi đã khấu trừ đi phần lợi nhuận thu được mà các nhà tư bản kinh doanh nông nghiệp phải nộp cho địa chủ"
-    },
-    "correctAnswers": [
-      "A"
-    ],
-    "id": 475
-  },
-  {
-    "page": 100,
-    "question": "Trong chủ nghĩa tư bản, người công nhân bán:",
-    "options": {
-      "A": "Sức lao động cho nhà tư bản",
-      "B": "Lao động cho nhà tư bản",
-      "C": "Hàng hóa cho nhà tư bản",
-      "D": "Tư liệu sản xuất cho nhà tư bản"
-    },
-    "correctAnswers": [
-      "A"
-    ],
-    "id": 476
-  },
-  {
-    "page": 100,
-    "question": "Trong nền kinh tế thị trường thì thị trường có vai trò gì?",
-    "options": {
-      "A": "Điều tiết sản xuất",
-      "B": "Phân bổ lao động",
-      "C": "Là công cụ phân bổ các nguồn lực kinh tế",
-      "D": "Phân bổ tư liệu sản xuất"
-    },
-    "correctAnswers": [
-      "C"
-    ],
-    "id": 477
-  },
-  {
-    "page": 100,
-    "question": "Trong xuất khẩu tư bản, có hai hình thức đầu tư đó là:",
-    "options": {
-      "A": "Đầu tư trực tiếp và đầu tư gián tiếp",
-      "B": "Đầu tư trực tiếp và đầu tư ủy nhiệm",
-      "C": "Đầu tư trực tiếp và đầu tư nhà nước",
-      "D": "Đầu tư tư bản tư nhân và đầu tư tư bản nhà nước"
-    },
-    "correctAnswers": [
-      "A"
-    ],
-    "id": 478
-  },
-  {
-    "page": 100,
-    "question": "Khi các xí nghiệp tham gia chỉ mất độc quyền về lưu thông là hình thức độc quyền nào?",
-    "options": {
-      "A": "Cartel",
-      "B": "Syndicate",
-      "C": "Trust",
-      "D": "Consortium"
-    },
-    "correctAnswers": [
-      "B"
-    ],
-    "id": 479
-  },
-  {
-    "page": 100,
-    "question": "Chủ nghĩa tư bản độc quyền được xem là:",
-    "options": {
-      "A": "Một phương thức sản xuất",
-      "B": "Một giai đoạn phát triển của phương thức sản xuất tư bản chủ nghĩa",
-      "C": "Một hình thái kinh tế xã hội",
-      "D": "Thời kỳ quá độ đi lên chủ nghĩa xã hội"
-    },
-    "correctAnswers": [
-      "B"
-    ],
-    "id": 480
-  },
-  {
-    "page": 101,
-    "question": "Lao động trừu tượng tạo ra yếu tố nào?",
-    "options": {
-      "A": "Giá trị của hàng hóa",
-      "B": "Giá trị sử dụng của hàng hóa",
-      "C": "Tiền lương",
-      "D": "Lợi nhuận cho tư bản"
-    },
-    "correctAnswers": [
-      "A"
-    ],
-    "id": 481
-  },
-  {
-    "page": 101,
-    "question": "Quy luật giá trị có tác dụng:",
-    "options": {
-      "A": "Điều tiết sản xuất và lưu thông hàng hóa",
-      "B": "Cải tiến kỹ thuật, tăng năng suất lao động",
-      "C": "Phân hóa những người sản xuất",
-      "D": "Các phương án trả lời đều đúng"
-    },
-    "correctAnswers": [
-      "D"
-    ],
-    "id": 482
-  },
-  {
-    "page": 101,
-    "question": "Tính chất của tư bản bất biến (c) là:",
-    "options": {
-      "A": "Giá trị của nó không thay đổi về lượng và được chuyển nguyên vẹn sang sản phẩm",
-      "B": "Giá trị của nó thay đổi về lượng và tăng lên trong quá trình sản xuất",
-      "C": "Giá trị của nó không thay đổi và được chuyển ngay sang sản phẩm sau một chu kỳ sản xuất",
-      "D": "Giá trị của nó chuyển dần vào sản phẩm qua khấu hao"
-    },
-    "correctAnswers": [
-      "A"
-    ],
-    "id": 483
-  },
-  {
-    "page": 101,
-    "question": "Một trong những tác động tích cực của quy luật giá trị là gì?",
-    "options": {
-      "A": "Người sản xuất có thể sản xuất nhiều loại hàng hóa",
-      "B": "Người tiêu dùng mua được hàng hóa rẻ",
-      "C": "Người sản xuất ngày càng giàu có",
-      "D": "Kích thích lực lượng sản xuất, năng suất lao động tăng"
-    },
-    "correctAnswers": [
-      "D"
-    ],
-    "id": 484
-  },
-  {
-    "page": 101,
-    "question": "Thế nào là lao động giản đơn?",
-    "options": {
-      "A": "Là lao động không cần trải qua đào tạo cũng có thể làm được",
-      "B": "Là lao động làm công việc đơn giản",
-      "C": "Là lao động chỉ làm một công đoạn của quá trình tạo ra hàng hóa",
-      "D": "Lao động của người dưới tuổi thành niên"
-    },
-    "correctAnswers": [
-      "A"
-    ],
-    "id": 485
-  },
-  {
-    "page": 102,
-    "question": "Sự phát triển của các tổ chức độc quyền trong ngân hàng đã làm thay đổi quan hệ giữa ngân hàng và các doanh nghiệp công nghiệp đó là:",
-    "options": {
-      "A": "Từ trung gian thanh toán trở thành khống chế mọi hoạt động kinh tế - xã hội",
-      "B": "Từ trung gian thanh toán trở thành cổ đông của các doanh nghiệp nhà nước",
-      "C": "Từ hoạt động cho vay trở thành hoạt động khống chế doanh nghiệp tư nhân",
-      "D": "Từ hoạt động cho vay trở thành chi phối các doanh nghiệp"
-    },
-    "correctAnswers": [
-      "A"
-    ],
-    "id": 486
-  },
-  {
-    "page": 102,
-    "question": "Theo công thức chung của tư bản thì T' được tính như thế nào?",
-    "options": {
-      "A": "T' = T + t (t > 0)",
-      "B": "T' = T + t (t < 0)",
-      "C": "T' = T + t (t >= 0)",
-      "D": "T' = T + t (t <= 0)"
-    },
-    "correctAnswers": [
-      "A"
-    ],
-    "id": 487
-  },
-  {
-    "page": 102,
-    "question": "Quá trình lưu thông tư bản là:",
-    "options": {
-      "A": "Tuần hoàn và chu chuyển giá trị hàng hóa",
-      "B": "Tuần hoàn và chu chuyển tư bản",
-      "C": "Tuần hoàn và chu chuyển hàng hóa",
-      "D": "Tuần hoàn và tích lũy tư bản"
-    },
-    "correctAnswers": [
-      "B"
-    ],
-    "id": 488
-  },
-  {
-    "page": 102,
-    "question": "Trong nền kinh tế thị trường, thị trường KHÔNG thực hiện vai trò nào sau đây?",
-    "options": {
-      "A": "Thực hiện giá trị hàng hóa",
-      "B": "Phân bổ tư liệu sản xuất",
-      "C": "Điều tiết nguồn lực cho sản xuất",
-      "D": "Hoạch định chính sách kinh tế"
-    },
-    "correctAnswers": [
-      "D"
-    ],
-    "id": 489
-  },
-  {
-    "page": 102,
-    "question": "Tại sao việc phát triển kinh tế thị trường định hướng xã hội chủ nghĩa ở Việt Nam là tất yếu khách quan? Chọn 2 đáp án.",
-    "options": {
-      "A": "Kinh tế thị trường có thể tự hình thành khi có các điều kiện khách quan.",
-      "B": "Kinh tế thị trường tư bản chủ nghĩa là mô hình tối ưu nhất cho mọi quốc gia.",
-      "C": "Kinh tế thị trường là động lực thúc đẩy lực lượng sản xuất phát triển nhanh và hiệu quả.",
-      "D": "Kinh tế thị trường giúp Việt Nam độc lập hoàn toàn khỏi các quy luật của thị trường toàn cầu."
-    },
-    "correctAnswers": [],
-    "id": 490
-  },
-  {
-    "page": 103,
-    "question": "Lựa chọn đáp án đúng nhất: Mong muốn dân giàu, nước mạnh, dân chủ, công bằng, văn minh là mong muốn chung của ai?",
-    "options": {
-      "A": "Chỉ các quốc gia phát triển",
-      "B": "Chỉ các quốc gia đang phát triển",
-      "C": "Các nước xã hội chủ nghĩa mới giành được chủ quyền dân tộc",
-      "D": "Tất cả các quốc gia trên thế giới"
-    },
-    "correctAnswers": [
-      "D"
-    ],
-    "id": 491
-  },
-  {
-    "page": 103,
-    "question": "Theo C.Mác có một loại hàng hóa đặc biệt mà khi sử dụng nó thì giá trị của nó không những được bảo tồn mà còn tạo ra những giá trị mới lớn hơn giá trị bản thân nó. Hàng hóa đó là gì?",
-    "options": {
-      "A": "Hàng hóa sức lao động",
-      "B": "Thức ăn",
-      "C": "Dịch vụ chăm sóc sức khỏe",
-      "D": "Nước uống"
-    },
-    "correctAnswers": [
-      "A"
-    ],
-    "id": 492
-  },
-  {
-    "page": 103,
-    "question": "Sự tác động giữa cung và cầu sẽ hình thành:",
-    "options": {
-      "A": "Giá trị cân bằng (hay giá trị thị trường)",
-      "B": "Giá cả cân bằng (hay giá cả thị trường)",
-      "C": "Giá cả hàng hóa",
-      "D": "Giá trị hàng hóa"
-    },
-    "correctAnswers": [
-      "B"
-    ],
-    "id": 493
-  },
-  {
-    "page": 103,
-    "question": "Yếu tố cấu thành thể chế kinh tế thị trường định hướng xã hội chủ nghĩa là:",
-    "options": {
-      "A": "Các bộ quy tắc, chế định, luật pháp",
-      "B": "Các chủ thể tham gia kinh tế thị trường định hướng xã hội chủ nghĩa",
-      "C": "Cơ chế vận hành kinh tế thị trường định hướng xã hội chủ nghĩa",
-      "D": "Tất cả phương án trên"
-    },
-    "correctAnswers": [
-      "D"
-    ],
-    "id": 494
-  },
-  {
-    "page": 103,
-    "question": "Sự vận động của tiền trong nền sản xuất hàng hóa giản đơn (H-T-H), sự vận động của tiền trong nền sản xuất hàng hóa tư bản (T-H-T'). Hãy chỉ ra điểm chung của hai hình thức vận động này? (lựa chọn hai đáp án)",
-    "options": {
-      "A": "Đều có hai thực thể vật chất là tiền và hàng.",
-      "B": "Đều bắt đầu bằng hành vi bán.",
-      "C": "Đều có hai hành vi đối lập nhau - mua và bán.",
-      "D": "Đều kết thúc bằng hành vi mua."
-    },
-    "correctAnswers": [],
-    "id": 495
-  },
-  {
-    "page": 104,
-    "question": "Các nhân tố nào sau đây ảnh hưởng đến năng suất lao động?",
-    "options": {
-      "A": "Trình độ khéo léo trung bình của người lao động; Mức độ phát triển của khoa học và trình độ áp dụng khoa học vào quy trình công nghệ; Sự kết hợp xã hội của quá trình sản xuất; Quy mô và hiệu suất của tư liệu sản xuất; Các điều kiện tự nhiên",
-      "B": "Các chính sách quy định từ nhà nước; Phương pháp và quy định giờ làm việc và đãi ngộ; Sự hợp tác của quá trình làm việc nhóm hiệu quả; Sự phát triển và đào tạo liên tục; Khả năng sáng tạo và đổi mới và thay đổi tư duy",
-      "C": "Trình độ và kỹ năng của người lao động ngày càng được nâng cao; Môi trường làm việc phù hợp phát huy hết khả năng cá nhân; Quản lý và tổ chức công việc có sự phân công rõ ràng; Sức khỏe và tình trạng thể chất của người lao động được đảm bảo; Các chuẩn mực quy tắc và thái độ của người lao động trong lao động sản xuất",
-      "D": "Tất cả các phương án trên"
-    },
-    "correctAnswers": [
-      "A"
-    ],
-    "id": 496
-  },
-  {
-    "page": 104,
-    "question": "Mục tiêu mà nền kinh tế thị trường định hướng xã hội chủ nghĩa của Việt Nam hướng tới bao gồm những gì? Chọn hai đáp án.",
-    "options": {
-      "A": "Xã hội \"dân giàu, nước mạnh, dân chủ, công bằng, văn minh\".",
-      "B": "Kinh tế chỉ vận hành dựa trên nguyên tắc thị trường tự do.",
-      "C": "Cân bằng lợi ích giữa các thành phần kinh tế.",
-      "D": "Hoàn toàn không cần sự quản lý của Nhà nước."
-    },
-    "correctAnswers": [],
-    "id": 497
-  },
-  {
-    "page": 104,
-    "question": "Hiện nay, do sự phát triển của lực lượng sản xuất và khoa học công nghệ đã hình thành các tổ chức độc quyền mới đó là:",
-    "options": {
-      "A": "Concern và Conglomerate",
-      "B": "Concern và Syndicate",
-      "C": "Concern và Trust",
-      "D": "Concern, Conglomerate và consortium"
-    },
-    "correctAnswers": [
-      "A"
-    ],
-    "id": 498
-  },
-  {
-    "page": 104,
-    "question": "Hãy chỉ ra biểu hiện mới của độc quyền ở phương diện tích tụ và tập trung tư bản?",
-    "options": {
-      "A": "Vai trò to lớn của tư bản tài chính trong các tập đoàn độc quyền",
-      "B": "Sự xuất hiện các công ty độc quyền xuyên quốc gia bên cạnh sự phát triển của các xí nghiệp vừa và nhỏ",
-      "C": "Quốc tế hóa, toàn cầu hóa và khu vực hóa kinh tế",
-      "D": "Hợp tác, chuyển giao công nghệ cốt lõi"
-    },
-    "correctAnswers": [
-      "B"
-    ],
-    "id": 499
-  },
-  {
-    "page": 104,
-    "question": "Trong cùng một thời gian lao động khi số lượng sản phẩm tăng lên còn giá trị một đơn vị hàng hóa và các điều khác không thay đổi thì đó là kết quả của:",
-    "options": {
-      "A": "Tăng cường độ lao động",
-      "B": "Tăng năng suất lao động và tăng cường độ lao động",
-      "C": "Tăng năng suất lao động",
-      "D": "Các phương án trên đều sai"
-    },
-    "correctAnswers": [
-      "A"
-    ],
-    "id": 500
-  },
-  {
-    "page": 105,
-    "question": "Lựa chọn đáp án đúng nhất: Trong nền kinh tế thị trường, hoạt động kinh tế được biểu hiện như thế nào?",
-    "options": {
-      "A": "Vô cùng phong phú",
-      "B": "Phong phú",
-      "C": "Trao đổi mua bán",
-      "D": "Sản xuất và trao đổi hàng hóa"
-    },
-    "correctAnswers": [
-      "A"
-    ],
-    "id": 501
+    "id": 530
   }
 ]
