@@ -1,10 +1,10 @@
 ## Page 44
 
 Địa tô tư bản là:
-a) Phần lợi nhuận ngoài lợi nhuận bình quân mà nhà tư bản kinh doanh nông nghiệp phải nộp cho chủ đất
-b) Phần tỷ suất giá trị thặng dư ngoài lợi nhuận bình quân mà nhà tư bản kinh doanh nông nghiệp phải nộp cho chủ đất
-c) Phần giá trị thặng dư ngoài lợi nhuận bình quân mà nhà tư bản kinh doanh nông nghiệp phải nộp cho chủ đất.
-d) Phần giá trị thặng dư ngoài lợi n
+A. Phần lợi nhuận ngoài lợi nhuận bình quân mà nhà tư bản kinh doanh nông nghiệp phải nộp cho chủ đất
+B. Phần tỷ suất giá trị thặng dư ngoài lợi nhuận bình quân mà nhà tư bản kinh doanh nông nghiệp phải nộp cho chủ đất
+C. Phần giá trị thặng dư ngoài lợi nhuận bình quân mà nhà tư bản kinh doanh nông nghiệp phải nộp cho chủ đất.
+D. Phần giá trị thặng dư ngoài lợi n
 Đáp án: C
 
 Mọi tư bản đều biểu hiện dưới dạng tiền, nhưng tiền không phải là tư bản. Vậy khi nào tiền trở thành tư bản?
@@ -22,15 +22,15 @@ D. Nâng cao đời sống nhân dân, thực hiện "dân giàu, nước mạnh
 Đáp án: A, B, D
 
 Ngày nay, sự can thiệp của nhà nước tư sản thể hiện:
-a) Vào khâu xuất khẩu
-b) Vào khâu phân phối - trao đổi
-c) Vào khâu sản xuất - tiêu dùng
-d) Sản xuất - phân phối - trao đổi - tiêu dùng.
+A. Vào khâu xuất khẩu
+B. Vào khâu phân phối - trao đổi
+C. Vào khâu sản xuất - tiêu dùng
+D. Sản xuất - phân phối - trao đổi - tiêu dùng.
 Đáp án: D
 
 Mục đích của xuất khẩu tư bản nhà nước:
-a) Kinh tế
-b) Kinh tế - chính trị
-c) Quân sự
-d) Kinh tế - chính trị - quân sự.
+A. Kinh tế
+B. Kinh tế - chính trị
+C. Quân sự
+D. Kinh tế - chính trị - quân sự.
 Đáp án: D

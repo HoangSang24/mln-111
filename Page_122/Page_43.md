@@ -15,10 +15,10 @@ D. Hòa vốn
 Đáp án: A
 
 Phương thức sản xuất tư bản chủ nghĩa được thiết lập và phát triển qua các giai đoạn nào sau đây:
-a) Chủ nghĩa tư bản độc quyền
-b) Chủ nghĩa tư bản tự do cạnh tranh
-c) Chủ nghĩa tư bản tự do cạnh tranh và chủ nghĩa tư bản độc quyền.
-d) Chủ nghĩa tư bản hiện đại
+A. Chủ nghĩa tư bản độc quyền
+B. Chủ nghĩa tư bản tự do cạnh tranh
+C. Chủ nghĩa tư bản tự do cạnh tranh và chủ nghĩa tư bản độc quyền.
+D. Chủ nghĩa tư bản hiện đại
 Đáp án: C
 
 Trong các nhà kinh điển của chủ nghĩa Mác - Lênin, ai là người khái quát về nguyên nhân ra đời của chủ nghĩa tư bản độc quyền bằng câu: "tự do cạnh tranh đẻ ra tập trung sản xuất và sự tập trung sản xuất này, khi phát triển tới một mức độ nhất định lại dẫn tới độc quyền".

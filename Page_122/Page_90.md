@@ -1,10 +1,10 @@
 ## Page 90
 
 Cho ví dụ: nhà tư bản đầu tư 50 USD để mua nguyên vật liệu dệt vải, tốn 5 USD cho hao mòn máy móc để dệt được 10 mét vải từ nguyên liệu trên, 15 USD để trả công cho công nhân làm việc trong 8 giờ theo thoả thuận, nhưng sau 4 giờ thì công nhân đã làm xong 10 mét vải. Để tăng giá trị thặng dư được tạo ra 15 USD, nhà tư bản cần làm gì?
-a. Nhà tư bản cần bắt công nhân tăng ca 4 giờ nữa bên cạnh 8 giờ thỏa thuận
-b. Nhà tư bản không cần làm gì cả chỉ ngồi không thì giá trị thặng dư cũng tạo ra
-c. Đầu tư thêm 50 USD cho nguyên liệu, 5 USD cho hao mòn máy móc và bắt công nhân làm thêm 4 giờ nữa như thỏa thuận
-d. Ngay từ thời điểm làm xong 4 giờ thì giá trị thặng dư đã được tạo ra rồi
+A. Nhà tư bản cần bắt công nhân tăng ca 4 giờ nữa bên cạnh 8 giờ thỏa thuận
+B. Nhà tư bản không cần làm gì cả chỉ ngồi không thì giá trị thặng dư cũng tạo ra
+C. Đầu tư thêm 50 USD cho nguyên liệu, 5 USD cho hao mòn máy móc và bắt công nhân làm thêm 4 giờ nữa như thỏa thuận
+D. Ngay từ thời điểm làm xong 4 giờ thì giá trị thặng dư đã được tạo ra rồi
 Đáp án: c
 
 Nền kinh tế trí thức có bản chất là gì?

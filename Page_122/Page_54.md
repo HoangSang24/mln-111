@@ -1,17 +1,17 @@
 ## Page 54
 
 Sức lao động là:
-a) Toàn bộ sức thể lực tồn tại trong mỗi con người
-b) Toàn bộ sức thể lực và trí lực tồn tại trong mỗi con người
-c) Toàn bộ sức trí lực tồn tại trong mỗi con người
-d) Toàn bộ sức thể lực và trí lực tồn tại không có khả năng đem ra sử dụng
+A. Toàn bộ sức thể lực tồn tại trong mỗi con người
+B. Toàn bộ sức thể lực và trí lực tồn tại trong mỗi con người
+C. Toàn bộ sức trí lực tồn tại trong mỗi con người
+D. Toàn bộ sức thể lực và trí lực tồn tại không có khả năng đem ra sử dụng
 Đáp án: B
 
 Tư bản khả biến (V) là:
-a) Bộ phận trực tiếp tạo ra giá trị sử dụng
-b) Bộ phận trực tiếp tạo ra sản phẩm
-c) Bộ phận trực tiếp tạo ra giá trị thặng dư
-d) Bộ phận gián tiếp tạo ra giá trị thặng dư
+A. Bộ phận trực tiếp tạo ra giá trị sử dụng
+B. Bộ phận trực tiếp tạo ra sản phẩm
+C. Bộ phận trực tiếp tạo ra giá trị thặng dư
+D. Bộ phận gián tiếp tạo ra giá trị thặng dư
 Đáp án: C
 
 Giá trị sức lao động được đo gián tiếp bằng:
@@ -29,14 +29,14 @@ D. Là mâu thuẫn giữa giá trị và giá cả hàng hóa
 Đáp án: A
 
 Hai hàng hoá trao đổi được với nhau vì:
-a. có lượng thời gian hao phí lao động xã hội cần thiết để sản xuất ra chúng bằng nhau.
-b. Chúng cùng là sản phẩm của lao động.
-c. Các phương án trả lời đều đúng
+A. có lượng thời gian hao phí lao động xã hội cần thiết để sản xuất ra chúng bằng nhau.
+B. Chúng cùng là sản phẩm của lao động.
+C. Các phương án trả lời đều đúng
 Đáp án: C
 
 Khi nghiên cứu phương thức sản xuất TBCN, C.Mác bắt đầu từ
-a. Sản xuất hàng hoá giản đơn và hàng hoá
-b. Lưu thông hàng hoá
-c. Sản xuất giá trị thặng dư
-d. Quy luật cung cầu
+A. Sản xuất hàng hoá giản đơn và hàng hoá
+B. Lưu thông hàng hoá
+C. Sản xuất giá trị thặng dư
+D. Quy luật cung cầu
 Đáp án: A

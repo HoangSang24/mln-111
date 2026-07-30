@@ -8,9 +8,9 @@ D. Tỷ lệ phần trăm giữa lượng sản phẩm thặng dư và tư bản
 Đáp án: C
 
 Yếu tố quyết định đến giá cả hàng hoá là
-a. Giá trị của hàng hoá
-b. Quan hệ cung cầu về hàng hoá
-c. Giá trị sử dụng của hàng hoá
+A. Giá trị của hàng hoá
+B. Quan hệ cung cầu về hàng hoá
+C. Giá trị sử dụng của hàng hoá
 Đáp án: a
 
 Tăng tốc độ chu chuyển của tư bản sẽ dẫn tới? (chọn nhiều đáp án)

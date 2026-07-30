@@ -1,9 +1,9 @@
 ## Page 66
 
 Trong kinh tế chính trị Mác-Lênin, cung là phạm trù kinh tế dùng để chỉ
-a. Mọi hàng hoá có khả năng đáp ứng nhu cầu thị trường
-b. Mọi sản phẩm của lao động
-c. Một số sản phẩm nhất định của thị trường
+A. Mọi hàng hoá có khả năng đáp ứng nhu cầu thị trường
+B. Mọi sản phẩm của lao động
+C. Một số sản phẩm nhất định của thị trường
 Đáp án: a
 
 Các nhân tố ảnh hưởng tới lượng giá trị hàng hóa:
