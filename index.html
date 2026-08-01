@@ -130,7 +130,7 @@
                                 <!-- Front of the card -->
                                 <div class="card-side card-front">
                                     <div class="card-header-info">
-                                        <span class="card-page-label">Trang <span id="card-page-num">1</span></span>
+                                        <span class="card-page-label clickable-page" title="Click để nhập trang slide muốn đến" onclick="event.stopPropagation(); jumpToPagePrompt('flashcard')">Trang <span id="card-page-num">1</span> <i class="fa-solid fa-arrow-right-to-bracket page-jump-icon"></i></span>
                                         <button class="card-star-btn"
                                             onclick="event.stopPropagation(); toggleStarCurrent()">
                                             <i class="fa-regular fa-star" id="card-star-icon"></i>
@@ -177,8 +177,9 @@
                             <button class="control-btn nav-btn" onclick="prevCard()">
                                 <i class="fa-solid fa-arrow-left"></i>
                             </button>
-                            <span class="deck-counter">
+                            <span class="deck-counter clickable-counter" id="flashcard-deck-counter" onclick="enableCounterJump('flashcard')" title="Click để nhập số câu muốn đến">
                                 <span id="current-card-num">0</span> / <span id="total-card-num">0</span>
+                                <i class="fa-solid fa-pen counter-edit-icon"></i>
                             </span>
                             <button class="control-btn nav-btn" onclick="nextCard()">
                                 <i class="fa-solid fa-arrow-right"></i>
@@ -246,7 +247,7 @@
                         <!-- Quiz Core -->
                         <div class="quiz-card-wrapper" id="quiz-main-card">
                             <div class="quiz-question-header">
-                                <span class="quiz-page-label">Trang <span id="quiz-page-num">1</span></span>
+                                <span class="quiz-page-label clickable-page" title="Click để nhập trang slide muốn đến" onclick="jumpToPagePrompt('quiz')">Trang <span id="quiz-page-num">1</span> <i class="fa-solid fa-arrow-right-to-bracket page-jump-icon"></i></span>
                                 <button class="quiz-star-btn" onclick="toggleStarQuizCurrent()">
                                     <i class="fa-regular fa-star" id="quiz-star-icon"></i>
                                 </button>
@@ -270,8 +271,9 @@
                                     title="Câu trước">
                                     <i class="fa-solid fa-arrow-left"></i>
                                 </button>
-                                <span class="deck-counter">
+                                <span class="deck-counter clickable-counter" id="quiz-deck-counter" onclick="enableCounterJump('quiz')" title="Click để nhập số câu muốn đến">
                                     <span id="current-quiz-num">0</span> / <span id="total-quiz-num">0</span>
+                                    <i class="fa-solid fa-pen counter-edit-icon"></i>
                                 </span>
                                 <button class="control-btn nav-btn" id="quiz-next-btn-nav" onclick="nextQuizQuestion()"
                                     title="Câu tiếp theo">

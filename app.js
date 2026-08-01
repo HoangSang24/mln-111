@@ -1734,3 +1734,136 @@ function showCustomConfirmModal(title, message, onConfirm) {
         }
     };
 }
+
+// ==========================================================================
+// CARD INDEX & SLIDE PAGE DIRECT JUMP LOGIC
+// ==========================================================================
+function enableCounterJump(mode) {
+    const counterEl = document.getElementById(mode === 'flashcard' ? 'flashcard-deck-counter' : 'quiz-deck-counter');
+    if (!counterEl) return;
+    
+    // Prevent re-entry if already editing
+    if (counterEl.querySelector('.counter-jump-input')) return;
+
+    let maxCount = 0;
+    let currentVal = 0;
+
+    if (mode === 'flashcard') {
+        maxCount = state.currentDeck.length;
+        currentVal = state.currentIndex + 1;
+    } else {
+        const isExam = (state.quizSubMode === 'exam');
+        if (isExam) {
+            maxCount = (state.exam && state.exam.questions) ? state.exam.questions.length : 0;
+            currentVal = (state.exam ? state.exam.currentIndex : 0) + 1;
+        } else {
+            maxCount = state.currentDeck.length;
+            currentVal = state.currentIndex + 1;
+        }
+    }
+
+    if (maxCount <= 0) return;
+
+    // Create interactive inline input
+    counterEl.innerHTML = `
+        <span class="counter-jump-wrapper" onclick="event.stopPropagation()">
+            <input type="number" class="counter-jump-input" id="counter-jump-input-${mode}" min="1" max="${maxCount}" value="${currentVal}">
+            <span style="color: var(--text-muted); font-size: 16px; font-weight: 700;">/ ${maxCount}</span>
+        </span>
+    `;
+
+    const inputEl = document.getElementById(`counter-jump-input-${mode}`);
+    if (!inputEl) return;
+
+    inputEl.focus();
+    inputEl.select();
+
+    let committed = false;
+
+    const commitJump = () => {
+        if (committed) return;
+        committed = true;
+
+        let val = parseInt(inputEl.value, 10);
+        if (isNaN(val) || val < 1) val = 1;
+        if (val > maxCount) val = maxCount;
+
+        const targetIndex = val - 1;
+
+        if (mode === 'flashcard') {
+            state.currentIndex = targetIndex;
+            saveToStorage('flashcardIndex', state.currentIndex);
+            renderFlashcard();
+        } else {
+            const isExam = (state.quizSubMode === 'exam');
+            if (isExam) {
+                state.exam.currentIndex = targetIndex;
+                state.currentIndex = targetIndex;
+                saveToStorage('exam', state.exam);
+            } else {
+                state.currentIndex = targetIndex;
+                state.quizIndex = targetIndex;
+                saveToStorage('quizIndex', state.quizIndex);
+            }
+            renderQuizQuestion();
+        }
+    };
+
+    inputEl.addEventListener('keydown', (e) => {
+        e.stopPropagation(); // Stop Space / Arrow keys from triggering global navigation while typing
+        if (e.key === 'Enter') {
+            commitJump();
+        } else if (e.key === 'Escape') {
+            committed = true;
+            renderActiveMode();
+        }
+    });
+
+    inputEl.addEventListener('blur', () => {
+        commitJump();
+    });
+}
+
+function jumpToPagePrompt(mode) {
+    const activeSet = state.currentDeck;
+    if (!activeSet || activeSet.length === 0) return;
+
+    let maxPage = 1;
+    activeSet.forEach(q => { if (q.page > maxPage) maxPage = q.page; });
+
+    const currentQ = (mode === 'quiz' && state.quizSubMode === 'exam')
+        ? (state.exam && state.exam.questions ? state.exam.questions[state.exam.currentIndex] : null)
+        : activeSet[state.currentIndex];
+        
+    const currentPage = currentQ ? currentQ.page : 1;
+
+    const input = prompt(`Nhập số trang slide bạn muốn đến (1 - ${maxPage}):`, currentPage);
+    if (!input) return;
+
+    const pageNum = parseInt(input.trim(), 10);
+    if (isNaN(pageNum)) return;
+
+    // Find first question matching page >= pageNum
+    let foundIndex = activeSet.findIndex(q => q.page >= pageNum);
+    if (foundIndex === -1) {
+        foundIndex = activeSet.length - 1;
+    }
+
+    if (mode === 'flashcard') {
+        state.currentIndex = foundIndex;
+        saveToStorage('flashcardIndex', state.currentIndex);
+        renderFlashcard();
+    } else {
+        if (state.quizSubMode === 'exam') {
+            state.exam.currentIndex = foundIndex;
+            state.currentIndex = foundIndex;
+            saveToStorage('exam', state.exam);
+        } else {
+            state.currentIndex = foundIndex;
+            state.quizIndex = foundIndex;
+            saveToStorage('quizIndex', state.quizIndex);
+        }
+        renderQuizQuestion();
+    }
+}
+

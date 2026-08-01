@@ -877,9 +877,106 @@ body.light-theme .option-letter-back {
     font-size: 16px;
     font-weight: 700;
     color: var(--text-muted);
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
 }
 
-#current-card-num {
+.clickable-counter {
+    cursor: pointer;
+    padding: 6px 14px;
+    border-radius: var(--radius-md);
+    border: 1px solid transparent;
+    transition: var(--transition-smooth);
+    user-select: none;
+}
+
+.clickable-counter:hover {
+    background-color: var(--bg-card-hover);
+    border-color: var(--color-primary);
+    color: var(--color-primary);
+    box-shadow: 0 0 12px rgba(99, 102, 241, 0.15);
+}
+
+.clickable-counter:hover #current-card-num,
+.clickable-counter:hover #current-quiz-num {
+    color: var(--color-primary);
+}
+
+.counter-edit-icon {
+    font-size: 12px;
+    color: var(--text-muted);
+    opacity: 0.6;
+    transition: var(--transition-smooth);
+    margin-left: 2px;
+}
+
+.clickable-counter:hover .counter-edit-icon {
+    opacity: 1;
+    color: var(--color-primary);
+    transform: scale(1.15);
+}
+
+.counter-jump-wrapper {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.counter-jump-input {
+    width: 68px;
+    padding: 4px 8px;
+    background-color: var(--bg-sidebar);
+    border: 2px solid var(--color-primary);
+    border-radius: var(--radius-sm);
+    color: var(--text-main);
+    font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    outline: none;
+    box-shadow: 0 0 10px rgba(99, 102, 241, 0.25);
+    font-family: inherit;
+}
+
+/* Hide spin buttons for counter jump input */
+.counter-jump-input::-webkit-outer-spin-button,
+.counter-jump-input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+.counter-jump-input[type=number] {
+    -moz-appearance: textfield;
+}
+
+.clickable-page {
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 4px 10px;
+    border-radius: var(--radius-sm);
+    transition: var(--transition-smooth);
+    user-select: none;
+}
+
+.clickable-page:hover {
+    background-color: rgba(99, 102, 241, 0.12);
+    color: var(--color-primary);
+}
+
+.page-jump-icon {
+    font-size: 11px;
+    opacity: 0.6;
+    transition: var(--transition-smooth);
+}
+
+.clickable-page:hover .page-jump-icon {
+    opacity: 1;
+    transform: translateX(2px);
+}
+
+#current-card-num,
+#current-quiz-num {
     color: var(--text-main);
     font-size: 20px;
 }
