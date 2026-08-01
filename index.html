@@ -130,7 +130,7 @@
                                 <!-- Front of the card -->
                                 <div class="card-side card-front">
                                     <div class="card-header-info">
-                                        <span class="card-page-label clickable-page" title="Click để nhập trang slide muốn đến" onclick="event.stopPropagation(); jumpToPagePrompt('flashcard')">Trang <span id="card-page-num">1</span> <i class="fa-solid fa-arrow-right-to-bracket page-jump-icon"></i></span>
+                                        <span class="card-page-label clickable-page" title="Click để nhập trang slide muốn đến" onclick="event.stopPropagation(); openJumpModal('page')">Trang <span id="card-page-num">1</span> <i class="fa-solid fa-arrow-right-to-bracket page-jump-icon"></i></span>
                                         <button class="card-star-btn"
                                             onclick="event.stopPropagation(); toggleStarCurrent()">
                                             <i class="fa-regular fa-star" id="card-star-icon"></i>
@@ -177,7 +177,7 @@
                             <button class="control-btn nav-btn" onclick="prevCard()">
                                 <i class="fa-solid fa-arrow-left"></i>
                             </button>
-                            <span class="deck-counter clickable-counter" id="flashcard-deck-counter" onclick="enableCounterJump('flashcard')" title="Click để nhập số câu muốn đến">
+                            <span class="deck-counter clickable-counter" id="flashcard-deck-counter" onclick="openJumpModal('index')" title="Click để nhập vị trí câu / trang muốn đến">
                                 <span id="current-card-num">0</span> / <span id="total-card-num">0</span>
                                 <i class="fa-solid fa-pen counter-edit-icon"></i>
                             </span>
@@ -247,7 +247,7 @@
                         <!-- Quiz Core -->
                         <div class="quiz-card-wrapper" id="quiz-main-card">
                             <div class="quiz-question-header">
-                                <span class="quiz-page-label clickable-page" title="Click để nhập trang slide muốn đến" onclick="jumpToPagePrompt('quiz')">Trang <span id="quiz-page-num">1</span> <i class="fa-solid fa-arrow-right-to-bracket page-jump-icon"></i></span>
+                                <span class="quiz-page-label clickable-page" title="Click để nhập trang slide muốn đến" onclick="openJumpModal('page')">Trang <span id="quiz-page-num">1</span> <i class="fa-solid fa-arrow-right-to-bracket page-jump-icon"></i></span>
                                 <button class="quiz-star-btn" onclick="toggleStarQuizCurrent()">
                                     <i class="fa-regular fa-star" id="quiz-star-icon"></i>
                                 </button>
@@ -271,7 +271,7 @@
                                     title="Câu trước">
                                     <i class="fa-solid fa-arrow-left"></i>
                                 </button>
-                                <span class="deck-counter clickable-counter" id="quiz-deck-counter" onclick="enableCounterJump('quiz')" title="Click để nhập số câu muốn đến">
+                                <span class="deck-counter clickable-counter" id="quiz-deck-counter" onclick="openJumpModal('index')" title="Click để nhập vị trí câu / trang muốn đến">
                                     <span id="current-quiz-num">0</span> / <span id="total-quiz-num">0</span>
                                     <i class="fa-solid fa-pen counter-edit-icon"></i>
                                 </span>
@@ -373,6 +373,56 @@
 
             </div>
         </main>
+    </div>
+
+    <!-- Jump to Question / Page Modal -->
+    <div id="jump-modal" class="modal-overlay hidden">
+        <div class="modal-card jump-modal-card">
+            <button class="modal-close-x" onclick="closeJumpModal()" title="Đóng">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+            <div class="modal-icon primary-icon">
+                <i class="fa-solid fa-arrow-right-to-bracket"></i>
+            </div>
+            <h2>Chuyển đến vị trí học</h2>
+            <p class="modal-subtitle">Nhập vị trí bạn muốn chuyển đến để bắt đầu học</p>
+
+            <div class="jump-modal-tabs">
+                <button id="jump-tab-index" class="jump-tab active" type="button" onclick="switchJumpTab('index')">
+                    <i class="fa-solid fa-hashtag"></i> Theo số câu (1 - <span id="jump-max-q">531</span>)
+                </button>
+                <button id="jump-tab-page" class="jump-tab" type="button" onclick="switchJumpTab('page')">
+                    <i class="fa-solid fa-book-open"></i> Theo trang slide
+                </button>
+            </div>
+
+            <form id="jump-form" onsubmit="handleJumpSubmit(event)">
+                <!-- Tab 1: Question Index -->
+                <div id="jump-field-index" class="jump-field-group">
+                    <label for="jump-input-index">Số thứ tự câu hỏi:</label>
+                    <div class="input-with-button">
+                        <input type="number" id="jump-input-index" min="1" max="531" placeholder="Nhập số câu...">
+                        <span class="input-suffix">/ <span id="jump-total-q-label">531</span></span>
+                    </div>
+                </div>
+
+                <!-- Tab 2: Page Number -->
+                <div id="jump-field-page" class="jump-field-group hidden">
+                    <label for="jump-input-page">Số trang slide PDF:</label>
+                    <div class="input-with-button">
+                        <input type="number" id="jump-input-page" min="1" max="123" placeholder="Nhập số trang...">
+                        <span class="input-suffix">Trang</span>
+                    </div>
+                </div>
+
+                <div class="modal-actions">
+                    <button type="button" class="modal-btn secondary" onclick="closeJumpModal()">Hủy bỏ</button>
+                    <button type="submit" class="modal-btn primary" id="jump-apply-btn">
+                        <i class="fa-solid fa-check"></i> Áp dụng
+                    </button>
+                </div>
+            </form>
+        </div>
     </div>
 
     <!-- Custom Confirmation Modal -->

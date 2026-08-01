@@ -1736,134 +1736,168 @@ function showCustomConfirmModal(title, message, onConfirm) {
 }
 
 // ==========================================================================
-// CARD INDEX & SLIDE PAGE DIRECT JUMP LOGIC
+// CARD INDEX & SLIDE PAGE DIRECT JUMP MODAL LOGIC
 // ==========================================================================
-function enableCounterJump(mode) {
-    const counterEl = document.getElementById(mode === 'flashcard' ? 'flashcard-deck-counter' : 'quiz-deck-counter');
-    if (!counterEl) return;
-    
-    // Prevent re-entry if already editing
-    if (counterEl.querySelector('.counter-jump-input')) return;
+let currentJumpTab = 'index'; // 'index' | 'page'
+
+function openJumpModal(defaultTab = 'index') {
+    const modal = document.getElementById('jump-modal');
+    if (!modal) return;
+
+    const isQuiz = (state.activeMode === 'quiz');
+    const isExam = (isQuiz && state.quizSubMode === 'exam');
 
     let maxCount = 0;
-    let currentVal = 0;
+    let currentCardVal = 1;
+    let currentPageVal = 1;
 
-    if (mode === 'flashcard') {
-        maxCount = state.currentDeck.length;
-        currentVal = state.currentIndex + 1;
+    if (isExam) {
+        maxCount = (state.exam && state.exam.questions) ? state.exam.questions.length : 0;
+        currentCardVal = (state.exam ? state.exam.currentIndex : 0) + 1;
+        const currentQ = (state.exam && state.exam.questions) ? state.exam.questions[state.exam.currentIndex] : null;
+        if (currentQ) currentPageVal = currentQ.page;
     } else {
-        const isExam = (state.quizSubMode === 'exam');
-        if (isExam) {
-            maxCount = (state.exam && state.exam.questions) ? state.exam.questions.length : 0;
-            currentVal = (state.exam ? state.exam.currentIndex : 0) + 1;
-        } else {
-            maxCount = state.currentDeck.length;
-            currentVal = state.currentIndex + 1;
-        }
+        maxCount = state.currentDeck.length;
+        currentCardVal = state.currentIndex + 1;
+        const currentQ = state.currentDeck[state.currentIndex];
+        if (currentQ) currentPageVal = currentQ.page;
     }
 
-    if (maxCount <= 0) return;
+    if (maxCount <= 0) {
+        alert('Không có câu hỏi trong bộ lọc hiện tại để chuyển trang.');
+        return;
+    }
 
-    // Create interactive inline input
-    counterEl.innerHTML = `
-        <span class="counter-jump-wrapper" onclick="event.stopPropagation()">
-            <input type="number" class="counter-jump-input" id="counter-jump-input-${mode}" min="1" max="${maxCount}" value="${currentVal}">
-            <span style="color: var(--text-muted); font-size: 16px; font-weight: 700;">/ ${maxCount}</span>
-        </span>
-    `;
+    // Set labels and max limits
+    const maxQLabel = document.getElementById('jump-max-q');
+    const totalQLabel = document.getElementById('jump-total-q-label');
+    const inputIndex = document.getElementById('jump-input-index');
+    const inputPage = document.getElementById('jump-input-page');
 
-    const inputEl = document.getElementById(`counter-jump-input-${mode}`);
-    if (!inputEl) return;
+    if (maxQLabel) maxQLabel.textContent = maxCount;
+    if (totalQLabel) totalQLabel.textContent = maxCount;
 
-    inputEl.focus();
-    inputEl.select();
+    if (inputIndex) {
+        inputIndex.max = maxCount;
+        inputIndex.value = currentCardVal;
+    }
 
-    let committed = false;
+    // Calculate max page in active set
+    let maxPage = 1;
+    const activeSet = isExam ? state.exam.questions : state.currentDeck;
+    if (activeSet) {
+        activeSet.forEach(q => { if (q.page > maxPage) maxPage = q.page; });
+    }
 
-    const commitJump = () => {
-        if (committed) return;
-        committed = true;
+    if (inputPage) {
+        inputPage.max = maxPage;
+        inputPage.value = currentPageVal;
+    }
 
-        let val = parseInt(inputEl.value, 10);
-        if (isNaN(val) || val < 1) val = 1;
-        if (val > maxCount) val = maxCount;
+    switchJumpTab(defaultTab);
+    modal.classList.remove('hidden');
 
-        const targetIndex = val - 1;
-
-        if (mode === 'flashcard') {
-            state.currentIndex = targetIndex;
-            saveToStorage('flashcardIndex', state.currentIndex);
-            renderFlashcard();
-        } else {
-            const isExam = (state.quizSubMode === 'exam');
-            if (isExam) {
-                state.exam.currentIndex = targetIndex;
-                state.currentIndex = targetIndex;
-                saveToStorage('exam', state.exam);
-            } else {
-                state.currentIndex = targetIndex;
-                state.quizIndex = targetIndex;
-                saveToStorage('quizIndex', state.quizIndex);
-            }
-            renderQuizQuestion();
+    // Auto focus active input field
+    setTimeout(() => {
+        const activeInput = (defaultTab === 'index') ? inputIndex : inputPage;
+        if (activeInput) {
+            activeInput.focus();
+            activeInput.select();
         }
-    };
-
-    inputEl.addEventListener('keydown', (e) => {
-        e.stopPropagation(); // Stop Space / Arrow keys from triggering global navigation while typing
-        if (e.key === 'Enter') {
-            commitJump();
-        } else if (e.key === 'Escape') {
-            committed = true;
-            renderActiveMode();
-        }
-    });
-
-    inputEl.addEventListener('blur', () => {
-        commitJump();
-    });
+    }, 100);
 }
 
-function jumpToPagePrompt(mode) {
-    const activeSet = state.currentDeck;
-    if (!activeSet || activeSet.length === 0) return;
+function closeJumpModal() {
+    const modal = document.getElementById('jump-modal');
+    if (modal) modal.classList.add('hidden');
+}
 
-    let maxPage = 1;
-    activeSet.forEach(q => { if (q.page > maxPage) maxPage = q.page; });
+function switchJumpTab(tab) {
+    currentJumpTab = tab;
 
-    const currentQ = (mode === 'quiz' && state.quizSubMode === 'exam')
-        ? (state.exam && state.exam.questions ? state.exam.questions[state.exam.currentIndex] : null)
-        : activeSet[state.currentIndex];
-        
-    const currentPage = currentQ ? currentQ.page : 1;
+    const tabIndex = document.getElementById('jump-tab-index');
+    const tabPage = document.getElementById('jump-tab-page');
+    const fieldIndex = document.getElementById('jump-field-index');
+    const fieldPage = document.getElementById('jump-field-page');
 
-    const input = prompt(`Nhập số trang slide bạn muốn đến (1 - ${maxPage}):`, currentPage);
-    if (!input) return;
+    if (tab === 'index') {
+        if (tabIndex) tabIndex.classList.add('active');
+        if (tabPage) tabPage.classList.remove('active');
+        if (fieldIndex) fieldIndex.classList.remove('hidden');
+        if (fieldPage) fieldPage.classList.add('hidden');
 
-    const pageNum = parseInt(input.trim(), 10);
-    if (isNaN(pageNum)) return;
+        const inputIndex = document.getElementById('jump-input-index');
+        if (inputIndex) {
+            inputIndex.focus();
+            inputIndex.select();
+        }
+    } else {
+        if (tabIndex) tabIndex.classList.remove('active');
+        if (tabPage) tabPage.classList.add('active');
+        if (fieldIndex) fieldIndex.classList.add('hidden');
+        if (fieldPage) fieldPage.classList.remove('hidden');
 
-    // Find first question matching page >= pageNum
-    let foundIndex = activeSet.findIndex(q => q.page >= pageNum);
-    if (foundIndex === -1) {
-        foundIndex = activeSet.length - 1;
+        const inputPage = document.getElementById('jump-input-page');
+        if (inputPage) {
+            inputPage.focus();
+            inputPage.select();
+        }
+    }
+}
+
+function handleJumpSubmit(e) {
+    if (e) e.preventDefault();
+
+    const isQuiz = (state.activeMode === 'quiz');
+    const isExam = (isQuiz && state.quizSubMode === 'exam');
+    const activeSet = isExam ? state.exam.questions : state.currentDeck;
+    const maxCount = activeSet ? activeSet.length : 0;
+
+    if (maxCount === 0) {
+        closeJumpModal();
+        return;
     }
 
-    if (mode === 'flashcard') {
-        state.currentIndex = foundIndex;
+    let targetIndex = 0;
+
+    if (currentJumpTab === 'index') {
+        const inputIndex = document.getElementById('jump-input-index');
+        let val = inputIndex ? parseInt(inputIndex.value, 10) : 1;
+        if (isNaN(val) || val < 1) val = 1;
+        if (val > maxCount) val = maxCount;
+        targetIndex = val - 1;
+    } else {
+        const inputPage = document.getElementById('jump-input-page');
+        let pageNum = inputPage ? parseInt(inputPage.value, 10) : 1;
+        if (isNaN(pageNum) || pageNum < 1) pageNum = 1;
+
+        // Find first question matching page >= pageNum
+        let foundIndex = activeSet.findIndex(q => q.page >= pageNum);
+        if (foundIndex === -1) {
+            foundIndex = maxCount - 1;
+        }
+        targetIndex = foundIndex;
+    }
+
+    // Apply target index to state
+    if (state.activeMode === 'flashcard') {
+        state.currentIndex = targetIndex;
         saveToStorage('flashcardIndex', state.currentIndex);
         renderFlashcard();
-    } else {
+    } else if (state.activeMode === 'quiz') {
         if (state.quizSubMode === 'exam') {
-            state.exam.currentIndex = foundIndex;
-            state.currentIndex = foundIndex;
+            state.exam.currentIndex = targetIndex;
+            state.currentIndex = targetIndex;
             saveToStorage('exam', state.exam);
         } else {
-            state.currentIndex = foundIndex;
-            state.quizIndex = foundIndex;
+            state.currentIndex = targetIndex;
+            state.quizIndex = targetIndex;
             saveToStorage('quizIndex', state.quizIndex);
         }
         renderQuizQuestion();
     }
+
+    closeJumpModal();
+    flashSaveStatus();
 }
 
